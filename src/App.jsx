@@ -128,23 +128,33 @@ export default function App() {
     }
 
     const exportData = items.map(item => {
-      const finalLabel = (item.nat_tra_label && item.cs_ca_label) 
+      // Kiểm tra xem đã gán đủ 2 nhãn chưa
+      const isAnnotated = Boolean(item.nat_tra_label && item.cs_ca_label);
+      
+      const finalLabel = isAnnotated 
         ? `${item.nat_tra_label}-${item.cs_ca_label}` 
         : null;
 
       return {
+        // Lấy từ data.json nếu có, nếu không thì mặc định là "Global-MMLU"
+        benchmark_name: item.benchmark_name || "Global-MMLU", 
         sample_id: item.sample_id,
         question: item.question,
-        option_a: item.option_a,
-        option_b: item.option_b,
-        option_c: item.option_c,
-        option_d: item.option_d,
+        // Gộp các option riêng lẻ thành mảng object
+        options: [
+          { id: "A", text: item.option_a },
+          { id: "B", text: item.option_b },
+          { id: "C", text: item.option_c },
+          { id: "D", text: item.option_d }
+        ],
         answer: item.answer,
         nat_tra_label: item.nat_tra_label || null,
         cs_ca_label: item.cs_ca_label || null,
         final_label: finalLabel,
         annotator: annotator.trim(),
-        timestamp: finalLabel ? new Date().toISOString() : null
+        timestamp: isAnnotated ? new Date().toISOString() : null,
+        is_annotated: isAnnotated,
+        metadata: item.metadata || {} // Thêm metadata rỗng nếu không có sẵn
       };
     });
 
