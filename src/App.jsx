@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOpen, User, AlertCircle } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOpen, User, AlertCircle, FastForward } from 'lucide-react';
 
 import MOCK_DATA from './data.json';
 
@@ -20,6 +20,7 @@ const CS_CA_LABELS = [
 export default function App() {
   const [items, setItems] = useState(MOCK_DATA);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [inputValue, setInputValue] = useState("1"); 
   const [isFinished, setIsFinished] = useState(false);
   const [annotator, setAnnotator] = useState("");
 
@@ -32,7 +33,45 @@ export default function App() {
   // Kiểm tra xem câu hiện tại đã chọn đủ 2 nhãn chưa
   const isCurrentFullyLabeled = Boolean(currentItem?.nat_tra_label && currentItem?.cs_ca_label);
 
-  // Điều hướng
+  // Đồng bộ giá trị ô nhập liệu khi chuyển câu bằng nút Next/Prev
+  useEffect(() => {
+    setInputValue((currentIndex + 1).toString());
+  }, [currentIndex]);
+
+  // XỬ LÝ LOGIC KHI GÕ SỐ VÀO Ô
+  const handleInputChange = (e) => {
+    let val = e.target.value.replace(/[^0-9]/g, ''); // Lọc chỉ cho phép nhập số (chặn dấu âm)
+    
+    if (val !== "") {
+      let num = parseInt(val, 10);
+      
+      // LOGIC MỚI: Nếu vượt mốc, tự động ép về câu cuối cùng
+      if (num > items.length) {
+        num = items.length;
+        val = num.toString();
+      }
+      
+      // Tự động nhảy đến câu hợp lệ
+      if (num >= 1 && num <= items.length) {
+        setCurrentIndex(num - 1);
+      }
+    }
+    
+    setInputValue(val);
+  };
+
+  // LOGIC MỚI: Xử lý khi click ra ngoài (blur)
+  const handleInputBlur = () => {
+    const num = parseInt(inputValue, 10);
+    // Nếu để trống hoặc gõ số 0, tự động trả về số của câu hiện tại
+    if (isNaN(num) || num < 1) {
+      setInputValue((currentIndex + 1).toString());
+    } else {
+      setInputValue((currentIndex + 1).toString());
+    }
+  };
+
+  // Điều hướng cơ bản
   const handleNext = () => {
     if (currentIndex < items.length - 1) setCurrentIndex(currentIndex + 1);
   };
@@ -41,13 +80,23 @@ export default function App() {
     if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
   };
 
+  // TÌM VÀ NHẢY ĐẾN CÂU CHƯA GÁN NHÃN ĐẦU TIÊN
+  const handleJumpToFirstUnlabeled = () => {
+    const firstUnlabeledIndex = items.findIndex(item => !(item.nat_tra_label && item.cs_ca_label));
+    if (firstUnlabeledIndex !== -1) {
+      setCurrentIndex(firstUnlabeledIndex);
+    } else {
+      alert("Tuyệt vời! Bạn đã gán nhãn hoàn tất toàn bộ dữ liệu.");
+    }
+  };
+
   // Xử lý gán nhãn Nhóm 1 (NAT/TRA)
   const handleAssignNatTra = (labelId) => {
     const updatedItems = [...items];
     if (updatedItems[currentIndex].nat_tra_label === labelId) {
-      updatedItems[currentIndex].nat_tra_label = null; // Bỏ chọn
+      updatedItems[currentIndex].nat_tra_label = null; 
     } else {
-      updatedItems[currentIndex].nat_tra_label = labelId; // Gán nhãn mới
+      updatedItems[currentIndex].nat_tra_label = labelId; 
     }
     setItems(updatedItems);
   };
@@ -56,9 +105,9 @@ export default function App() {
   const handleAssignCsCa = (labelId) => {
     const updatedItems = [...items];
     if (updatedItems[currentIndex].cs_ca_label === labelId) {
-      updatedItems[currentIndex].cs_ca_label = null; // Bỏ chọn
+      updatedItems[currentIndex].cs_ca_label = null; 
     } else {
-      updatedItems[currentIndex].cs_ca_label = labelId; // Gán nhãn mới
+      updatedItems[currentIndex].cs_ca_label = labelId; 
     }
     setItems(updatedItems);
   };
@@ -79,7 +128,6 @@ export default function App() {
     }
 
     const exportData = items.map(item => {
-      // Tự động tạo final_label dạng "NAT-CS" nếu đã gán đủ
       const finalLabel = (item.nat_tra_label && item.cs_ca_label) 
         ? `${item.nat_tra_label}-${item.cs_ca_label}` 
         : null;
@@ -241,26 +289,49 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Thanh điều hướng */}
-              <div className="mt-6">
+              {/* Thanh điều hướng CẢI TIẾN & THU GỌN */}
+              <div className="mt-4">
                 {!isCurrentFullyLabeled && (
-                  <div className="mb-3 text-sm text-rose-600 flex items-center gap-1.5 justify-end">
+                  <div className="mb-2 text-[13px] text-rose-600 flex items-center gap-1.5 justify-end">
                     <AlertCircle size={14} />
                     <i>Bạn phải chọn đủ 2 nhãn (1 Nguồn gốc, 1 Văn hóa) để đi tiếp.</i>
                   </div>
                 )}
-                <div className="flex justify-between items-center mb-2">
+                
+                <div className="flex justify-between items-center mb-1">
                   <button 
                     onClick={handlePrev} 
                     disabled={currentIndex === 0}
-                    className="flex items-center gap-1 px-4 py-2 rounded-lg bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-sm"
+                    className="flex items-center gap-1 px-3 py-1.5 text-sm rounded-md bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-sm"
                   >
-                    <ChevronLeft size={18} />
+                    <ChevronLeft size={16} />
                     Quay lại
                   </button>
-                  <span className="text-sm text-slate-500 font-medium">
-                    {currentIndex + 1} / {items.length}
-                  </span>
+                  
+                  {/* CỤM ĐIỀU HƯỚNG NHANH TRUNG TÂM */}
+                  <div className="flex flex-col items-center gap-1">
+                    <div className="flex items-center gap-1.5 bg-white px-2.5 py-1 rounded-md border border-slate-300 shadow-sm">
+                      <span className="text-sm text-slate-500 font-medium">Câu</span>
+                      <input 
+                        type="text"
+                        value={inputValue}
+                        onChange={handleInputChange}
+                        onBlur={handleInputBlur}
+                        className="bg-slate-50 border border-slate-200 rounded px-1 py-0.5 text-sm font-semibold text-indigo-700 focus:outline-none focus:ring-1 focus:ring-indigo-500 w-12 text-center"
+                        title="Nhập số câu để di chuyển nhanh"
+                      />
+                      <span className="text-sm text-slate-500 font-medium">/ {items.length}</span>
+                    </div>
+                    
+                    <button 
+                      onClick={handleJumpToFirstUnlabeled}
+                      className="flex items-center gap-1 text-[11px] font-medium text-indigo-600 hover:text-indigo-800 transition-colors bg-indigo-50 px-2 py-0.5 rounded-full"
+                    >
+                      <FastForward size={12} />
+                      Đến câu chưa gán
+                    </button>
+                  </div>
+
                   <button 
                     onClick={() => {
                       if (currentIndex === items.length - 1) {
@@ -270,7 +341,7 @@ export default function App() {
                       }
                     }} 
                     disabled={!isCurrentFullyLabeled}
-                    className={`flex items-center gap-1 px-4 py-2 rounded-lg border transition-colors shadow-sm ${
+                    className={`flex items-center gap-1 px-3 py-1.5 text-sm rounded-md border transition-colors shadow-sm ${
                       !isCurrentFullyLabeled
                         ? 'bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed'
                         : currentIndex === items.length - 1 
@@ -279,13 +350,14 @@ export default function App() {
                     }`}
                   >
                     {currentIndex === items.length - 1 ? 'Hoàn tất' : 'Tiếp theo'}
-                    {currentIndex !== items.length - 1 && <ChevronRight size={18} />}
+                    {currentIndex !== items.length - 1 && <ChevronRight size={16} />}
                   </button>
                 </div>
+
                 {/* Thanh tiến độ */}
-                <div className="w-full bg-slate-200 rounded-full h-2 mt-4 overflow-hidden shadow-inner">
+                <div className="w-full bg-slate-200 rounded-full h-1.5 mt-3 overflow-hidden shadow-inner">
                   <div 
-                    className="bg-indigo-600 h-2 rounded-full transition-all duration-300 ease-out" 
+                    className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300 ease-out" 
                     style={{ width: `${progress}%` }}
                   ></div>
                 </div>
