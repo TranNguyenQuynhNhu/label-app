@@ -1,6 +1,6 @@
 # label-app
 
-Cách trích xuất data từ dataset lớn:
+## Cách trích xuất data từ dataset lớn:
 
 - Điều chỉnh số lượng data muốn lấy trong file extract_data.js
 
