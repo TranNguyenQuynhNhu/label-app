@@ -1,5 +1,11 @@
 # label-app
 
+## Các file có thể điều chỉnh
+
+- App.jsx
+
+- extract_data.js
+
 ## Cách trích xuất data từ dataset lớn
 
 - Điều chỉnh dataset nguồn và số lượng data muốn lấy trong file extract_data.js
