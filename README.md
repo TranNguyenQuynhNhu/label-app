@@ -2,7 +2,7 @@
 
 ## Cách trích xuất data từ dataset lớn:
 
-- Điều chỉnh số lượng data muốn lấy trong file extract_data.js
+- Điều chỉnh dataset nguồn và số lượng data muốn lấy trong file extract_data.js
 
 - Terminal: node extract_data.js
 
