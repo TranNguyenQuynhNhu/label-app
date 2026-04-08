@@ -52,7 +52,7 @@ export default function App() {
   // Xuất file JSON theo đúng định dạng Schema
   const handleExportJSON = () => {
     if (!annotator.trim()) {
-      alert("Vui lòng nhập tên Người đánh nhãn (Annotator) trước khi xuất file!");
+      alert("Vui lòng nhập tên trước khi xuất file!");
       return;
     }
 
@@ -100,7 +100,7 @@ export default function App() {
         <div>
           <h1 className="text-xl font-bold text-slate-900 flex items-center gap-2">
             <BookOpen className="text-indigo-600" />
-            MMLU Labeling Studio
+            Labeling Studio
           </h1>
           <p className="text-sm text-slate-500 mt-1">Đã đánh nhãn: {labeledCount} / {items.length} mẫu</p>
         </div>
