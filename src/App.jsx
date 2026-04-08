@@ -1,26 +1,36 @@
 import React, { useState } from 'react';
-import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOpen, User } from 'lucide-react';
+import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOpen, User, AlertCircle } from 'lucide-react';
 
 import MOCK_DATA from './data.json';
 
-// Danh sách nhãn mặc định
-const DEFAULT_LABELS = [
-  { id: 'NAT-CS', name: 'NAT-CS (Gốc VN - Cần VH)', base: 'bg-green-100 text-green-800', border: 'border-green-500', ring: 'ring-green-200' },
-  { id: 'NAT-CA', name: 'NAT-CA (Gốc VN - Chung chung)', base: 'bg-yellow-100 text-yellow-800', border: 'border-yellow-500', ring: 'ring-yellow-200' },
-  { id: 'TRA-CS', name: 'TRA-CS (Bản dịch - Cần VH)', base: 'bg-purple-100 text-purple-800', border: 'border-purple-500', ring: 'ring-purple-200' },
-  { id: 'TRA-CA', name: 'TRA-CA (Bản dịch - Chung chung)', base: 'bg-rose-100 text-rose-800', border: 'border-rose-500', ring: 'ring-rose-200' },
+// Danh sách nhãn Nhóm 1: Nguồn Gốc
+const NAT_TRA_LABELS = [
+  { id: 'NAT', name: 'NAT', base: 'bg-green-100 text-green-800', border: 'border-green-500', ring: 'ring-green-200' },
+  { id: 'TRA', name: 'TRA', base: 'bg-blue-100 text-blue-800', border: 'border-blue-500', ring: 'ring-blue-200' },
+  { id: 'UNK', name: 'Không xác định', base: 'bg-slate-200 text-slate-800', border: 'border-slate-400', ring: 'ring-slate-300' },
+];
+
+// Danh sách nhãn Nhóm 2: Văn Hóa
+const CS_CA_LABELS = [
+  { id: 'CS', name: 'CS', base: 'bg-purple-100 text-purple-800', border: 'border-purple-500', ring: 'ring-purple-200' },
+  { id: 'CA', name: 'CA', base: 'bg-rose-100 text-rose-800', border: 'border-rose-500', ring: 'ring-rose-200' },
+  { id: 'UNK', name: 'Không xác định', base: 'bg-slate-200 text-slate-800', border: 'border-slate-400', ring: 'ring-slate-300' },
 ];
 
 export default function App() {
   const [items, setItems] = useState(MOCK_DATA);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [labels] = useState(DEFAULT_LABELS);
   const [isFinished, setIsFinished] = useState(false);
   const [annotator, setAnnotator] = useState("");
 
   const currentItem = items[currentIndex];
   const progress = Math.round(((currentIndex + 1) / items.length) * 100);
-  const labeledCount = items.filter(item => item.final_label !== null).length;
+  
+  // Đếm số lượng câu đã được gán ĐỦ 2 nhãn
+  const labeledCount = items.filter(item => item.nat_tra_label && item.cs_ca_label).length;
+  
+  // Kiểm tra xem câu hiện tại đã chọn đủ 2 nhãn chưa
+  const isCurrentFullyLabeled = Boolean(currentItem?.nat_tra_label && currentItem?.cs_ca_label);
 
   // Điều hướng
   const handleNext = () => {
@@ -31,25 +41,37 @@ export default function App() {
     if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
   };
 
-  // Xử lý gán nhãn
-  const handleAssignLabel = (labelId) => {
+  // Xử lý gán nhãn Nhóm 1 (NAT/TRA)
+  const handleAssignNatTra = (labelId) => {
     const updatedItems = [...items];
-    if (updatedItems[currentIndex].final_label === labelId) {
-      updatedItems[currentIndex].final_label = null; // Bỏ chọn
+    if (updatedItems[currentIndex].nat_tra_label === labelId) {
+      updatedItems[currentIndex].nat_tra_label = null; // Bỏ chọn
     } else {
-      updatedItems[currentIndex].final_label = labelId; // Gán nhãn mới
+      updatedItems[currentIndex].nat_tra_label = labelId; // Gán nhãn mới
     }
     setItems(updatedItems);
   };
 
-  // Xử lý xóa nhãn
-  const handleClearLabel = () => {
+  // Xử lý gán nhãn Nhóm 2 (CS/CA)
+  const handleAssignCsCa = (labelId) => {
     const updatedItems = [...items];
-    updatedItems[currentIndex].final_label = null;
+    if (updatedItems[currentIndex].cs_ca_label === labelId) {
+      updatedItems[currentIndex].cs_ca_label = null; // Bỏ chọn
+    } else {
+      updatedItems[currentIndex].cs_ca_label = labelId; // Gán nhãn mới
+    }
     setItems(updatedItems);
   };
 
-  // Xuất file JSON theo đúng định dạng Schema
+  // Xóa toàn bộ nhãn của câu hiện tại
+  const handleClearLabel = () => {
+    const updatedItems = [...items];
+    updatedItems[currentIndex].nat_tra_label = null;
+    updatedItems[currentIndex].cs_ca_label = null;
+    setItems(updatedItems);
+  };
+
+  // Xuất file JSON
   const handleExportJSON = () => {
     if (!annotator.trim()) {
       alert("Vui lòng nhập tên trước khi xuất file!");
@@ -57,16 +79,10 @@ export default function App() {
     }
 
     const exportData = items.map(item => {
-      // Tách nhãn NAT_TRA và CS_CA từ final_label
-      let nat_tra = "";
-      let cs_ca = "";
-      if (item.final_label) {
-        const parts = item.final_label.split('-');
-        if (parts.length === 2) {
-          nat_tra = parts[0];
-          cs_ca = parts[1];
-        }
-      }
+      // Tự động tạo final_label dạng "NAT-CS" nếu đã gán đủ
+      const finalLabel = (item.nat_tra_label && item.cs_ca_label) 
+        ? `${item.nat_tra_label}-${item.cs_ca_label}` 
+        : null;
 
       return {
         sample_id: item.sample_id,
@@ -76,11 +92,11 @@ export default function App() {
         option_c: item.option_c,
         option_d: item.option_d,
         answer: item.answer,
-        nat_tra_label: nat_tra || null,
-        cs_ca_label: cs_ca || null,
-        final_label: item.final_label || null,
+        nat_tra_label: item.nat_tra_label || null,
+        cs_ca_label: item.cs_ca_label || null,
+        final_label: finalLabel,
         annotator: annotator.trim(),
-        timestamp: item.final_label ? new Date().toISOString() : null
+        timestamp: finalLabel ? new Date().toISOString() : null
       };
     });
 
@@ -137,7 +153,7 @@ export default function App() {
             </div>
             <h2 className="text-3xl font-bold text-slate-800 mb-3">Hoàn tất quá trình đánh nhãn!</h2>
             <p className="text-lg text-slate-600 mb-8">
-              Bạn đã đánh nhãn <span className="font-bold text-indigo-600">{labeledCount}/{items.length}</span> mẫu dữ liệu.
+              Bạn đã hoàn thành <span className="font-bold text-indigo-600">{labeledCount}/{items.length}</span> mẫu dữ liệu.
             </p>
             
             <div className="flex gap-4">
@@ -168,10 +184,13 @@ export default function App() {
                     <span className="bg-slate-200 text-slate-600 px-2 py-0.5 rounded text-xs font-mono">{currentItem.sample_id}</span>
                     Mẫu #{currentIndex + 1}
                   </span>
-                  {currentItem.final_label && (
+                  
+                  {isCurrentFullyLabeled && (
                     <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-200 text-slate-700 flex items-center gap-1">
-                      Đã đánh nhãn
-                      <button onClick={handleClearLabel} className="hover:text-red-500 ml-1"><Trash2 size={12}/></button>
+                      Đã gán: {currentItem.nat_tra_label}-{currentItem.cs_ca_label}
+                      <button onClick={handleClearLabel} className="hover:text-red-500 ml-1" title="Xóa nhãn">
+                        <Trash2 size={12}/>
+                      </button>
                     </span>
                   )}
                 </div>
@@ -224,11 +243,17 @@ export default function App() {
 
               {/* Thanh điều hướng */}
               <div className="mt-6">
+                {!isCurrentFullyLabeled && (
+                  <div className="mb-3 text-sm text-rose-600 flex items-center gap-1.5 justify-end">
+                    <AlertCircle size={14} />
+                    <i>Bạn phải chọn đủ 2 nhãn (1 Nguồn gốc, 1 Văn hóa) để đi tiếp.</i>
+                  </div>
+                )}
                 <div className="flex justify-between items-center mb-2">
                   <button 
                     onClick={handlePrev} 
                     disabled={currentIndex === 0}
-                    className="flex items-center gap-1 px-4 py-2 rounded-lg bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                    className="flex items-center gap-1 px-4 py-2 rounded-lg bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors shadow-sm"
                   >
                     <ChevronLeft size={18} />
                     Quay lại
@@ -244,10 +269,13 @@ export default function App() {
                         handleNext();
                       }
                     }} 
-                    className={`flex items-center gap-1 px-4 py-2 rounded-lg border transition-colors ${
-                      currentIndex === items.length - 1 
-                        ? 'bg-indigo-600 text-white hover:bg-indigo-700 border-indigo-600 shadow-sm' 
-                        : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-50'
+                    disabled={!isCurrentFullyLabeled}
+                    className={`flex items-center gap-1 px-4 py-2 rounded-lg border transition-colors shadow-sm ${
+                      !isCurrentFullyLabeled
+                        ? 'bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed'
+                        : currentIndex === items.length - 1 
+                          ? 'bg-indigo-600 text-white hover:bg-indigo-700 border-indigo-600' 
+                          : 'bg-white border-slate-300 text-slate-700 hover:bg-slate-50'
                     }`}
                   >
                     {currentIndex === items.length - 1 ? 'Hoàn tất' : 'Tiếp theo'}
@@ -255,7 +283,7 @@ export default function App() {
                   </button>
                 </div>
                 {/* Thanh tiến độ */}
-                <div className="w-full bg-slate-200 rounded-full h-2 mt-4 overflow-hidden">
+                <div className="w-full bg-slate-200 rounded-full h-2 mt-4 overflow-hidden shadow-inner">
                   <div 
                     className="bg-indigo-600 h-2 rounded-full transition-all duration-300 ease-out" 
                     style={{ width: `${progress}%` }}
@@ -268,43 +296,75 @@ export default function App() {
             <div className="w-full md:w-80 flex flex-col gap-6">
               <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-5 sticky top-24">
                 
-                {/* Hướng dẫn đánh nhãn */}
-                <div className="bg-blue-50 p-4 rounded-lg border border-blue-100 mb-5 text-sm text-blue-800 shadow-sm leading-relaxed">
-                  <h3 className="font-bold mb-2 flex items-center gap-1.5 text-blue-900"><Info size={16}/> Hướng dẫn đánh nhãn</h3>
-                  <ul className="space-y-1.5 list-disc pl-5 text-[13px]">
-                    <li><strong>NAT:</strong> Gốc tiếng Việt, không dịch.</li>
-                    <li><strong>TRA:</strong> Dịch từ ngôn ngữ khác.</li>
-                    <li><strong>CS:</strong> Cần kiến thức VH/Địa lý/Phương ngữ VN.</li>
-                    <li><strong>CA:</strong> Có thể hiểu xuyên văn hóa.</li>
-                  </ul>
-                  <p className="mt-3 font-semibold text-blue-900 border-t border-blue-200/80 pt-2 text-[13px]">
-                    💡 Ưu tiên gán NAT nếu KHÔNG chắc chắn là bản dịch.
+                {/* Hướng dẫn đánh nhãn mới */}
+                <div className="bg-amber-50 p-4 rounded-lg border border-amber-200 mb-5 text-sm text-amber-800 shadow-sm leading-relaxed">
+                  <h3 className="font-bold mb-2 flex items-center gap-1.5 text-amber-900"><Info size={16}/> Lưu ý quan trọng</h3>
+                  <p className="font-medium text-[13px]">
+                    Vui lòng đọc kỹ <strong className="text-amber-900">Guideline</strong> trước khi tiến hành đánh nhãn.<br/><br/>
+                    Bạn <strong className="underline">bắt buộc</strong> phải chọn 1 nhãn ở nhóm Nguồn Gốc và 1 nhãn ở nhóm Văn Hóa để có thể sang câu tiếp theo.
                   </p>
                 </div>
 
-                <h2 className="text-lg font-bold text-slate-800 mb-4 border-b border-slate-100 pb-2">Chọn Nhãn</h2>
-                
-                <div className="flex flex-col gap-2 max-h-[60vh] overflow-y-auto pr-2 pb-4">
-                  {labels.map((label) => {
-                    const isSelected = currentItem.final_label === label.id;
-                    return (
-                      <button
-                        key={label.id}
-                        onClick={() => handleAssignLabel(label.id)}
-                        className={`
-                          w-full text-left px-4 py-3 rounded-lg border-2 transition-all flex justify-between items-center group
-                          ${label.base}
-                          ${isSelected 
-                            ? `${label.border} ring-2 ${label.ring} shadow-sm` 
-                            : `border-transparent hover:border-slate-300 opacity-70 hover:opacity-100`
-                          }
-                        `}
-                      >
-                        <span className="font-medium">{label.name}</span>
-                        {isSelected && <CheckCircle2 size={18} />}
-                      </button>
-                    );
-                  })}
+                <div className="max-h-[60vh] overflow-y-auto pr-2 pb-4 space-y-6">
+                  
+                  {/* Nhóm 1: Nguồn gốc */}
+                  <div>
+                    <h2 className="text-sm font-bold text-slate-800 mb-3 border-b border-slate-100 pb-2 uppercase tracking-wider">
+                      1. Nguồn Gốc (NAT/TRA)
+                    </h2>
+                    <div className="flex flex-col gap-2">
+                      {NAT_TRA_LABELS.map((label) => {
+                        const isSelected = currentItem?.nat_tra_label === label.id;
+                        return (
+                          <button
+                            key={label.id}
+                            onClick={() => handleAssignNatTra(label.id)}
+                            className={`
+                              w-full text-left px-4 py-2.5 rounded-lg border-2 transition-all flex justify-between items-center group text-sm
+                              ${label.base}
+                              ${isSelected 
+                                ? `${label.border} ring-2 ${label.ring} shadow-sm font-bold` 
+                                : `border-transparent hover:border-slate-300 opacity-70 hover:opacity-100 font-medium`
+                              }
+                            `}
+                          >
+                            <span>{label.name}</span>
+                            {isSelected && <CheckCircle2 size={16} />}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+
+                  {/* Nhóm 2: Văn hóa */}
+                  <div>
+                    <h2 className="text-sm font-bold text-slate-800 mb-3 border-b border-slate-100 pb-2 uppercase tracking-wider">
+                      2. Văn Hóa (CS/CA)
+                    </h2>
+                    <div className="flex flex-col gap-2">
+                      {CS_CA_LABELS.map((label) => {
+                        const isSelected = currentItem?.cs_ca_label === label.id;
+                        return (
+                          <button
+                            key={label.id}
+                            onClick={() => handleAssignCsCa(label.id)}
+                            className={`
+                              w-full text-left px-4 py-2.5 rounded-lg border-2 transition-all flex justify-between items-center group text-sm
+                              ${label.base}
+                              ${isSelected 
+                                ? `${label.border} ring-2 ${label.ring} shadow-sm font-bold` 
+                                : `border-transparent hover:border-slate-300 opacity-70 hover:opacity-100 font-medium`
+                              }
+                            `}
+                          >
+                            <span>{label.name}</span>
+                            {isSelected && <CheckCircle2 size={16} />}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
