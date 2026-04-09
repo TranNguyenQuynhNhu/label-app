@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOpen, User, AlertCircle, FastForward } from 'lucide-react';
 
-import MOCK_DATA from './data.json';
+// Đảm bảo bạn đặt file JSON cùng cấp thư mục với App.jsx
+import MOCK_DATA from './global_mmlu_vi-ver1.json';
 
 // Danh sách nhãn Nhóm 1: Nguồn Gốc
 const NAT_TRA_LABELS = [
@@ -22,7 +23,8 @@ export default function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [inputValue, setInputValue] = useState("1"); 
   const [isFinished, setIsFinished] = useState(false);
-  const [annotator, setAnnotator] = useState("");
+  // Lấy sẵn tên annotator từ mẫu đầu tiên nếu có, nếu không thì để trống
+  const [annotator, setAnnotator] = useState(items[0]?.annotator || "");
 
   const currentItem = items[currentIndex];
   const progress = Math.round(((currentIndex + 1) / items.length) * 100);
@@ -40,12 +42,12 @@ export default function App() {
 
   // XỬ LÝ LOGIC KHI GÕ SỐ VÀO Ô
   const handleInputChange = (e) => {
-    let val = e.target.value.replace(/[^0-9]/g, ''); // Lọc chỉ cho phép nhập số (chặn dấu âm)
+    let val = e.target.value.replace(/[^0-9]/g, ''); // Lọc chỉ cho phép nhập số
     
     if (val !== "") {
       let num = parseInt(val, 10);
       
-      // LOGIC MỚI: Nếu vượt mốc, tự động ép về câu cuối cùng
+      // Nếu vượt mốc, tự động ép về câu cuối cùng
       if (num > items.length) {
         num = items.length;
         val = num.toString();
@@ -60,7 +62,7 @@ export default function App() {
     setInputValue(val);
   };
 
-  // LOGIC MỚI: Xử lý khi click ra ngoài (blur)
+  // Xử lý khi click ra ngoài (blur)
   const handleInputBlur = () => {
     const num = parseInt(inputValue, 10);
     // Nếu để trống hoặc gõ số 0, tự động trả về số của câu hiện tại
@@ -136,25 +138,17 @@ export default function App() {
         : null;
 
       return {
-        // Lấy từ data.json nếu có, nếu không thì mặc định là "Global-MMLU"
         benchmark_name: item.benchmark_name || "Global-MMLU", 
         sample_id: item.sample_id,
         question: item.question,
-        // Gộp các option riêng lẻ thành mảng object
-        options: [
-          { id: "A", text: item.option_a },
-          { id: "B", text: item.option_b },
-          { id: "C", text: item.option_c },
-          { id: "D", text: item.option_d }
-        ],
+        options: item.options, // Lấy trực tiếp mảng options từ dữ liệu gốc
         answer: item.answer,
         nat_tra_label: item.nat_tra_label || null,
         cs_ca_label: item.cs_ca_label || null,
         final_label: finalLabel,
         annotator: annotator.trim(),
         timestamp: isAnnotated ? new Date().toISOString() : null,
-        is_annotated: isAnnotated,
-        metadata: item.metadata || {} // Thêm metadata rỗng nếu không có sẵn
+        metadata: item.metadata || {}
       };
     });
 
@@ -264,16 +258,15 @@ export default function App() {
                       </h3>
                     </div>
 
-                    {/* Các lựa chọn */}
+                    {/* Các lựa chọn (Được cập nhật để đọc từ mảng options) */}
                     <div className="space-y-3">
                       <span className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2 block">Các lựa chọn</span>
-                      {['A', 'B', 'C', 'D'].map((opt) => {
-                        const optionKey = `option_${opt.toLowerCase()}`;
-                        const isCorrect = currentItem.answer === opt;
+                      {currentItem.options && currentItem.options.map((opt) => {
+                        const isCorrect = currentItem.answer === opt.id;
                         
                         return (
                           <div 
-                            key={opt} 
+                            key={opt.id} 
                             className={`p-4 rounded-lg border-2 flex items-start gap-4 ${
                               isCorrect 
                                 ? 'border-green-400 bg-green-50 shadow-sm' 
@@ -281,10 +274,10 @@ export default function App() {
                             }`}
                           >
                             <span className={`font-bold flex-shrink-0 mt-0.5 ${isCorrect ? 'text-green-600' : 'text-slate-400'}`}>
-                              {opt}.
+                              {opt.id}.
                             </span>
                             <span className={`leading-relaxed ${isCorrect ? 'text-green-900 font-medium' : 'text-slate-700'}`}>
-                              {currentItem[optionKey]}
+                              {opt.text}
                             </span>
                             {isCorrect && (
                               <span className="ml-auto flex-shrink-0 text-xs font-bold bg-green-200 text-green-800 px-2 py-1 rounded uppercase">
@@ -299,7 +292,7 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Thanh điều hướng CẢI TIẾN & THU GỌN */}
+              {/* Thanh điều hướng */}
               <div className="mt-4">
                 {!isCurrentFullyLabeled && (
                   <div className="mb-2 text-[13px] text-rose-600 flex items-center gap-1.5 justify-end">
