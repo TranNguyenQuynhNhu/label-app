@@ -123,7 +123,7 @@ export default function App() {
   };
 
   // Xuất file JSON
-  const handleExportJSON = () => {
+const handleExportJSON = () => {
     if (!annotator.trim()) {
       alert("Vui lòng nhập tên trước khi xuất file!");
       return;
@@ -132,11 +132,39 @@ export default function App() {
     const exportData = items.map(item => {
       // Kiểm tra xem đã gán đủ 2 nhãn chưa
       const isAnnotated = Boolean(item.nat_tra_label && item.cs_ca_label);
-      
-      const finalLabel = isAnnotated 
-        ? `${item.nat_tra_label}-${item.cs_ca_label}` 
-        : null;
+      const finalLabel = isAnnotated ? `${item.nat_tra_label}-${item.cs_ca_label}` : null;
 
+      // 1. XỬ LÝ DYNAMIC OPTIONS (Không fix cứng 4 option A, B, C, D)
+      let extractedOptions = item.options;
+      if (!extractedOptions) {
+        extractedOptions = [];
+        // Tự động tìm tất cả các key bắt đầu bằng "option_" (ví dụ option_a, option_e...)
+        const optionKeys = Object.keys(item).filter(key => key.startsWith('option_') && item[key] !== null);
+        optionKeys.forEach(key => {
+          const id = key.replace('option_', '').toUpperCase(); // Chuyển 'option_a' thành 'A'
+          extractedOptions.push({ id, text: item[key] });
+        });
+      }
+
+      // 2. KHAI BÁO CÁC TRƯỜNG MANDATORY (Bắt buộc) & ĐÃ XỬ LÝ
+      const mandatoryKeys = [
+        'benchmark_name', 'sample_id', 'question', 'options', 'answer',
+        'nat_tra_label', 'cs_ca_label', 'final_label', 'annotator', 'timestamp',
+        'is_annotated', 'metadata',
+        // Khai báo luôn các key 'option_a', 'option_b'... để code biết mà không bốc chúng vào metadata
+        ...Object.keys(item).filter(k => k.startsWith('option_'))
+      ];
+
+      // 3. LỌC CÁC TRƯỜNG OPTIONAL VÀO OBJECT METADATA
+      const dynamicMetadata = { ...(item.metadata || {}) }; // Lấy metadata cũ nếu có
+      Object.keys(item).forEach(key => {
+        // Nếu key hiện tại KHÔNG nằm trong danh sách mandatory -> nó là optional
+        if (!mandatoryKeys.includes(key)) {
+          dynamicMetadata[key] = item[key];
+        }
+      });
+
+      // 4. TRẢ VỀ CẤU TRÚC CHUẨN
       return {
         benchmark_name: item.benchmark_name || "Global-MMLU", 
         sample_id: item.sample_id,
