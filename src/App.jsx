@@ -3,24 +3,24 @@ import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOp
 
 import MOCK_DATA from './global_mmlu_vi-ver1.json';
 
-// Nhóm 1: Text origin - Thêm nhãn UNK
+// Nhóm 1: Text origin - Tinh chỉnh màu viền để khớp khung
 const NAT_TRA_LABELS = [
-  { id: 'NAT', name: 'NAT', base: 'bg-green-100 text-green-800', border: 'border-green-500', ring: 'ring-green-200' },
-  { id: 'TRA-H', name: 'TRA-H', base: 'bg-blue-100 text-blue-800', border: 'border-blue-500', ring: 'ring-blue-200' },
-  { id: 'TRA-MPE', name: 'TRA-MPE', base: 'bg-blue-100 text-blue-800', border: 'border-blue-500', ring: 'ring-blue-200' },
-  { id: 'TRA-MNPE', name: 'TRA-MNPE', base: 'bg-blue-100 text-blue-800', border: 'border-blue-500', ring: 'ring-blue-200' },
-  { id: 'ADP', name: 'ADP', base: 'bg-cyan-100 text-cyan-800', border: 'border-cyan-500', ring: 'ring-cyan-200' },
-  { id: 'UNK', name: 'UNK', base: 'bg-slate-100 text-slate-800', border: 'border-slate-400', ring: 'ring-slate-200' },
+  { id: 'NAT', name: 'NAT', base: 'bg-green-100 text-green-800', border: 'border-green-600' },
+  { id: 'TRA-H', name: 'TRA-H', base: 'bg-blue-100 text-blue-800', border: 'border-blue-600' },
+  { id: 'TRA-MPE', name: 'TRA-MPE', base: 'bg-blue-100 text-blue-800', border: 'border-blue-600' },
+  { id: 'TRA-MNPE', name: 'TRA-MNPE', base: 'bg-blue-100 text-blue-800', border: 'border-blue-600' },
+  { id: 'ADP', name: 'ADP', base: 'bg-cyan-100 text-cyan-800', border: 'border-cyan-600' },
+  { id: 'UNK', name: 'UNK', base: 'bg-slate-100 text-slate-800', border: 'border-slate-500' },
 ];
 
-// Nhóm 2: Cultural sensitivity - Thêm nhãn UNK
+// Nhóm 2: Cultural sensitivity - Tinh chỉnh màu viền để khớp khung
 const CS_CA_LABELS = [
-  { id: 'CS-L', name: 'CS-L', base: 'bg-purple-100 text-purple-800', border: 'border-purple-500', ring: 'ring-purple-200' },
-  { id: 'CS-E', name: 'CS-E', base: 'bg-purple-100 text-purple-800', border: 'border-purple-500', ring: 'ring-purple-200' },
-  { id: 'CS-P', name: 'CS-P', base: 'bg-purple-100 text-purple-800', border: 'border-purple-500', ring: 'ring-purple-200' },
-  { id: 'CS-H', name: 'CS-H', base: 'bg-purple-100 text-purple-800', border: 'border-purple-500', ring: 'ring-purple-200' },
-  { id: 'CA', name: 'CA', base: 'bg-rose-100 text-rose-800', border: 'border-rose-500', ring: 'ring-rose-200' },
-  { id: 'UNK', name: 'UNK', base: 'bg-slate-100 text-slate-800', border: 'border-slate-400', ring: 'ring-slate-200' },
+  { id: 'CS-L', name: 'CS-L', base: 'bg-purple-100 text-purple-800', border: 'border-purple-600' },
+  { id: 'CS-E', name: 'CS-E', base: 'bg-purple-100 text-purple-800', border: 'border-purple-600' },
+  { id: 'CS-P', name: 'CS-P', base: 'bg-purple-100 text-purple-800', border: 'border-purple-600' },
+  { id: 'CS-H', name: 'CS-H', base: 'bg-purple-100 text-purple-800', border: 'border-purple-600' },
+  { id: 'CA', name: 'CA', base: 'bg-rose-100 text-rose-800', border: 'border-rose-600' },
+  { id: 'UNK', name: 'UNK', base: 'bg-slate-100 text-slate-800', border: 'border-slate-500' },
 ];
 
 export default function App() {
@@ -62,16 +62,11 @@ export default function App() {
     if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
   };
 
-  // CHỨC NĂNG: Nhảy đến câu chưa gán TIẾP THEO
   const handleJumpToNextUnlabeled = () => {
-    // Tìm trong những câu phía sau câu hiện tại
     let nextIndex = items.findIndex((item, idx) => idx > currentIndex && !(item.nat_tra_adp_label && item.cs_ca_label));
-    
-    // Nếu không thấy phía sau, tìm lại từ đầu danh sách (vòng lặp)
     if (nextIndex === -1) {
       nextIndex = items.findIndex((item, idx) => idx < currentIndex && !(item.nat_tra_adp_label && item.cs_ca_label));
     }
-
     if (nextIndex !== -1 && nextIndex !== currentIndex) {
       setCurrentIndex(nextIndex);
     } else {
@@ -79,20 +74,15 @@ export default function App() {
     }
   };
 
-  // CHỨC NĂNG: Nhảy đến câu có nhãn UNK TIẾP THEO
   const handleJumpToNextUnk = () => {
-    // Tìm trong những câu phía sau câu hiện tại
     let nextIndex = items.findIndex((item, idx) => 
       idx > currentIndex && (item.nat_tra_adp_label === 'UNK' || item.cs_ca_label === 'UNK')
     );
-    
-    // Nếu không thấy phía sau, tìm lại từ đầu danh sách (vòng lặp)
     if (nextIndex === -1) {
       nextIndex = items.findIndex((item, idx) => 
         idx < currentIndex && (item.nat_tra_adp_label === 'UNK' || item.cs_ca_label === 'UNK')
       );
     }
-
     if (nextIndex !== -1 && nextIndex !== currentIndex) {
       setCurrentIndex(nextIndex);
     } else {
@@ -131,11 +121,9 @@ export default function App() {
       alert("Vui lòng nhập tên trước khi xuất file!");
       return;
     }
-
     const exportData = items.map(item => {
       const isAnnotated = Boolean(item.nat_tra_adp_label && item.cs_ca_label);
       const finalLabel = isAnnotated ? `${item.nat_tra_adp_label}-${item.cs_ca_label}` : "UNK - UNK";
-
       return {
         benchmark_name: item.benchmark_name || "Global-MMLU", 
         sample_id: item.sample_id,
@@ -152,14 +140,11 @@ export default function App() {
         metadata: item.metadata || {}
       };
     });
-
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
     const downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href", dataStr);
-    
     const safeName = annotator.trim().replace(/\s+/g, '_');
     downloadAnchorNode.setAttribute("download", `${safeName}_${labeledCount}_annotations.json`);
-    
     document.body.appendChild(downloadAnchorNode); 
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
@@ -278,7 +263,6 @@ export default function App() {
 
             <div className="w-full md:w-80 flex flex-col gap-6">
               <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-5 sticky top-24">
-                
                 <div className="bg-amber-50 p-4 rounded-lg border border-amber-200 mb-5 text-sm text-amber-800 shadow-sm leading-relaxed">
                   <h3 className="font-bold mb-2 flex items-center gap-1.5 text-amber-900"><Info size={16}/> Lưu ý quan trọng</h3>
                   <p className="font-medium text-[13px]">
@@ -288,14 +272,20 @@ export default function App() {
                 </div>
 
                 <div className="max-h-[55vh] overflow-y-auto pr-2 pb-4 space-y-6">
-                  {/* 1. Text origin (NAT/TRA/ADP) */}
                   <div>
                     <h2 className="text-sm font-bold text-slate-800 mb-3 border-b border-slate-100 pb-2 uppercase tracking-wider">
                       1. Text origin (NAT/TRA/ADP)
                     </h2>
                     <div className="flex flex-col gap-2">
                       {NAT_TRA_LABELS.map((label) => (
-                        <button key={label.id} onClick={() => handleAssignNatTra(label.id)} className={`w-full text-left px-4 py-2.5 rounded-lg border-2 transition-all flex justify-between items-center text-sm ${label.base} ${currentItem?.nat_tra_adp_label === label.id ? `${label.border} ring-2 ${label.ring} font-bold shadow-sm` : `border-transparent opacity-70 font-medium`}`}>
+                        <button 
+                          key={label.id} 
+                          onClick={() => handleAssignNatTra(label.id)} 
+                          className={`w-full text-left px-4 py-2.5 rounded-lg border-2 transition-all flex justify-between items-center text-sm ${label.base} 
+                          ${currentItem?.nat_tra_adp_label === label.id 
+                            ? `${label.border} border-[3px] font-bold shadow-md` 
+                            : 'border-transparent opacity-70 font-medium hover:border-slate-200'}`}
+                        >
                           <span>{label.id}</span>
                           {currentItem?.nat_tra_adp_label === label.id && <CheckCircle2 size={16} />}
                         </button>
@@ -303,14 +293,20 @@ export default function App() {
                     </div>
                   </div>
 
-                  {/* 2. Cultural sensitivity (CS/CA) */}
                   <div>
                     <h2 className="text-sm font-bold text-slate-800 mb-3 border-b border-slate-100 pb-2 uppercase tracking-wider">
                       2. Cultural sensitivity (CS/CA)
                     </h2>
                     <div className="flex flex-col gap-2">
                       {CS_CA_LABELS.map((label) => (
-                        <button key={label.id} onClick={() => handleAssignCsCa(label.id)} className={`w-full text-left px-4 py-2.5 rounded-lg border-2 transition-all flex justify-between items-center text-sm ${label.base} ${currentItem?.cs_ca_label === label.id ? `${label.border} ring-2 ${label.ring} font-bold shadow-sm` : `border-transparent opacity-70 font-medium`}`}>
+                        <button 
+                          key={label.id} 
+                          onClick={() => handleAssignCsCa(label.id)} 
+                          className={`w-full text-left px-4 py-2.5 rounded-lg border-2 transition-all flex justify-between items-center text-sm ${label.base} 
+                          ${currentItem?.cs_ca_label === label.id 
+                            ? `${label.border} border-[3px] font-bold shadow-md` 
+                            : 'border-transparent opacity-70 font-medium hover:border-slate-200'}`}
+                        >
                           <span>{label.id}</span>
                           {currentItem?.cs_ca_label === label.id && <CheckCircle2 size={16} />}
                         </button>
