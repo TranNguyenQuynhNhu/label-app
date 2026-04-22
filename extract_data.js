@@ -11,7 +11,7 @@ try {
   const lines = rawData.split('\n').filter(line => line.trim() !== '');
 
   const formattedData = [];
-  const TARGET_TOTAL = 100;
+  const TARGET_TOTAL = 500;
 
   // Lặp qua từng dòng, parse thành JSON và format
   for (let i = 0; i < lines.length; i++) {
