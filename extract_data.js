@@ -1,75 +1,82 @@
 import fs from 'fs';
+import path from 'path';
 
 try {
-  console.log("Đang đọc file global_mmlu_vi.json...");
-  let rawData = fs.readFileSync('global_mmlu_vi.json', 'utf8');
-
-  // BƯỚC SỬA LỖI: Dọn dẹp dữ liệu, đổi toàn bộ ': NaN' thành ': null'
-  rawData = rawData.replace(/:\s*NaN/g, ': null');
-
-  let dataset = JSON.parse(rawData);
-
-  // Xử lý nếu data nằm trong mảng con
-  if (!Array.isArray(dataset)) {
-    dataset = dataset.data || dataset.rows || Object.values(dataset)[0]; 
-  }
-
-  // 1. Nhóm dữ liệu theo subject (môn học)
-  const subjectGroup = {};
+  console.log("Đang đọc file belebele_final.jsonl...");
   
-  dataset.forEach(item => {
-    // Lấy tên môn học từ sample_id (VD: "abstract_algebra" từ "abstract_algebra/test/0")
-    // Nếu không có sample_id, gán tạm vào nhóm 'unknown'
-    const subject = item.sample_id ? item.sample_id.split('/')[0] : 'unknown';
-    
-    if (!subjectGroup[subject]) {
-      subjectGroup[subject] = [];
-    }
-    subjectGroup[subject].push(item);
-  });
+  // Đọc toàn bộ nội dung file dưới dạng text
+  const rawData = fs.readFileSync('belebele_final.jsonl', 'utf8');
 
-  // 2. Rút trích 4 câu mỗi môn cho đến khi đủ 228 câu
+  // Tách text thành mảng các dòng, loại bỏ các dòng trống
+  const lines = rawData.split('\n').filter(line => line.trim() !== '');
+
   const formattedData = [];
-  const TARGET_TOTAL = 228;
-  const ITEMS_PER_SUBJECT = 4;
+  const TARGET_TOTAL = 100;
 
-  // Lặp qua từng môn học trong object đã nhóm
-  for (const subject in subjectGroup) {
+  // Lặp qua từng dòng, parse thành JSON và format
+  for (let i = 0; i < lines.length; i++) {
     if (formattedData.length >= TARGET_TOTAL) break;
 
-    // Lấy tối đa 4 câu của môn hiện tại
-    const itemsToTake = subjectGroup[subject].slice(0, ITEMS_PER_SUBJECT);
+    try {
+      const item = JSON.parse(lines[i]);
+      
+      // Xử lý mảng choices thành cấu trúc [{"id": "A", "text": "..."}, ...]
+      const optionsArray = [];
+      const choiceLabels = ['A', 'B', 'C', 'D', 'E', 'F']; 
+      
+      if (item.choices && item.choices.length > 0) {
+        item.choices.forEach((choiceText, idx) => {
+          optionsArray.push({
+            id: choiceLabels[idx] || String.fromCharCode(65 + idx),
+            text: choiceText
+          });
+        });
+      }
 
-   itemsToTake.forEach((item, index) => {
-      if (formattedData.length >= TARGET_TOTAL) return;
-
-      // 1. Tách các trường xử lý thủ công ra, gom TẤT CẢ các trường lạ khác vào biến `otherFields`
+      // Tách thêm trường flores_passage ra
       const {
-        sample_id, question, answer, final_label, choices,
-        option_a, option_b, option_c, option_d,
-        ...otherFields
+        id, question, flores_passage, choices, answer, metadata: existingMetadata, ...otherFields
       } = item;
 
-      // 2. Push vào mảng
+      // Hợp nhất metadata hiện có với các trường thừa khác
+      const combinedMetadata = { ...existingMetadata, ...otherFields };
+
+      // Gộp flores_passage và question lại với nhau
+      const combinedQuestion = flores_passage 
+        ? `${flores_passage}\n\nCâu hỏi: ${question}` 
+        : (question || "");
+
+      // Push cấu trúc chuẩn theo đúng Schema
       formattedData.push({
-        // Đẩy toàn bộ các trường dư thừa (như subject, required_knowledge...) vào đây
-        ...otherFields, 
-        
-        // Các trường mandatory
-        sample_id: sample_id || `${subject}_${index}`,
-        question: question || "",
-        option_a: option_a || (choices ? choices[0] : ""),
-        option_b: option_b || (choices ? choices[1] : ""),
-        option_c: option_c || (choices ? choices[2] : ""),
-        option_d: option_d || (choices ? choices[3] : ""),
+        benchmark_name: item.source || "Belebele",
+        sample_id: id || `belebele_${i}`,
+        question: combinedQuestion, // Đã thay bằng câu hỏi gộp đoạn văn
+        options: optionsArray,
         answer: answer || "",
-        final_label: null 
+        nat_tra_adp_label: null,
+        cs_ca_label: null,
+        final_label: null,
+        annotator: null,
+        rationale: null,
+        timestamp: null,
+        is_annotated: false,
+        metadata: combinedMetadata
       });
-    });
+    } catch (parseError) {
+      console.warn(`Bỏ qua dòng ${i + 1} vì lỗi:`, parseError.message);
+    }
   }
 
-  fs.writeFileSync('src/data.json', JSON.stringify(formattedData, null, 2), 'utf8');
-  console.log(`✅ Đã trích xuất thành công ${formattedData.length} câu (tối đa 4 câu mỗi môn) và lưu vào file 'data.json'!`);
+  // Đảm bảo thư mục src tồn tại
+  const dir = 'src';
+  const filePath = path.join(dir, 'data.json');
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+
+  // Lưu file
+  fs.writeFileSync(filePath, JSON.stringify(formattedData, null, 2), 'utf8');
+  console.log(`✅ Đã trích xuất thành công ${formattedData.length} câu từ Belebele và lưu vào file '${filePath}'!`);
 
 } catch (error) {
   console.error("❌ Có lỗi xảy ra:", error.message);
