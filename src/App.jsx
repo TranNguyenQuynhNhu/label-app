@@ -121,30 +121,40 @@ export default function App() {
       alert("Vui lòng nhập tên trước khi xuất file!");
       return;
     }
-    const exportData = items.map(item => {
-      const isAnnotated = Boolean(item.nat_tra_adp_label && item.cs_ca_label);
-      const finalLabel = isAnnotated ? `${item.nat_tra_adp_label}-${item.cs_ca_label}` : "UNK - UNK";
+
+    // Lọc ra các item đã có đầy đủ cả 2 loại nhãn
+    const annotatedItems = items.filter(item => item.nat_tra_adp_label && item.cs_ca_label);
+
+    if (annotatedItems.length === 0) {
+      alert("Chưa có mẫu nào được đánh nhãn đầy đủ để xuất!");
+      return;
+    }
+
+    const exportData = annotatedItems.map(item => {
+      const finalLabel = `${item.nat_tra_adp_label}-${item.cs_ca_label}`;
       return {
         benchmark_name: item.benchmark_name || "Global-MMLU", 
         sample_id: item.sample_id,
         question: item.question,
         options: item.options,
         answer: item.answer,
-        nat_tra_adp_label: item.nat_tra_adp_label || "UNK",
-        cs_ca_label: item.cs_ca_label || "UNK",
+        nat_tra_adp_label: item.nat_tra_adp_label,
+        cs_ca_label: item.cs_ca_label,
         final_label: finalLabel,
         annotator: annotator.trim(),
         rationale: item.rationale || "",
-        timestamp: isAnnotated ? new Date().toISOString() : null,
-        is_annotated: isAnnotated,
+        timestamp: new Date().toISOString(),
+        is_annotated: true,
         metadata: item.metadata || {}
       };
     });
+
     const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
     const downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute("href", dataStr);
     const safeName = annotator.trim().replace(/\s+/g, '_');
-    downloadAnchorNode.setAttribute("download", `${safeName}_${labeledCount}_annotations.json`);
+    // Cập nhật tên file với số lượng thực tế được xuất
+    downloadAnchorNode.setAttribute("download", `${safeName}_${annotatedItems.length}_labels.json`);
     document.body.appendChild(downloadAnchorNode); 
     downloadAnchorNode.click();
     downloadAnchorNode.remove();
