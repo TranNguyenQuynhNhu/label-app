@@ -1,7 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOpen, User, FastForward, MessageSquare, Search } from 'lucide-react';
 
-import MOCK_DATA from './data.json';
+import DATA1 from './data.json';
+import DATA2 from './XCOPAdata.json';
+import DATA3 from './SeaExamdata.json';
+import DATA4 from './VLMUdata.json';
+import DATA5 from './GlobalMMLUdata.json';
+import DATA6 from './MMLUProxdata.json';
+
+const ALL_MOCK_DATA = [
+  ...DATA1,
+  ...DATA2,
+  ...DATA3,
+  ...DATA4,
+  ...DATA5,
+  ...DATA6
+];
 
 // Nhóm 1: Text origin - Tinh chỉnh màu viền để khớp khung
 const NAT_TRA_LABELS = [
@@ -24,11 +38,11 @@ const CS_CA_LABELS = [
 ];
 
 export default function App() {
-  const [items, setItems] = useState(MOCK_DATA);
+  const [items, setItems] = useState(ALL_MOCK_DATA);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [inputValue, setInputValue] = useState("1"); 
   const [isFinished, setIsFinished] = useState(false);
-  const [annotator, setAnnotator] = useState(items[0]?.annotator || "");
+  const [annotator, setAnnotator] = useState("");
 
   const currentItem = items[currentIndex];
   const progress = Math.round(((currentIndex + 1) / items.length) * 100);

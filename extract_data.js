@@ -2,55 +2,54 @@ import fs from 'fs';
 import path from 'path';
 
 try {
-  console.log("Đang đọc file belebele_final.jsonl...");
+  // 1. Cập nhật tên file đầu vào cho đúng với tập dữ liệu bạn đang xử lý
+  const inputFileName = 'xcopa_final.jsonl'; 
+  console.log(`Đang đọc file ${inputFileName}...`);
   
-  // Đọc toàn bộ nội dung file dưới dạng text
-  const rawData = fs.readFileSync('belebele_final.jsonl', 'utf8');
-
-  // Tách text thành mảng các dòng, loại bỏ các dòng trống
+  const rawData = fs.readFileSync(inputFileName, 'utf8');
   const lines = rawData.split('\n').filter(line => line.trim() !== '');
 
   const formattedData = [];
-  const TARGET_TOTAL = 500;
 
-  // Lặp qua từng dòng, parse thành JSON và format
   for (let i = 0; i < lines.length; i++) {
-    if (formattedData.length >= TARGET_TOTAL) break;
-
     try {
       const item = JSON.parse(lines[i]);
       
-      // Xử lý mảng choices thành cấu trúc [{"id": "A", "text": "..."}, ...]
       const optionsArray = [];
       const choiceLabels = ['A', 'B', 'C', 'D', 'E', 'F']; 
       
       if (item.choices && item.choices.length > 0) {
         item.choices.forEach((choiceText, idx) => {
           optionsArray.push({
-            id: choiceLabels[idx] || String.fromCharCode(65 + idx),
+            id: choiceLabels[idx],
             text: choiceText
           });
         });
       }
 
-      // Tách thêm trường flores_passage ra
+      // 2. Destructuring để lấy 'context' thay vì 'flores_passage'
       const {
-        id, question, flores_passage, choices, answer, metadata: existingMetadata, ...otherFields
+        id, 
+        question, 
+        context, // Trường chứa ngữ cảnh của XCOPA
+        choices, 
+        answer, 
+        metadata: existingMetadata, 
+        ...otherFields
       } = item;
 
-      // Hợp nhất metadata hiện có với các trường thừa khác
       const combinedMetadata = { ...existingMetadata, ...otherFields };
 
-      // Gộp flores_passage và question lại với nhau
-      const combinedQuestion = flores_passage 
-        ? `${flores_passage}\n\nCâu hỏi: ${question}` 
+      // 3. Logic gộp: Nếu có context thì gộp, không thì chỉ lấy question
+      // Cấu trúc: [Ngữ cảnh] + [Câu hỏi]
+      const combinedQuestion = context 
+        ? `${context}\n\nCâu hỏi: ${question}` 
         : (question || "");
 
-      // Push cấu trúc chuẩn theo đúng Schema
       formattedData.push({
-        benchmark_name: item.source || "Belebele",
-        sample_id: id || `belebele_${i}`,
-        question: combinedQuestion, // Đã thay bằng câu hỏi gộp đoạn văn
+        benchmark_name: item.source || "XCOPA",
+        sample_id: id || `xcopa_${i}`,
+        question: combinedQuestion, 
         options: optionsArray,
         answer: answer || "",
         nat_tra_adp_label: null,
@@ -67,16 +66,15 @@ try {
     }
   }
 
-  // Đảm bảo thư mục src tồn tại
   const dir = 'src';
-  const filePath = path.join(dir, 'data.json');
+  // Đổi tên file output tương ứng
+  const filePath = path.join(dir, 'XCOPAdata.json'); 
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
   }
 
-  // Lưu file
   fs.writeFileSync(filePath, JSON.stringify(formattedData, null, 2), 'utf8');
-  console.log(`✅ Đã trích xuất thành công ${formattedData.length} câu từ Belebele và lưu vào file '${filePath}'!`);
+  console.log(`✅ Đã trích xuất thành công ${formattedData.length} câu từ XCOPA!`);
 
 } catch (error) {
   console.error("❌ Có lỗi xảy ra:", error.message);
