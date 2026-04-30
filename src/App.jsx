@@ -5,12 +5,13 @@ import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOp
 import MMLU_PROX from './data/mmlu_prox.json';
 import SEA_EXAM from './data/seaexam.json';
 import VMLU from './data/vmlu.json';
-
+import GLOBAL_MMLU from './data/global_mmlu.json';
 // 2. Gộp tất cả dữ liệu và gán benchmark_name[cite: 3, 4]
 const ALL_MOCK_DATA = [
   ...MMLU_PROX.map(item => ({ ...item, benchmark_name: "MMLU-PROX" })),
   ...SEA_EXAM.map(item => ({ ...item, benchmark_name: "SEA-EXAM" })),
-  ...VMLU.map(item => ({ ...item, benchmark_name: "VMLU" }))
+  ...VMLU.map(item => ({ ...item, benchmark_name: "VMLU" })),
+  ...GLOBAL_MMLU.map(item => ({ ...item, benchmark_name: "Global-MMLU" }))
 ];
 
 const NAT_TRA_LABELS = [
@@ -299,6 +300,7 @@ export default function App() {
                       <button onClick={() => handleJumpToBenchmarkUnlabeled("MMLU-PROX")} className="flex items-center gap-1 text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-1 rounded border border-amber-200 hover:bg-amber-100 transition-colors"><Zap size={10} /> MMLU-PROX</button>
                       <button onClick={() => handleJumpToBenchmarkUnlabeled("SEA-EXAM")} className="flex items-center gap-1 text-[10px] font-bold text-blue-700 bg-blue-50 px-2 py-1 rounded border border-blue-200 hover:bg-blue-100 transition-colors"><Zap size={10} /> SEA-EXAM</button>
                       <button onClick={() => handleJumpToBenchmarkUnlabeled("VMLU")} className="flex items-center gap-1 text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-1 rounded border border-emerald-200 hover:bg-emerald-100 transition-colors"><Zap size={10} /> VMLU</button>
+                      <button onClick={() => handleJumpToBenchmarkUnlabeled("Global-MMLU")} className="flex items-center gap-1 text-[10px] font-bold text-purple-700 bg-purple-50 px-2 py-1 rounded border border-purple-200 hover:bg-purple-100 transition-colors"><Zap size={10} /> Global-MMLU</button>                    
                     </div>
                   </div>
 
