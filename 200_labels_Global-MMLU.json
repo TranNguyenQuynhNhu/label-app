@@ -1,5 +1,5 @@
 [
-    {
+  {
     "benchmark_name": "Global-MMLU",
     "sample_id": "econometrics/test/0",
     "question": "Định nghĩa nào sau đây là đúng nhất về khoảng tin cậy 99%?",
