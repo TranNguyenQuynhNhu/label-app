@@ -4,7 +4,7 @@ from collections import Counter
 # Giả sử dữ liệu của bạn nằm trong file 'data.json' và là một danh sách các câu hỏi
 # Nếu file chỉ chứa 1 object như ví dụ của bạn, hãy bọc nó trong dấu [] hoặc điều chỉnh code đọc file.
 
-file_path = "Ngoc_400_global.json"
+file_path = "vy_400_labels.json"
 
 try:
     with open(file_path, "r", encoding="utf-8") as f:
