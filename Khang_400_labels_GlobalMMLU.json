@@ -1,42 +1,6 @@
 [
   {
     "benchmark_name": "Global-MMLU",
-    "sample_id": "formal_logic/test/85",
-    "question": "Công thức nào trong số các công thức PL cho sẵn là biểu tượng tốt nhất cho câu sau?\nBrittany thích cá và thằn lằn, nhưng không thích mèo.",
-    "options": [
-      {
-        "id": "A",
-        "text": "F • L • ~C"
-      },
-      {
-        "id": "B",
-        "text": "(F • L) • ~C"
-      },
-      {
-        "id": "C",
-        "text": "(F • L) ∨ ~C"
-      },
-      {
-        "id": "D",
-        "text": "C • (F • L)"
-      }
-    ],
-    "answer": "B",
-    "nat_tra_adp_label": "TRA",
-    "cs_ca_label": "CA",
-    "final_label": "TRA-CA",
-    "annotator": "Khang",
-    "rationale": "",
-    "timestamp": "2026-05-18T14:32:57.161Z",
-    "is_annotated": true,
-    "metadata": {
-      "subject": "formal_logic",
-      "subject_category": "Humanities",
-      "cultural_sensitivity_label": "-"
-    }
-  },
-  {
-    "benchmark_name": "Global-MMLU",
     "sample_id": "formal_logic/test/86",
     "question": "Công thức nào trong số các công thức PL cho sẵn là biểu tượng tốt nhất cho câu sau?\nNếu Harry ghi danh hoặc George không ghi danh, thì Jim ghi danh.",
     "options": [
@@ -14392,6 +14356,42 @@
     "annotator": "Khang",
     "rationale": "",
     "timestamp": "2026-05-18T14:32:57.162Z",
+    "is_annotated": true,
+    "metadata": {
+      "subject": "high_school_geography",
+      "subject_category": "Social Sciences",
+      "cultural_sensitivity_label": "-"
+    }
+  },
+  {
+    "benchmark_name": "Global-MMLU",
+    "sample_id": "high_school_geography/test/194",
+    "question": "Nước xuất khẩu hàng nông sản lớn nhất thế giới là",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trung Quốc."
+      },
+      {
+        "id": "B",
+        "text": "Mê-hi-cô."
+      },
+      {
+        "id": "C",
+        "text": "Chi-lê."
+      },
+      {
+        "id": "D",
+        "text": "Hoa Kỳ."
+      }
+    ],
+    "answer": "D",
+    "nat_tra_adp_label": "TRA",
+    "cs_ca_label": "CA",
+    "final_label": "TRA-CA",
+    "annotator": "Khang",
+    "rationale": "",
+    "timestamp": "2026-05-19T09:31:31.100Z",
     "is_annotated": true,
     "metadata": {
       "subject": "high_school_geography",

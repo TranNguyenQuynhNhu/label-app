@@ -43,11 +43,11 @@ def generate_text_confusion_matrix(file_a, file_b):
 
     # 5. Print Text-based Confusion Matrix in English
     print("--- CONFUSION MATRIX REPORT ---")
-    print("Row: Annotator C  |  Col: Annotator D \n")
+    print("Row: Annotator A  |  Col: Annotator B \n")
 
     # Format column widths dynamically
     col_width = max(len(str(c)) for c in all_classes) + 6
-    header = f"{'Annotator C \\ D':<{col_width}}" + "".join(
+    header = f"{'A \\ B':<{col_width}}" + "".join(
         f"{col:<{col_width}}" for col in all_classes
     )
     print(header)
@@ -74,4 +74,4 @@ def generate_text_confusion_matrix(file_a, file_b):
 # --- RUN CODE ---
 if __name__ == "__main__":
     # Replace 'annotator_A.json' and 'annotator_B.json' with your real file paths
-    generate_text_confusion_matrix("Dong_400_labels.json", "200_labels_Global-MMLU.json")
+    generate_text_confusion_matrix("Ngoc_400_global.json", "Khang_400_labels_GlobalMMLU.json")
