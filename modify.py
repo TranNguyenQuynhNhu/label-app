@@ -1,7 +1,7 @@
 import json
 
-INPUT_FILE = "Khang_400_labels_SEAEXAM.json"
-OUTPUT_FILE = "Final/400_labels_SeaExam.json"
+INPUT_FILE = "Khang_257_labels_SEAEXAM.json"
+OUTPUT_FILE = "257_labels_SEAEXAM.json"
 
 # All possible metadata keys
 TARGET_METADATA_KEYS = [

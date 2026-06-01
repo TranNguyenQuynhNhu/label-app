@@ -74,4 +74,4 @@ def generate_text_confusion_matrix(file_a, file_b):
 # --- RUN CODE ---
 if __name__ == "__main__":
     # Replace 'annotator_A.json' and 'annotator_B.json' with your real file paths
-    generate_text_confusion_matrix("Dong_400_labels.json", "vy_400_labels.json")
+    generate_text_confusion_matrix("Dong_401-900_labels_mmlu.json", "Vy_401-900_labels_mmlu.json")

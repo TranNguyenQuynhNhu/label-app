@@ -1,0 +1,256 @@
+[
+  {
+    "sample_id": 1588,
+    "question": "Một doanh nghiệp đã mua máy tính từ trang web của người bán. Biểu mẫu mua hàng có một liên kết hyperlink nổi bật kết nối đến trang có \"các điều khoản và điều kiện bán hàng bổ sung quan trọng\", nhưng người mua đã không truy cập trang đó. Sản phẩm được giao kèm theo các điều khoản bổ sung bằng văn bản, cùng với thông báo in đậm yêu cầu người mua trả lại sản phẩm trong vòng 30 ngày nếu không chấp nhận các điều khoản và điều kiện đã nêu. Sau 35 ngày, doanh nghiệp không hài lòng với máy tính và kiện người bán về vi phạm hợp đồng. Người bán yêu cầu tranh chấp phải được quyết định bởi trọng tài tư nhân theo các điều khoản và điều kiện bổ sung của thỏa thuận. Người mua có bị ràng buộc pháp lý để tham gia vào quá trình trọng tài không?",
+    "annotator_1": "Dong",
+    "label_1": "TRA-CA",
+    "annotator_2": "Vy",
+    "label_2": "TRA-CS-E",
+    "sample_1": {
+      "benchmark_name": "MMLU-PROX",
+      "sample_id": 1588,
+      "question": "Một doanh nghiệp đã mua máy tính từ trang web của người bán. Biểu mẫu mua hàng có một liên kết hyperlink nổi bật kết nối đến trang có \"các điều khoản và điều kiện bán hàng bổ sung quan trọng\", nhưng người mua đã không truy cập trang đó. Sản phẩm được giao kèm theo các điều khoản bổ sung bằng văn bản, cùng với thông báo in đậm yêu cầu người mua trả lại sản phẩm trong vòng 30 ngày nếu không chấp nhận các điều khoản và điều kiện đã nêu. Sau 35 ngày, doanh nghiệp không hài lòng với máy tính và kiện người bán về vi phạm hợp đồng. Người bán yêu cầu tranh chấp phải được quyết định bởi trọng tài tư nhân theo các điều khoản và điều kiện bổ sung của thỏa thuận. Người mua có bị ràng buộc pháp lý để tham gia vào quá trình trọng tài không?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Không, vì luật liên bang yêu cầu công ty phải cho 90 ngày để trả lại và điều khoản 30 ngày là vô hiệu."
+        },
+        {
+          "id": "B",
+          "text": "Không, vì không có hợp đồng được hình thành do người mua thiếu sự chấp thuận đối với các điều khoản và điều kiện bổ sung."
+        },
+        {
+          "id": "C",
+          "text": "Có, vì bằng cách không trả lại máy tính trong vòng 30 ngày, người mua bị ràng buộc bởi các điều khoản và điều kiện bổ sung là một phần của hợp đồng."
+        },
+        {
+          "id": "D",
+          "text": "Có, vì người bán đã cung cấp các điều khoản và điều kiện bổ sung bằng văn bản kèm theo sản phẩm được giao."
+        },
+        {
+          "id": "E",
+          "text": "Không, vì người mua không đồng ý rõ ràng với các điều khoản và điều kiện bao gồm trọng tài tư nhân."
+        },
+        {
+          "id": "F",
+          "text": "Có, vì người mua đã biết về các điều khoản và điều kiện bổ sung, mặc dù không truy cập vào chúng."
+        },
+        {
+          "id": "G",
+          "text": "Không, vì người bán không truyền đạt rõ ràng các điều khoản và điều kiện bổ sung cho người mua."
+        },
+        {
+          "id": "H",
+          "text": "Có, vì các điều khoản và điều kiện bổ sung là một phần của hợp đồng, bất kể người mua có đọc chúng hay không."
+        },
+        {
+          "id": "I",
+          "text": "Không, vì người bán không nhận được sự đồng ý rõ ràng từ người mua đối với các điều khoản và điều kiện bổ sung."
+        },
+        {
+          "id": "J",
+          "text": "Có, vì luật liên bang yêu cầu rằng trọng tài phải được sử dụng để tìm kiếm giải pháp ban đầu đối với các giao dịch mua bán diễn ra trên internet."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-05-31T12:43:16.322Z",
+      "is_annotated": true,
+      "metadata": {
+        "category": "law",
+        "src": "ori_mmlu-professional_law",
+        "question_id_src": 1726
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "MMLU-PROX",
+      "sample_id": 1588,
+      "question": "Một doanh nghiệp đã mua máy tính từ trang web của người bán. Biểu mẫu mua hàng có một liên kết hyperlink nổi bật kết nối đến trang có \"các điều khoản và điều kiện bán hàng bổ sung quan trọng\", nhưng người mua đã không truy cập trang đó. Sản phẩm được giao kèm theo các điều khoản bổ sung bằng văn bản, cùng với thông báo in đậm yêu cầu người mua trả lại sản phẩm trong vòng 30 ngày nếu không chấp nhận các điều khoản và điều kiện đã nêu. Sau 35 ngày, doanh nghiệp không hài lòng với máy tính và kiện người bán về vi phạm hợp đồng. Người bán yêu cầu tranh chấp phải được quyết định bởi trọng tài tư nhân theo các điều khoản và điều kiện bổ sung của thỏa thuận. Người mua có bị ràng buộc pháp lý để tham gia vào quá trình trọng tài không?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Không, vì luật liên bang yêu cầu công ty phải cho 90 ngày để trả lại và điều khoản 30 ngày là vô hiệu."
+        },
+        {
+          "id": "B",
+          "text": "Không, vì không có hợp đồng được hình thành do người mua thiếu sự chấp thuận đối với các điều khoản và điều kiện bổ sung."
+        },
+        {
+          "id": "C",
+          "text": "Có, vì bằng cách không trả lại máy tính trong vòng 30 ngày, người mua bị ràng buộc bởi các điều khoản và điều kiện bổ sung là một phần của hợp đồng."
+        },
+        {
+          "id": "D",
+          "text": "Có, vì người bán đã cung cấp các điều khoản và điều kiện bổ sung bằng văn bản kèm theo sản phẩm được giao."
+        },
+        {
+          "id": "E",
+          "text": "Không, vì người mua không đồng ý rõ ràng với các điều khoản và điều kiện bao gồm trọng tài tư nhân."
+        },
+        {
+          "id": "F",
+          "text": "Có, vì người mua đã biết về các điều khoản và điều kiện bổ sung, mặc dù không truy cập vào chúng."
+        },
+        {
+          "id": "G",
+          "text": "Không, vì người bán không truyền đạt rõ ràng các điều khoản và điều kiện bổ sung cho người mua."
+        },
+        {
+          "id": "H",
+          "text": "Có, vì các điều khoản và điều kiện bổ sung là một phần của hợp đồng, bất kể người mua có đọc chúng hay không."
+        },
+        {
+          "id": "I",
+          "text": "Không, vì người bán không nhận được sự đồng ý rõ ràng từ người mua đối với các điều khoản và điều kiện bổ sung."
+        },
+        {
+          "id": "J",
+          "text": "Có, vì luật liên bang yêu cầu rằng trọng tài phải được sử dụng để tìm kiếm giải pháp ban đầu đối với các giao dịch mua bán diễn ra trên internet."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-E",
+      "final_label": "TRA-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "is_annotated": true,
+      "metadata": {
+        "category": "law",
+        "src": "ori_mmlu-professional_law",
+        "question_id_src": 1726
+      }
+    }
+  },
+  {
+    "sample_id": 1728,
+    "question": "Trong các tình huống sau đây, tình huống nào bị cáo có khả năng cao nhất được tuyên là KHÔNG CÓ TỘI về tội cướp?",
+    "annotator_1": "Dong",
+    "label_1": "TRA-CA",
+    "annotator_2": "Vy",
+    "label_2": "TRA-CS-E",
+    "sample_1": {
+      "benchmark_name": "MMLU-PROX",
+      "sample_id": 1728,
+      "question": "Trong các tình huống sau đây, tình huống nào bị cáo có khả năng cao nhất được tuyên là KHÔNG CÓ TỘI về tội cướp?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bị cáo tiếp cận một người đàn ông trên đường và yêu cầu đưa ví. Người đàn ông từ chối và bị cáo đe dọa anh ta bằng một con dao. Người đàn ông đã đưa ví và bị cáo chạy trốn."
+        },
+        {
+          "id": "B",
+          "text": "Bị cáo đang đi phía sau một người mua sắm trong trung tâm thương mại khi đột nhiên anh ta chụp lấy sợi dây chuyền vàng, giật khỏi cổ của người đó, và chạy biến vào đám đông. Người mua sắm bị một vết cắt nhỏ ở cổ nơi sợi dây chuyền bị đứt."
+        },
+        {
+          "id": "C",
+          "text": "Bị cáo đang mua sắm trong một cửa hàng tạp hóa khi anh ta nhận thấy chiếc ví của một phụ nữ để trong xe đẩy hàng không có người trông. Anh ta nhanh chóng lấy chiếc ví và rời khỏi cửa hàng."
+        },
+        {
+          "id": "D",
+          "text": "Bị cáo đột nhập vào một ngôi nhà và lấy một dàn âm thanh. Sau khi đã đặt dàn âm thanh vào xe và chuẩn bị rời đi, chủ nhà trở về và nhìn thấy anh ta. Cô ấy chạy đến xe và bắt đầu đánh bị cáo qua cửa sổ đang mở trong nỗ lực lấy lại dàn âm thanh. Bị cáo đấm vào mũi cô ấy và lái xe đi với dàn âm thanh."
+        },
+        {
+          "id": "E",
+          "text": "Trong một con hẻm tối, bị cáo tiếp cận nạn nhân và nói: \"Đưa tôi chiếc nhẫn vàng trên ngón tay của anh hoặc tôi sẽ bắn anh bằng khẩu súng này.\" Nạn nhân đã đưa chiếc nhẫn. Tuy nhiên, chiếc nhẫn thực sự thuộc về người khác, vì nạn nhân chỉ mượn nó trong buổi tối để gây ấn tượng với bạn gái. Ngoài ra, khẩu súng mà bị cáo đang giữ thực sự là một khẩu súng nước."
+        },
+        {
+          "id": "F",
+          "text": "Bị cáo đi vào một ngân hàng và đưa cho nhân viên thu ngân một mẩu giấy đòi tiền. Nhân viên thu ngân đã đưa tiền cho anh ta và anh ta rời khỏi ngân hàng."
+        },
+        {
+          "id": "G",
+          "text": "Bị cáo tìm thấy một chiếc ví bị đánh rơi trên đường. Anh ta lấy tiền và thẻ từ chiếc ví và ném nó vào thùng rác."
+        },
+        {
+          "id": "H",
+          "text": "Bị cáo đi vào một cửa hàng và yêu cầu thu ngân cho xem một chiếc vòng cổ. Khi thu ngân quay lưng để lấy chiếc vòng cổ, bị cáo lấy tiền từ máy tính tiền và chạy trốn."
+        },
+        {
+          "id": "I",
+          "text": "Bị cáo mở khóa cửa căn hộ. Tiếng động làm giật mình người thuê nhà đang ngủ. Bị cáo khống chế người thuê nhà, trói anh ta lại và ép buộc anh ta tiết lộ nơi cất tiền. Người thuê nhà bảo bị cáo tìm trong tủ bếp, và bị cáo đã làm theo. Bị cáo tìm thấy 120$ tiền mặt, lấy số tiền đó và rời khỏi căn hộ."
+        },
+        {
+          "id": "J",
+          "text": null
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-05-31T12:43:16.322Z",
+      "is_annotated": true,
+      "metadata": {
+        "category": "law",
+        "src": "ori_mmlu-professional_law",
+        "question_id_src": 1887
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "MMLU-PROX",
+      "sample_id": 1728,
+      "question": "Trong các tình huống sau đây, tình huống nào bị cáo có khả năng cao nhất được tuyên là KHÔNG CÓ TỘI về tội cướp?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bị cáo tiếp cận một người đàn ông trên đường và yêu cầu đưa ví. Người đàn ông từ chối và bị cáo đe dọa anh ta bằng một con dao. Người đàn ông đã đưa ví và bị cáo chạy trốn."
+        },
+        {
+          "id": "B",
+          "text": "Bị cáo đang đi phía sau một người mua sắm trong trung tâm thương mại khi đột nhiên anh ta chụp lấy sợi dây chuyền vàng, giật khỏi cổ của người đó, và chạy biến vào đám đông. Người mua sắm bị một vết cắt nhỏ ở cổ nơi sợi dây chuyền bị đứt."
+        },
+        {
+          "id": "C",
+          "text": "Bị cáo đang mua sắm trong một cửa hàng tạp hóa khi anh ta nhận thấy chiếc ví của một phụ nữ để trong xe đẩy hàng không có người trông. Anh ta nhanh chóng lấy chiếc ví và rời khỏi cửa hàng."
+        },
+        {
+          "id": "D",
+          "text": "Bị cáo đột nhập vào một ngôi nhà và lấy một dàn âm thanh. Sau khi đã đặt dàn âm thanh vào xe và chuẩn bị rời đi, chủ nhà trở về và nhìn thấy anh ta. Cô ấy chạy đến xe và bắt đầu đánh bị cáo qua cửa sổ đang mở trong nỗ lực lấy lại dàn âm thanh. Bị cáo đấm vào mũi cô ấy và lái xe đi với dàn âm thanh."
+        },
+        {
+          "id": "E",
+          "text": "Trong một con hẻm tối, bị cáo tiếp cận nạn nhân và nói: \"Đưa tôi chiếc nhẫn vàng trên ngón tay của anh hoặc tôi sẽ bắn anh bằng khẩu súng này.\" Nạn nhân đã đưa chiếc nhẫn. Tuy nhiên, chiếc nhẫn thực sự thuộc về người khác, vì nạn nhân chỉ mượn nó trong buổi tối để gây ấn tượng với bạn gái. Ngoài ra, khẩu súng mà bị cáo đang giữ thực sự là một khẩu súng nước."
+        },
+        {
+          "id": "F",
+          "text": "Bị cáo đi vào một ngân hàng và đưa cho nhân viên thu ngân một mẩu giấy đòi tiền. Nhân viên thu ngân đã đưa tiền cho anh ta và anh ta rời khỏi ngân hàng."
+        },
+        {
+          "id": "G",
+          "text": "Bị cáo tìm thấy một chiếc ví bị đánh rơi trên đường. Anh ta lấy tiền và thẻ từ chiếc ví và ném nó vào thùng rác."
+        },
+        {
+          "id": "H",
+          "text": "Bị cáo đi vào một cửa hàng và yêu cầu thu ngân cho xem một chiếc vòng cổ. Khi thu ngân quay lưng để lấy chiếc vòng cổ, bị cáo lấy tiền từ máy tính tiền và chạy trốn."
+        },
+        {
+          "id": "I",
+          "text": "Bị cáo mở khóa cửa căn hộ. Tiếng động làm giật mình người thuê nhà đang ngủ. Bị cáo khống chế người thuê nhà, trói anh ta lại và ép buộc anh ta tiết lộ nơi cất tiền. Người thuê nhà bảo bị cáo tìm trong tủ bếp, và bị cáo đã làm theo. Bị cáo tìm thấy 120$ tiền mặt, lấy số tiền đó và rời khỏi căn hộ."
+        },
+        {
+          "id": "J",
+          "text": null
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-E",
+      "final_label": "TRA-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "is_annotated": true,
+      "metadata": {
+        "category": "law",
+        "src": "ori_mmlu-professional_law",
+        "question_id_src": 1887
+      }
+    }
+  }
+]

@@ -1,0 +1,2380 @@
+[
+  {
+    "sample_id": "seaexam_601",
+    "question": "Một trong những nội dung của bình đẳng trong kinh doanh là mọi chủ thể kinh tế khi tiến hành hoạt động kinh doanh đều được",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_601",
+      "question": "Một trong những nội dung của bình đẳng trong kinh doanh là mọi chủ thể kinh tế khi tiến hành hoạt động kinh doanh đều được",
+      "options": [
+        {
+          "id": "A",
+          "text": "chủ động tìm kiếm thị trường."
+        },
+        {
+          "id": "B",
+          "text": "từ chối hoạt động kiểm toán."
+        },
+        {
+          "id": "C",
+          "text": "quyết toán ngân sách quốc gia."
+        },
+        {
+          "id": "D",
+          "text": "thu hồi trái phiếu chính phủ."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.079Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_601",
+      "question": "Một trong những nội dung của bình đẳng trong kinh doanh là mọi chủ thể kinh tế khi tiến hành hoạt động kinh doanh đều được",
+      "options": [
+        {
+          "id": "A",
+          "text": "chủ động tìm kiếm thị trường."
+        },
+        {
+          "id": "B",
+          "text": "từ chối hoạt động kiểm toán."
+        },
+        {
+          "id": "C",
+          "text": "quyết toán ngân sách quốc gia."
+        },
+        {
+          "id": "D",
+          "text": "thu hồi trái phiếu chính phủ."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T05:12:12.816Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_605",
+    "question": "Vùng có mật độ dân số cao nhất ở nước ta hiện nay là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_605",
+      "question": "Vùng có mật độ dân số cao nhất ở nước ta hiện nay là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đông Nam Bộ."
+        },
+        {
+          "id": "B",
+          "text": "Tây Nguyên."
+        },
+        {
+          "id": "C",
+          "text": "Đồng bằng sông Hồng."
+        },
+        {
+          "id": "D",
+          "text": "Đồng bằng sông Cửu Long."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.079Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_605",
+      "question": "Vùng có mật độ dân số cao nhất ở nước ta hiện nay là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đông Nam Bộ."
+        },
+        {
+          "id": "B",
+          "text": "Tây Nguyên."
+        },
+        {
+          "id": "C",
+          "text": "Đồng bằng sông Hồng."
+        },
+        {
+          "id": "D",
+          "text": "Đồng bằng sông Cửu Long."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T05:12:12.816Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_612",
+    "question": "“Bất kì đàn ông, đàn bà, người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu tổ quốc”, đoạn trích trên được nêu trong",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_612",
+      "question": "“Bất kì đàn ông, đàn bà, người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu tổ quốc”, đoạn trích trên được nêu trong",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác phẩm kháng chiến nhất định thắng lợi."
+        },
+        {
+          "id": "B",
+          "text": "Đường lối kháng chiến của đảng ta."
+        },
+        {
+          "id": "C",
+          "text": "Lời kêu gọi toàn quốc kháng chiến."
+        },
+        {
+          "id": "D",
+          "text": "Chỉ thị toàn dân kháng chiến."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.079Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_612",
+      "question": "“Bất kì đàn ông, đàn bà, người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu tổ quốc”, đoạn trích trên được nêu trong",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác phẩm kháng chiến nhất định thắng lợi."
+        },
+        {
+          "id": "B",
+          "text": "Đường lối kháng chiến của đảng ta."
+        },
+        {
+          "id": "C",
+          "text": "Lời kêu gọi toàn quốc kháng chiến."
+        },
+        {
+          "id": "D",
+          "text": "Chỉ thị toàn dân kháng chiến."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T05:12:12.816Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_628",
+    "question": "Việc đa dạng hóa sản phẩm công nghiệp của nước ta chủ yếu nhằm",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-UNK",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_628",
+      "question": "Việc đa dạng hóa sản phẩm công nghiệp của nước ta chủ yếu nhằm",
+      "options": [
+        {
+          "id": "A",
+          "text": "tận dụng thế mạnh lao động."
+        },
+        {
+          "id": "B",
+          "text": "đáp ứng nhu cầu thị trường."
+        },
+        {
+          "id": "C",
+          "text": "góp phần phát triển xuất khẩu."
+        },
+        {
+          "id": "D",
+          "text": "khai thác thế mạnh về tự nhiên."
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.079Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_628",
+      "question": "Việc đa dạng hóa sản phẩm công nghiệp của nước ta chủ yếu nhằm",
+      "options": [
+        {
+          "id": "A",
+          "text": "tận dụng thế mạnh lao động."
+        },
+        {
+          "id": "B",
+          "text": "đáp ứng nhu cầu thị trường."
+        },
+        {
+          "id": "C",
+          "text": "góp phần phát triển xuất khẩu."
+        },
+        {
+          "id": "D",
+          "text": "khai thác thế mạnh về tự nhiên."
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "UNK",
+      "final_label": "NAT-UNK",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T05:12:12.817Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_653",
+    "question": "Tính chất dân chủ của các xô viết ở Nghệ An và Hà Tĩnh (1930-1931) biểu hiện qua một trong những hoạt động nào sau đây?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_653",
+      "question": "Tính chất dân chủ của các xô viết ở Nghệ An và Hà Tĩnh (1930-1931) biểu hiện qua một trong những hoạt động nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thành lập chính quyền cách mạng của nhân dân, do nhân dân bầu ra."
+        },
+        {
+          "id": "B",
+          "text": "Xóa bỏ quyền chiếm hữu ruộng đất của giai cấp địa chủ phong kiến."
+        },
+        {
+          "id": "C",
+          "text": "Xóa bỏ các giai cấp bóc lột, đưa công nông lên nắm chính quyền."
+        },
+        {
+          "id": "D",
+          "text": "Thực hiện chính sách đảm bảo quyền lợi về văn hóa cho nhân dân."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_653",
+      "question": "Tính chất dân chủ của các xô viết ở Nghệ An và Hà Tĩnh (1930-1931) biểu hiện qua một trong những hoạt động nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thành lập chính quyền cách mạng của nhân dân, do nhân dân bầu ra."
+        },
+        {
+          "id": "B",
+          "text": "Xóa bỏ quyền chiếm hữu ruộng đất của giai cấp địa chủ phong kiến."
+        },
+        {
+          "id": "C",
+          "text": "Xóa bỏ các giai cấp bóc lột, đưa công nông lên nắm chính quyền."
+        },
+        {
+          "id": "D",
+          "text": "Thực hiện chính sách đảm bảo quyền lợi về văn hóa cho nhân dân."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T05:12:12.817Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_682",
+    "question": "Một trong những mặt tiêu cực của toàn cầu hóa là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_682",
+      "question": "Một trong những mặt tiêu cực của toàn cầu hóa là",
+      "options": [
+        {
+          "id": "A",
+          "text": "tạo ra nguy cơ đánh mất bản sắc dân tộc."
+        },
+        {
+          "id": "B",
+          "text": "hạn chế sự tăng trưởng kinh tế."
+        },
+        {
+          "id": "C",
+          "text": "kìm hãm sự phát triển của lực lượng sản xuất."
+        },
+        {
+          "id": "D",
+          "text": "hạn chế sự chuyển biến về cơ cấu kinh tế."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_682",
+      "question": "Một trong những mặt tiêu cực của toàn cầu hóa là",
+      "options": [
+        {
+          "id": "A",
+          "text": "tạo ra nguy cơ đánh mất bản sắc dân tộc."
+        },
+        {
+          "id": "B",
+          "text": "hạn chế sự tăng trưởng kinh tế."
+        },
+        {
+          "id": "C",
+          "text": "kìm hãm sự phát triển của lực lượng sản xuất."
+        },
+        {
+          "id": "D",
+          "text": "hạn chế sự chuyển biến về cơ cấu kinh tế."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_691",
+    "question": "Hiện nay, trụ sở của Hiệp hội các quốc gia Đông Nam Á (ASEAN) đặt ở thành phố nào?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_691",
+      "question": "Hiện nay, trụ sở của Hiệp hội các quốc gia Đông Nam Á (ASEAN) đặt ở thành phố nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Viêng Chăn (Lào)."
+        },
+        {
+          "id": "B",
+          "text": "Hà Nội (Việt Nam)."
+        },
+        {
+          "id": "C",
+          "text": "Gia-các-ta (In-đô-nê-xi-a)."
+        },
+        {
+          "id": "D",
+          "text": "Phnôm Pênh (Cam-pu-chia)."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_691",
+      "question": "Hiện nay, trụ sở của Hiệp hội các quốc gia Đông Nam Á (ASEAN) đặt ở thành phố nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Viêng Chăn (Lào)."
+        },
+        {
+          "id": "B",
+          "text": "Hà Nội (Việt Nam)."
+        },
+        {
+          "id": "C",
+          "text": "Gia-các-ta (In-đô-nê-xi-a)."
+        },
+        {
+          "id": "D",
+          "text": "Phnôm Pênh (Cam-pu-chia)."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_703",
+    "question": "Cánh đồng muối Cà Ná ở nước ta thuộc tỉnh nào sau đây?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_703",
+      "question": "Cánh đồng muối Cà Ná ở nước ta thuộc tỉnh nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ninh Thuận."
+        },
+        {
+          "id": "B",
+          "text": "Bình Thuận."
+        },
+        {
+          "id": "C",
+          "text": "Khánh Hòa."
+        },
+        {
+          "id": "D",
+          "text": "Bà Rịa-Vũng Tàu."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_703",
+      "question": "Cánh đồng muối Cà Ná ở nước ta thuộc tỉnh nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ninh Thuận."
+        },
+        {
+          "id": "B",
+          "text": "Bình Thuận."
+        },
+        {
+          "id": "C",
+          "text": "Khánh Hòa."
+        },
+        {
+          "id": "D",
+          "text": "Bà Rịa-Vũng Tàu."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_706",
+    "question": "Dân cư và lao động ở Đông Nam Bộ không có đặc điểm nào sau đây?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_706",
+      "question": "Dân cư và lao động ở Đông Nam Bộ không có đặc điểm nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lao động lành nghề đông đảo."
+        },
+        {
+          "id": "B",
+          "text": "Tỉ lệ dân thành thị cao."
+        },
+        {
+          "id": "C",
+          "text": "Mật độ dân số thấp hơn cả nước."
+        },
+        {
+          "id": "D",
+          "text": "Lực lượng lao động đồi dào."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_706",
+      "question": "Dân cư và lao động ở Đông Nam Bộ không có đặc điểm nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lao động lành nghề đông đảo."
+        },
+        {
+          "id": "B",
+          "text": "Tỉ lệ dân thành thị cao."
+        },
+        {
+          "id": "C",
+          "text": "Mật độ dân số thấp hơn cả nước."
+        },
+        {
+          "id": "D",
+          "text": "Lực lượng lao động đồi dào."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_715",
+    "question": "Phát biểu nào sau đây không đúng về đô thị hóa ở nước ta?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_715",
+      "question": "Phát biểu nào sau đây không đúng về đô thị hóa ở nước ta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trình độ đô thị hóa chưa cao."
+        },
+        {
+          "id": "B",
+          "text": "Phân bố đô thị đồng đều cả nước."
+        },
+        {
+          "id": "C",
+          "text": "Quá trình đô thị hóa diễn ra chậm."
+        },
+        {
+          "id": "D",
+          "text": "Tỉ lệ dân đô thị có xu hướng tăng."
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_715",
+      "question": "Phát biểu nào sau đây không đúng về đô thị hóa ở nước ta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trình độ đô thị hóa chưa cao."
+        },
+        {
+          "id": "B",
+          "text": "Phân bố đô thị đồng đều cả nước."
+        },
+        {
+          "id": "C",
+          "text": "Quá trình đô thị hóa diễn ra chậm."
+        },
+        {
+          "id": "D",
+          "text": "Tỉ lệ dân đô thị có xu hướng tăng."
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_724",
+    "question": "Cá nhân, tổ chức không làm những điều pháp luật cấm là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_724",
+      "question": "Cá nhân, tổ chức không làm những điều pháp luật cấm là",
+      "options": [
+        {
+          "id": "A",
+          "text": "tuân thủ pháp luật."
+        },
+        {
+          "id": "B",
+          "text": "phổ cập pháp luật."
+        },
+        {
+          "id": "C",
+          "text": "xây dựng pháp luật."
+        },
+        {
+          "id": "D",
+          "text": "ban hành pháp luật."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_724",
+      "question": "Cá nhân, tổ chức không làm những điều pháp luật cấm là",
+      "options": [
+        {
+          "id": "A",
+          "text": "tuân thủ pháp luật."
+        },
+        {
+          "id": "B",
+          "text": "phổ cập pháp luật."
+        },
+        {
+          "id": "C",
+          "text": "xây dựng pháp luật."
+        },
+        {
+          "id": "D",
+          "text": "ban hành pháp luật."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_727",
+    "question": "Tây Nguyên hiện nay phát triển mạnh",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_727",
+      "question": "Tây Nguyên hiện nay phát triển mạnh",
+      "options": [
+        {
+          "id": "A",
+          "text": "khu chế xuất, khu công nghệ cao."
+        },
+        {
+          "id": "B",
+          "text": "nuôi trồng thủy sản, chăn nuôi lợn."
+        },
+        {
+          "id": "C",
+          "text": "nhiệt điện, khai thác gỗ quý hiếm."
+        },
+        {
+          "id": "D",
+          "text": "thủy điện, trồng cây công nghiệp."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_727",
+      "question": "Tây Nguyên hiện nay phát triển mạnh",
+      "options": [
+        {
+          "id": "A",
+          "text": "khu chế xuất, khu công nghệ cao."
+        },
+        {
+          "id": "B",
+          "text": "nuôi trồng thủy sản, chăn nuôi lợn."
+        },
+        {
+          "id": "C",
+          "text": "nhiệt điện, khai thác gỗ quý hiếm."
+        },
+        {
+          "id": "D",
+          "text": "thủy điện, trồng cây công nghiệp."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_735",
+    "question": "Biện pháp hạn chế xói mòn đất ở đồi núi nước ta là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_735",
+      "question": "Biện pháp hạn chế xói mòn đất ở đồi núi nước ta là",
+      "options": [
+        {
+          "id": "A",
+          "text": "đẩy mạnh thâm canh."
+        },
+        {
+          "id": "B",
+          "text": "tiến hành tăng vụ."
+        },
+        {
+          "id": "C",
+          "text": "bón phân thích hợp."
+        },
+        {
+          "id": "D",
+          "text": "làm ruộng bậc thang."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_735",
+      "question": "Biện pháp hạn chế xói mòn đất ở đồi núi nước ta là",
+      "options": [
+        {
+          "id": "A",
+          "text": "đẩy mạnh thâm canh."
+        },
+        {
+          "id": "B",
+          "text": "tiến hành tăng vụ."
+        },
+        {
+          "id": "C",
+          "text": "bón phân thích hợp."
+        },
+        {
+          "id": "D",
+          "text": "làm ruộng bậc thang."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_739",
+    "question": "Bộ phận nào của vùng biển nước ta nằm phía bên trong đường cơ sở và tiếp giáp với đất liền?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_739",
+      "question": "Bộ phận nào của vùng biển nước ta nằm phía bên trong đường cơ sở và tiếp giáp với đất liền?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiếp giáp lãnh hải."
+        },
+        {
+          "id": "B",
+          "text": "Lãnh hải."
+        },
+        {
+          "id": "C",
+          "text": "Đặc quyền kinh tế."
+        },
+        {
+          "id": "D",
+          "text": "Nội thủy."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_739",
+      "question": "Bộ phận nào của vùng biển nước ta nằm phía bên trong đường cơ sở và tiếp giáp với đất liền?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiếp giáp lãnh hải."
+        },
+        {
+          "id": "B",
+          "text": "Lãnh hải."
+        },
+        {
+          "id": "C",
+          "text": "Đặc quyền kinh tế."
+        },
+        {
+          "id": "D",
+          "text": "Nội thủy."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_750",
+    "question": "Người có phẩm chất chí công vô tư luôn công bằng, không thiên vị, xuất phát từ lợi ích chung, đặt lợi ích chung lên trên lợi ích cá nhân và",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-L",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_750",
+      "question": "Người có phẩm chất chí công vô tư luôn công bằng, không thiên vị, xuất phát từ lợi ích chung, đặt lợi ích chung lên trên lợi ích cá nhân và",
+      "options": [
+        {
+          "id": "A",
+          "text": "thường xuyên coi trọng tình cảm riêng tư."
+        },
+        {
+          "id": "B",
+          "text": "đặt mọi quyền lợi của mình lên hàng đầu."
+        },
+        {
+          "id": "C",
+          "text": "đề cao tất cả nhu cầu cá nhân."
+        },
+        {
+          "id": "D",
+          "text": "giải quyết công việc theo lẽ phải."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-L",
+      "final_label": "NAT-CS-L",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_750",
+      "question": "Người có phẩm chất chí công vô tư luôn công bằng, không thiên vị, xuất phát từ lợi ích chung, đặt lợi ích chung lên trên lợi ích cá nhân và",
+      "options": [
+        {
+          "id": "A",
+          "text": "thường xuyên coi trọng tình cảm riêng tư."
+        },
+        {
+          "id": "B",
+          "text": "đặt mọi quyền lợi của mình lên hàng đầu."
+        },
+        {
+          "id": "C",
+          "text": "đề cao tất cả nhu cầu cá nhân."
+        },
+        {
+          "id": "D",
+          "text": "giải quyết công việc theo lẽ phải."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_760",
+    "question": "Thuận lợi chủ yếu của nước ta về tự nhiên để phát triển nuôi trồng hải sản là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_760",
+      "question": "Thuận lợi chủ yếu của nước ta về tự nhiên để phát triển nuôi trồng hải sản là",
+      "options": [
+        {
+          "id": "A",
+          "text": "có vịnh, bãi triều và rừng ngập mặn."
+        },
+        {
+          "id": "B",
+          "text": "nhiều cửa sông rộng và ở gần nhau."
+        },
+        {
+          "id": "C",
+          "text": "nhiều đầm phá, ô trũng ở đồng bằng."
+        },
+        {
+          "id": "D",
+          "text": "có nhiều sông suối và các hồ rộng."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_760",
+      "question": "Thuận lợi chủ yếu của nước ta về tự nhiên để phát triển nuôi trồng hải sản là",
+      "options": [
+        {
+          "id": "A",
+          "text": "có vịnh, bãi triều và rừng ngập mặn."
+        },
+        {
+          "id": "B",
+          "text": "nhiều cửa sông rộng và ở gần nhau."
+        },
+        {
+          "id": "C",
+          "text": "nhiều đầm phá, ô trũng ở đồng bằng."
+        },
+        {
+          "id": "D",
+          "text": "có nhiều sông suối và các hồ rộng."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_776",
+    "question": "Biện pháp chủ yếu ứng phó với hạn mặn trong nông nghiệp ở Đồng bằng sông Cửu Long là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_776",
+      "question": "Biện pháp chủ yếu ứng phó với hạn mặn trong nông nghiệp ở Đồng bằng sông Cửu Long là",
+      "options": [
+        {
+          "id": "A",
+          "text": "thúc đẩy nuôi thủy sản, giảm diện tích lúa."
+        },
+        {
+          "id": "B",
+          "text": "đa dạng hóa sản xuất, phát triển chăn nuôi."
+        },
+        {
+          "id": "C",
+          "text": "thay đổi cơ cấu sản xuất, phát triển thủy lợi."
+        },
+        {
+          "id": "D",
+          "text": "tăng cường quy hoạch, sử dụng đất hợp lí."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_776",
+      "question": "Biện pháp chủ yếu ứng phó với hạn mặn trong nông nghiệp ở Đồng bằng sông Cửu Long là",
+      "options": [
+        {
+          "id": "A",
+          "text": "thúc đẩy nuôi thủy sản, giảm diện tích lúa."
+        },
+        {
+          "id": "B",
+          "text": "đa dạng hóa sản xuất, phát triển chăn nuôi."
+        },
+        {
+          "id": "C",
+          "text": "thay đổi cơ cấu sản xuất, phát triển thủy lợi."
+        },
+        {
+          "id": "D",
+          "text": "tăng cường quy hoạch, sử dụng đất hợp lí."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_794",
+    "question": "Duyên hải Nam Trung Bộ hiện nay phát triển mạnh",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_794",
+      "question": "Duyên hải Nam Trung Bộ hiện nay phát triển mạnh",
+      "options": [
+        {
+          "id": "A",
+          "text": "khai thác than nâu, điện mặt trời."
+        },
+        {
+          "id": "B",
+          "text": "đánh bắt gần bờ, sản xuất muối."
+        },
+        {
+          "id": "C",
+          "text": "cây ăn quả ôn đới, nuôi gia cầm."
+        },
+        {
+          "id": "D",
+          "text": "đánh bắt xa bờ, du lịch biển đảo."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_794",
+      "question": "Duyên hải Nam Trung Bộ hiện nay phát triển mạnh",
+      "options": [
+        {
+          "id": "A",
+          "text": "khai thác than nâu, điện mặt trời."
+        },
+        {
+          "id": "B",
+          "text": "đánh bắt gần bờ, sản xuất muối."
+        },
+        {
+          "id": "C",
+          "text": "cây ăn quả ôn đới, nuôi gia cầm."
+        },
+        {
+          "id": "D",
+          "text": "đánh bắt xa bờ, du lịch biển đảo."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_802",
+    "question": "Biện pháp chủ yếu để tăng rừng đặc dụng ở Tây Nguyên là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_802",
+      "question": "Biện pháp chủ yếu để tăng rừng đặc dụng ở Tây Nguyên là",
+      "options": [
+        {
+          "id": "A",
+          "text": "bảo vệ rừng, giao đất, giao rừng cho dân."
+        },
+        {
+          "id": "B",
+          "text": "trồng rừng mới, đẩy mạnh khoanh nuôi."
+        },
+        {
+          "id": "C",
+          "text": "phòng chống cháy rừng, đốt cây làm rẫy."
+        },
+        {
+          "id": "D",
+          "text": "lập vườn quốc gia, ngăn chặn phá rừng."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_802",
+      "question": "Biện pháp chủ yếu để tăng rừng đặc dụng ở Tây Nguyên là",
+      "options": [
+        {
+          "id": "A",
+          "text": "bảo vệ rừng, giao đất, giao rừng cho dân."
+        },
+        {
+          "id": "B",
+          "text": "trồng rừng mới, đẩy mạnh khoanh nuôi."
+        },
+        {
+          "id": "C",
+          "text": "phòng chống cháy rừng, đốt cây làm rẫy."
+        },
+        {
+          "id": "D",
+          "text": "lập vườn quốc gia, ngăn chặn phá rừng."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_809",
+    "question": "Lãnh đạo thành phố X đã chỉ đạo lắp đặt hệ thống lọc nước biển theo công nghệ hiện đại nhằm cung cấp nước sạch cho người dân. Lãnh đạo thành phố X đã tạo điều kiện để người dân hưởng quyền được phát triển ở nội dung nào sau đây?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_809",
+      "question": "Lãnh đạo thành phố X đã chỉ đạo lắp đặt hệ thống lọc nước biển theo công nghệ hiện đại nhằm cung cấp nước sạch cho người dân. Lãnh đạo thành phố X đã tạo điều kiện để người dân hưởng quyền được phát triển ở nội dung nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sử dụng nguồn quỹ bảo trợ xã hội."
+        },
+        {
+          "id": "B",
+          "text": "Thay đổi đồng bộ kết cấu hạ tầng."
+        },
+        {
+          "id": "C",
+          "text": "Có mức sống đầy đủ về vật chất."
+        },
+        {
+          "id": "D",
+          "text": "Chủ động xử lí công tác truyền thông."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_809",
+      "question": "Lãnh đạo thành phố X đã chỉ đạo lắp đặt hệ thống lọc nước biển theo công nghệ hiện đại nhằm cung cấp nước sạch cho người dân. Lãnh đạo thành phố X đã tạo điều kiện để người dân hưởng quyền được phát triển ở nội dung nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sử dụng nguồn quỹ bảo trợ xã hội."
+        },
+        {
+          "id": "B",
+          "text": "Thay đổi đồng bộ kết cấu hạ tầng."
+        },
+        {
+          "id": "C",
+          "text": "Có mức sống đầy đủ về vật chất."
+        },
+        {
+          "id": "D",
+          "text": "Chủ động xử lí công tác truyền thông."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_828",
+    "question": "Công ty X đẩy mạnh sản xuất máy in thế hệ mới đáp ứng kịp thời nhu cầu khách hàng và thu được lợi nhuận cao. Công ty X đã vận dụng chức năng nào dưới đây của thị trường?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_828",
+      "question": "Công ty X đẩy mạnh sản xuất máy in thế hệ mới đáp ứng kịp thời nhu cầu khách hàng và thu được lợi nhuận cao. Công ty X đã vận dụng chức năng nào dưới đây của thị trường?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thông tin."
+        },
+        {
+          "id": "B",
+          "text": "Tham vấn."
+        },
+        {
+          "id": "C",
+          "text": "Điều hành."
+        },
+        {
+          "id": "D",
+          "text": "Hoạch định."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_828",
+      "question": "Công ty X đẩy mạnh sản xuất máy in thế hệ mới đáp ứng kịp thời nhu cầu khách hàng và thu được lợi nhuận cao. Công ty X đã vận dụng chức năng nào dưới đây của thị trường?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thông tin."
+        },
+        {
+          "id": "B",
+          "text": "Tham vấn."
+        },
+        {
+          "id": "C",
+          "text": "Điều hành."
+        },
+        {
+          "id": "D",
+          "text": "Hoạch định."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_835",
+    "question": "Tổ chức Liên minh châu Âu (EU) là một liên minh",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_835",
+      "question": "Tổ chức Liên minh châu Âu (EU) là một liên minh",
+      "options": [
+        {
+          "id": "A",
+          "text": "kinh tế-chính trị."
+        },
+        {
+          "id": "B",
+          "text": "văn hóa, giáo dục, y tế."
+        },
+        {
+          "id": "C",
+          "text": "quân sự."
+        },
+        {
+          "id": "D",
+          "text": "quân sự-chính trị."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_835",
+      "question": "Tổ chức Liên minh châu Âu (EU) là một liên minh",
+      "options": [
+        {
+          "id": "A",
+          "text": "kinh tế-chính trị."
+        },
+        {
+          "id": "B",
+          "text": "văn hóa, giáo dục, y tế."
+        },
+        {
+          "id": "C",
+          "text": "quân sự."
+        },
+        {
+          "id": "D",
+          "text": "quân sự-chính trị."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_838",
+    "question": "Các dân tộc ít người nào sau đây sinh sống ở vùng Đồng bằng sông Cửu Long?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_838",
+      "question": "Các dân tộc ít người nào sau đây sinh sống ở vùng Đồng bằng sông Cửu Long?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khơ-me, Chăm, Hoa."
+        },
+        {
+          "id": "B",
+          "text": "Tày, Nùng, Thái."
+        },
+        {
+          "id": "C",
+          "text": "Gia-rai, Ê-đê, Ba-na."
+        },
+        {
+          "id": "D",
+          "text": "Thái, Dao, Mông."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_838",
+      "question": "Các dân tộc ít người nào sau đây sinh sống ở vùng Đồng bằng sông Cửu Long?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khơ-me, Chăm, Hoa."
+        },
+        {
+          "id": "B",
+          "text": "Tày, Nùng, Thái."
+        },
+        {
+          "id": "C",
+          "text": "Gia-rai, Ê-đê, Ba-na."
+        },
+        {
+          "id": "D",
+          "text": "Thái, Dao, Mông."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_839",
+    "question": "Để đẩy lùi nạn đói, biện pháp nào là quan trọng nhất",
+    "annotator_1": "Khang",
+    "label_1": "NAT-UNK",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_839",
+      "question": "Để đẩy lùi nạn đói, biện pháp nào là quan trọng nhất",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lập hũ gạo tiết kiệm."
+        },
+        {
+          "id": "B",
+          "text": "Chia lại ruộng công cho nông dân theo nguyên tắc công bằng và dân chủ ."
+        },
+        {
+          "id": "C",
+          "text": "Đẩy mạnh tăng gia sản xuất ."
+        },
+        {
+          "id": "D",
+          "text": "Tổ chức ngày đồng tâm để có thêm gạo cứu đói."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "UNK",
+      "final_label": "NAT-UNK",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_839",
+      "question": "Để đẩy lùi nạn đói, biện pháp nào là quan trọng nhất",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lập hũ gạo tiết kiệm."
+        },
+        {
+          "id": "B",
+          "text": "Chia lại ruộng công cho nông dân theo nguyên tắc công bằng và dân chủ ."
+        },
+        {
+          "id": "C",
+          "text": "Đẩy mạnh tăng gia sản xuất ."
+        },
+        {
+          "id": "D",
+          "text": "Tổ chức ngày đồng tâm để có thêm gạo cứu đói."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_840",
+    "question": "Hành vi nào sau đây của các chủ thể kinh tế thể hiện mặt tích cực của cạnh tranh trong sản xuất và lưu thông hàng hóa?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_840",
+      "question": "Hành vi nào sau đây của các chủ thể kinh tế thể hiện mặt tích cực của cạnh tranh trong sản xuất và lưu thông hàng hóa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chấm dứt việc luân chuyển tiền tệ."
+        },
+        {
+          "id": "B",
+          "text": "Thôn tính thị trường nội địa."
+        },
+        {
+          "id": "C",
+          "text": "Thúc đẩy hiện tượng lạm phát."
+        },
+        {
+          "id": "D",
+          "text": "Khai thác hiệu quả mọi nguồn lực."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_840",
+      "question": "Hành vi nào sau đây của các chủ thể kinh tế thể hiện mặt tích cực của cạnh tranh trong sản xuất và lưu thông hàng hóa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chấm dứt việc luân chuyển tiền tệ."
+        },
+        {
+          "id": "B",
+          "text": "Thôn tính thị trường nội địa."
+        },
+        {
+          "id": "C",
+          "text": "Thúc đẩy hiện tượng lạm phát."
+        },
+        {
+          "id": "D",
+          "text": "Khai thác hiệu quả mọi nguồn lực."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "civic",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_844",
+    "question": "I. Gagarin (Liên Xô) là người đầu tiên trên thế giới thực hiện thành công",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_844",
+      "question": "I. Gagarin (Liên Xô) là người đầu tiên trên thế giới thực hiện thành công",
+      "options": [
+        {
+          "id": "A",
+          "text": "hành trình chinh phục Mặt Trăng."
+        },
+        {
+          "id": "B",
+          "text": "chuyến bay vòng quanh Trái Đất."
+        },
+        {
+          "id": "C",
+          "text": "kế hoạch thám hiểm sao Mộc."
+        },
+        {
+          "id": "D",
+          "text": "hành trình khám phá sao Hỏa."
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_844",
+      "question": "I. Gagarin (Liên Xô) là người đầu tiên trên thế giới thực hiện thành công",
+      "options": [
+        {
+          "id": "A",
+          "text": "hành trình chinh phục Mặt Trăng."
+        },
+        {
+          "id": "B",
+          "text": "chuyến bay vòng quanh Trái Đất."
+        },
+        {
+          "id": "C",
+          "text": "kế hoạch thám hiểm sao Mộc."
+        },
+        {
+          "id": "D",
+          "text": "hành trình khám phá sao Hỏa."
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "history",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_850",
+    "question": "Yếu tố tự nhiên nào sau đây có ảnh hưởng đến tính thời vụ trong sản xuất nông nghiệp ở nước ta?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_850",
+      "question": "Yếu tố tự nhiên nào sau đây có ảnh hưởng đến tính thời vụ trong sản xuất nông nghiệp ở nước ta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khí hậu."
+        },
+        {
+          "id": "B",
+          "text": "Nguồn nước."
+        },
+        {
+          "id": "C",
+          "text": "Đất trồng."
+        },
+        {
+          "id": "D",
+          "text": "Sinh vật."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_850",
+      "question": "Yếu tố tự nhiên nào sau đây có ảnh hưởng đến tính thời vụ trong sản xuất nông nghiệp ở nước ta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khí hậu."
+        },
+        {
+          "id": "B",
+          "text": "Nguồn nước."
+        },
+        {
+          "id": "C",
+          "text": "Đất trồng."
+        },
+        {
+          "id": "D",
+          "text": "Sinh vật."
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "mid",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_851",
+    "question": "Khai thác hải sản ở Duyên hải Nam Trung Bộ phát triển dựa trên cơ sở chủ yếu là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_851",
+      "question": "Khai thác hải sản ở Duyên hải Nam Trung Bộ phát triển dựa trên cơ sở chủ yếu là",
+      "options": [
+        {
+          "id": "A",
+          "text": "nhiều cảng cá, hoạt động dịch vụ sôi động."
+        },
+        {
+          "id": "B",
+          "text": "các tỉnh đều giáp biển, lao động đông đảo."
+        },
+        {
+          "id": "C",
+          "text": "biển giàu sinh vật, có các ngư trường lớn."
+        },
+        {
+          "id": "D",
+          "text": "vùng biển rộng, có các quần đảo xa bờ."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_851",
+      "question": "Khai thác hải sản ở Duyên hải Nam Trung Bộ phát triển dựa trên cơ sở chủ yếu là",
+      "options": [
+        {
+          "id": "A",
+          "text": "nhiều cảng cá, hoạt động dịch vụ sôi động."
+        },
+        {
+          "id": "B",
+          "text": "các tỉnh đều giáp biển, lao động đông đảo."
+        },
+        {
+          "id": "C",
+          "text": "biển giàu sinh vật, có các ngư trường lớn."
+        },
+        {
+          "id": "D",
+          "text": "vùng biển rộng, có các quần đảo xa bờ."
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  },
+  {
+    "sample_id": "seaexam_852",
+    "question": "Thuận lợi chủ yếu đối với phát triển cây công nghiệp cận nhiệt ở Trung du và miền núi Bắc Bộ là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "ánh ngọc",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_852",
+      "question": "Thuận lợi chủ yếu đối với phát triển cây công nghiệp cận nhiệt ở Trung du và miền núi Bắc Bộ là",
+      "options": [
+        {
+          "id": "A",
+          "text": "nguồn nước mặt dồi dào nhiều nơi."
+        },
+        {
+          "id": "B",
+          "text": "có nhiều loại đất feralit khác nhau."
+        },
+        {
+          "id": "C",
+          "text": "diện tích rộng, nhiều kiểu địa hình."
+        },
+        {
+          "id": "D",
+          "text": "có mùa đông lạnh, nhiệt độ hạ thấp."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-05-29T14:29:16.080Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    },
+    "sample_2": {
+      "benchmark_name": "SEA-EXAM",
+      "sample_id": "seaexam_852",
+      "question": "Thuận lợi chủ yếu đối với phát triển cây công nghiệp cận nhiệt ở Trung du và miền núi Bắc Bộ là",
+      "options": [
+        {
+          "id": "A",
+          "text": "nguồn nước mặt dồi dào nhiều nơi."
+        },
+        {
+          "id": "B",
+          "text": "có nhiều loại đất feralit khác nhau."
+        },
+        {
+          "id": "C",
+          "text": "diện tích rộng, nhiều kiểu địa hình."
+        },
+        {
+          "id": "D",
+          "text": "có mùa đông lạnh, nhiệt độ hạ thấp."
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "ánh ngọc",
+      "rationale": "",
+      "timestamp": "2026-05-29T15:56:20.903Z",
+      "is_annotated": true,
+      "metadata": {
+        "language": "vietnamese",
+        "level": "high",
+        "sub_subject": "geography",
+        "subject": "social-science"
+      }
+    }
+  }
+]

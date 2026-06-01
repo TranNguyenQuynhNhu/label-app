@@ -1,10 +1,10 @@
 import json
 
 # Đọc 2 file annotation
-with open("Dong_400_labels.json", "r", encoding="utf-8") as f:
+with open("Dong_401-900_labels_mmlu.json", "r", encoding="utf-8") as f:
     data1 = json.load(f)
 
-with open("vy_400_labels.json", "r", encoding="utf-8") as f:
+with open("Vy_401-900_labels_mmlu.json", "r", encoding="utf-8") as f:
     data2 = json.load(f)
 
 # Map sample_id -> sample
