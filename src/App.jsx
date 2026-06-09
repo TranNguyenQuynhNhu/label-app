@@ -4,7 +4,7 @@ import { Download, ChevronRight, ChevronLeft, Trash2, CheckCircle2, Info, BookOp
 // 1. Import chính xác 3 nguồn dữ liệu
 import MMLU_PROX from './data/mmlu_prox.json';
 import SEA_EXAM from './data/seaexam.json';
-import VMLU from './data/vmlu.json';
+import VMLU from './data/vi-mqa_answers_pass1.json';
 import GLOBAL_MMLU from './data/global_mmlu.json';
 // 2. Gộp tất cả dữ liệu và gán benchmark_name[cite: 3, 4]
 const ALL_MOCK_DATA = [
