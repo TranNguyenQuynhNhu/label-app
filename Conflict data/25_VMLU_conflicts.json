@@ -1,0 +1,1802 @@
+[
+  {
+    "sample_id": "31-0138",
+    "question": "Hội những người cựu chiến binh thuộc tổ chức:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0138",
+      "question": "Hội những người cựu chiến binh thuộc tổ chức:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Các nhóm uy quyền"
+        },
+        {
+          "id": "B",
+          "text": "Hiệp hội tự nguyện"
+        },
+        {
+          "id": "C",
+          "text": "Tổ chức khu biệt"
+        },
+        {
+          "id": "D",
+          "text": "Tất cả đều đúng"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.372Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0138",
+      "question": "Hội những người cựu chiến binh thuộc tổ chức:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Các nhóm uy quyền"
+        },
+        {
+          "id": "B",
+          "text": "Hiệp hội tự nguyện"
+        },
+        {
+          "id": "C",
+          "text": "Tổ chức khu biệt"
+        },
+        {
+          "id": "D",
+          "text": "Tất cả đều đúng"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.372Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "31-0170",
+    "question": "Hệ thống đẳng cấp của Ấn Độ dựa trên cơ sở:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-P",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0170",
+      "question": "Hệ thống đẳng cấp của Ấn Độ dựa trên cơ sở:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn giáo"
+        },
+        {
+          "id": "B",
+          "text": "Chủng tộc"
+        },
+        {
+          "id": "C",
+          "text": "Tộc người"
+        },
+        {
+          "id": "D",
+          "text": "Trình độ giáo dục"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0170",
+      "question": "Hệ thống đẳng cấp của Ấn Độ dựa trên cơ sở:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn giáo"
+        },
+        {
+          "id": "B",
+          "text": "Chủng tộc"
+        },
+        {
+          "id": "C",
+          "text": "Tộc người"
+        },
+        {
+          "id": "D",
+          "text": "Trình độ giáo dục"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-P",
+      "final_label": "NAT-CS-P",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "31-0173",
+    "question": "Phân tầng xã hội theo truyền thống trước đây ở Ấn Độ (phân chia xã hội Ấn Độ thành 5 tầng lớp và giai cấp) dựa trên yếu tố nào?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-P",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0173",
+      "question": "Phân tầng xã hội theo truyền thống trước đây ở Ấn Độ (phân chia xã hội Ấn Độ thành 5 tầng lớp và giai cấp) dựa trên yếu tố nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn giáo"
+        },
+        {
+          "id": "B",
+          "text": "Chính trị"
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế"
+        },
+        {
+          "id": "D",
+          "text": "Quyền lực"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0173",
+      "question": "Phân tầng xã hội theo truyền thống trước đây ở Ấn Độ (phân chia xã hội Ấn Độ thành 5 tầng lớp và giai cấp) dựa trên yếu tố nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn giáo"
+        },
+        {
+          "id": "B",
+          "text": "Chính trị"
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế"
+        },
+        {
+          "id": "D",
+          "text": "Quyền lực"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-P",
+      "final_label": "NAT-CS-P",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "31-0176",
+    "question": "Phân tầng xã hội theo chế độ Apartheid Nam Phi trước đây dựa trên cơ sở?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-P",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0176",
+      "question": "Phân tầng xã hội theo chế độ Apartheid Nam Phi trước đây dựa trên cơ sở?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủng tộc"
+        },
+        {
+          "id": "B",
+          "text": "Chế độ nô lệ"
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế"
+        },
+        {
+          "id": "D",
+          "text": "Giai cấp"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0176",
+      "question": "Phân tầng xã hội theo chế độ Apartheid Nam Phi trước đây dựa trên cơ sở?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủng tộc"
+        },
+        {
+          "id": "B",
+          "text": "Chế độ nô lệ"
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế"
+        },
+        {
+          "id": "D",
+          "text": "Giai cấp"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-P",
+      "final_label": "NAT-CS-P",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "31-0199",
+    "question": "Tục thờ cúng ông bà của người Việt Nam được liệt vào loại hình văn hóa sau:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CA",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-P",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0199",
+      "question": "Tục thờ cúng ông bà của người Việt Nam được liệt vào loại hình văn hóa sau:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tư tưởng"
+        },
+        {
+          "id": "B",
+          "text": "Tình cảm"
+        },
+        {
+          "id": "C",
+          "text": "Văn hóa tinh thần"
+        },
+        {
+          "id": "D",
+          "text": "Câu A và C đều đúng"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "31-0199",
+      "question": "Tục thờ cúng ông bà của người Việt Nam được liệt vào loại hình văn hóa sau:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tư tưởng"
+        },
+        {
+          "id": "B",
+          "text": "Tình cảm"
+        },
+        {
+          "id": "C",
+          "text": "Văn hóa tinh thần"
+        },
+        {
+          "id": "D",
+          "text": "Câu A và C đều đúng"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-P",
+      "final_label": "NAT-CS-P",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "25-0062",
+    "question": "Phát biểu nào sau đây đúng về Đông Nam Á lục địa?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0062",
+      "question": "Phát biểu nào sau đây đúng về Đông Nam Á lục địa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mưa lớn thường xuyên quanh năm"
+        },
+        {
+          "id": "B",
+          "text": "Nền nhiệt cao đều, không phân hóa"
+        },
+        {
+          "id": "C",
+          "text": "Có khí hậu chủ yếu là cận xích đạo"
+        },
+        {
+          "id": "D",
+          "text": "Nhiệt đới ẩm gió mùa chiếm ưu thế"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0062",
+      "question": "Phát biểu nào sau đây đúng về Đông Nam Á lục địa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mưa lớn thường xuyên quanh năm"
+        },
+        {
+          "id": "B",
+          "text": "Nền nhiệt cao đều, không phân hóa"
+        },
+        {
+          "id": "C",
+          "text": "Có khí hậu chủ yếu là cận xích đạo"
+        },
+        {
+          "id": "D",
+          "text": "Nhiệt đới ẩm gió mùa chiếm ưu thế"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "25-0072",
+    "question": "Giải pháp chủ yếu để các nước Đông Nam Á tích lũy vốn cho công nghiệp hóa là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0072",
+      "question": "Giải pháp chủ yếu để các nước Đông Nam Á tích lũy vốn cho công nghiệp hóa là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liên kết với nước ngoài, đẩy mạnh xuất khẩu"
+        },
+        {
+          "id": "B",
+          "text": "Hoàn thiện cơ sở hạ tầng, phát triển hàng hóa"
+        },
+        {
+          "id": "C",
+          "text": "Tăng khai thác tài nguyên, mở rộng dịch vụ"
+        },
+        {
+          "id": "D",
+          "text": "Đầu tư trang bị máy móc, đổi mới công nghệ"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0072",
+      "question": "Giải pháp chủ yếu để các nước Đông Nam Á tích lũy vốn cho công nghiệp hóa là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Liên kết với nước ngoài, đẩy mạnh xuất khẩu"
+        },
+        {
+          "id": "B",
+          "text": "Hoàn thiện cơ sở hạ tầng, phát triển hàng hóa"
+        },
+        {
+          "id": "C",
+          "text": "Tăng khai thác tài nguyên, mở rộng dịch vụ"
+        },
+        {
+          "id": "D",
+          "text": "Đầu tư trang bị máy móc, đổi mới công nghệ"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "25-0108",
+    "question": "Công nghiệp chế biến thực phẩm phân bố rộng khắp các nước Đông Nam Á là do nguyên nhân chủ yếu nào sau đây?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0108",
+      "question": "Công nghiệp chế biến thực phẩm phân bố rộng khắp các nước Đông Nam Á là do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cơ sở vật chất kĩ thuật tương đối tốt"
+        },
+        {
+          "id": "B",
+          "text": "Cơ sở hạ tầng ngày càng hiện đại"
+        },
+        {
+          "id": "C",
+          "text": "Chất lượng lao động ngày càng cao"
+        },
+        {
+          "id": "D",
+          "text": "Nguồn nguyên liệu tại chỗ phong phú"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0108",
+      "question": "Công nghiệp chế biến thực phẩm phân bố rộng khắp các nước Đông Nam Á là do nguyên nhân chủ yếu nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cơ sở vật chất kĩ thuật tương đối tốt"
+        },
+        {
+          "id": "B",
+          "text": "Cơ sở hạ tầng ngày càng hiện đại"
+        },
+        {
+          "id": "C",
+          "text": "Chất lượng lao động ngày càng cao"
+        },
+        {
+          "id": "D",
+          "text": "Nguồn nguyên liệu tại chỗ phong phú"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.373Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "25-0190",
+    "question": "Hệ thống đảo của nước ta",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0190",
+      "question": "Hệ thống đảo của nước ta",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hoàn toàn là đảo ven bờ có diện tích lớn"
+        },
+        {
+          "id": "B",
+          "text": "Hầu hết là đảo lớn có số dân đông đúc"
+        },
+        {
+          "id": "C",
+          "text": "Có nhiều thuận lợi cho phát triển thủy sản"
+        },
+        {
+          "id": "D",
+          "text": "Là nơi có rất nhiều thế mạnh khai khoáng"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "25-0190",
+      "question": "Hệ thống đảo của nước ta",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hoàn toàn là đảo ven bờ có diện tích lớn"
+        },
+        {
+          "id": "B",
+          "text": "Hầu hết là đảo lớn có số dân đông đúc"
+        },
+        {
+          "id": "C",
+          "text": "Có nhiều thuận lợi cho phát triển thủy sản"
+        },
+        {
+          "id": "D",
+          "text": "Là nơi có rất nhiều thế mạnh khai khoáng"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0055",
+    "question": "Hai trung tâm dịch vụ lớn và đa dạng nhất trước ta là:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0055",
+      "question": "Hai trung tâm dịch vụ lớn và đa dạng nhất trước ta là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hà Nội, Hải Phòng"
+        },
+        {
+          "id": "B",
+          "text": "Đà Nẵng, Hải Phòng"
+        },
+        {
+          "id": "C",
+          "text": "Hải Phòng, TP Hồ Chí Minh"
+        },
+        {
+          "id": "D",
+          "text": "Hà Nội, TP Hồ Chí Minh"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0055",
+      "question": "Hai trung tâm dịch vụ lớn và đa dạng nhất trước ta là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hà Nội, Hải Phòng"
+        },
+        {
+          "id": "B",
+          "text": "Đà Nẵng, Hải Phòng"
+        },
+        {
+          "id": "C",
+          "text": "Hải Phòng, TP Hồ Chí Minh"
+        },
+        {
+          "id": "D",
+          "text": "Hà Nội, TP Hồ Chí Minh"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0068",
+    "question": "Các trung tâm công nghiệp chủ yếu của DHNTB là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0068",
+      "question": "Các trung tâm công nghiệp chủ yếu của DHNTB là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đà Nẵng, Quy Nhơn, Phan Thiết"
+        },
+        {
+          "id": "B",
+          "text": "Nha Trang, Hạ Long, Phan Thiết"
+        },
+        {
+          "id": "C",
+          "text": "Đà Nẵng, Thuận An, Phan Thiết"
+        },
+        {
+          "id": "D",
+          "text": "Đà Nẵng, Quy Nhơn, Vũng Tàu"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0068",
+      "question": "Các trung tâm công nghiệp chủ yếu của DHNTB là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đà Nẵng, Quy Nhơn, Phan Thiết"
+        },
+        {
+          "id": "B",
+          "text": "Nha Trang, Hạ Long, Phan Thiết"
+        },
+        {
+          "id": "C",
+          "text": "Đà Nẵng, Thuận An, Phan Thiết"
+        },
+        {
+          "id": "D",
+          "text": "Đà Nẵng, Quy Nhơn, Vũng Tàu"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0082",
+    "question": "Yếu tố đất đai của ĐBSH thuận lợi cho phát triển cây",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0082",
+      "question": "Yếu tố đất đai của ĐBSH thuận lợi cho phát triển cây",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lúa nước"
+        },
+        {
+          "id": "B",
+          "text": "Lúa mì"
+        },
+        {
+          "id": "C",
+          "text": "Lâu năm"
+        },
+        {
+          "id": "D",
+          "text": "Hàng năm"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0082",
+      "question": "Yếu tố đất đai của ĐBSH thuận lợi cho phát triển cây",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lúa nước"
+        },
+        {
+          "id": "B",
+          "text": "Lúa mì"
+        },
+        {
+          "id": "C",
+          "text": "Lâu năm"
+        },
+        {
+          "id": "D",
+          "text": "Hàng năm"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0086",
+    "question": "Giới hạn của vùng Bắc Trung Bộ từ:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-H",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0086",
+      "question": "Giới hạn của vùng Bắc Trung Bộ từ:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tam Điệp - Bạch Mã"
+        },
+        {
+          "id": "B",
+          "text": "Hoành Sơn - Bạch Mã"
+        },
+        {
+          "id": "C",
+          "text": "Sông Hồng - Bạch Mã"
+        },
+        {
+          "id": "D",
+          "text": "Sông Cả - Sông Chu"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0086",
+      "question": "Giới hạn của vùng Bắc Trung Bộ từ:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tam Điệp - Bạch Mã"
+        },
+        {
+          "id": "B",
+          "text": "Hoành Sơn - Bạch Mã"
+        },
+        {
+          "id": "C",
+          "text": "Sông Hồng - Bạch Mã"
+        },
+        {
+          "id": "D",
+          "text": "Sông Cả - Sông Chu"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0092",
+    "question": "Hai trung tâm du lịch quan trọng của DHNTB là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0092",
+      "question": "Hai trung tâm du lịch quan trọng của DHNTB là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đà Nẵng, Khánh Hòa"
+        },
+        {
+          "id": "B",
+          "text": "Nha Trang, Bình Thuận"
+        },
+        {
+          "id": "C",
+          "text": "Thanh Hóa, Nghệ An"
+        },
+        {
+          "id": "D",
+          "text": "Quảng Nam, Quảng Ngãi"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0092",
+      "question": "Hai trung tâm du lịch quan trọng của DHNTB là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đà Nẵng, Khánh Hòa"
+        },
+        {
+          "id": "B",
+          "text": "Nha Trang, Bình Thuận"
+        },
+        {
+          "id": "C",
+          "text": "Thanh Hóa, Nghệ An"
+        },
+        {
+          "id": "D",
+          "text": "Quảng Nam, Quảng Ngãi"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0093",
+    "question": "Các trung tâm kinh tế quan trọng nhất của Duyên hải nam Trung Bộ là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0093",
+      "question": "Các trung tâm kinh tế quan trọng nhất của Duyên hải nam Trung Bộ là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Huế, Tam Kỳ, Quảng Ngãi"
+        },
+        {
+          "id": "B",
+          "text": "Tuy Hòa, Phan Rang – Tháp Chàm, Phan Thiết"
+        },
+        {
+          "id": "C",
+          "text": "Hội An, Vĩnh Hảo, Mũi Né"
+        },
+        {
+          "id": "D",
+          "text": "Đà Nẵng, Quy Nhơn, Nha Trang"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0093",
+      "question": "Các trung tâm kinh tế quan trọng nhất của Duyên hải nam Trung Bộ là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Huế, Tam Kỳ, Quảng Ngãi"
+        },
+        {
+          "id": "B",
+          "text": "Tuy Hòa, Phan Rang – Tháp Chàm, Phan Thiết"
+        },
+        {
+          "id": "C",
+          "text": "Hội An, Vĩnh Hảo, Mũi Né"
+        },
+        {
+          "id": "D",
+          "text": "Đà Nẵng, Quy Nhơn, Nha Trang"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0105",
+    "question": "Các trung tâm kinh tế quan trọng của vùng Bắc Trung Bộ là:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0105",
+      "question": "Các trung tâm kinh tế quan trọng của vùng Bắc Trung Bộ là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nghệ An, Hà Tĩnh"
+        },
+        {
+          "id": "B",
+          "text": "Đông Hà, Quảng Trị"
+        },
+        {
+          "id": "C",
+          "text": "Thanh Hóa, Vinh, Huế"
+        },
+        {
+          "id": "D",
+          "text": "Đồng Hới, Quảng Bình"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0105",
+      "question": "Các trung tâm kinh tế quan trọng của vùng Bắc Trung Bộ là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nghệ An, Hà Tĩnh"
+        },
+        {
+          "id": "B",
+          "text": "Đông Hà, Quảng Trị"
+        },
+        {
+          "id": "C",
+          "text": "Thanh Hóa, Vinh, Huế"
+        },
+        {
+          "id": "D",
+          "text": "Đồng Hới, Quảng Bình"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0124",
+    "question": "Trong các tài nguyên du lịch dưới đây, tài nguyên nào là tài nguyên du lịch thiên nhiên?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0124",
+      "question": "Trong các tài nguyên du lịch dưới đây, tài nguyên nào là tài nguyên du lịch thiên nhiên?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Các công trình kiến trúc"
+        },
+        {
+          "id": "B",
+          "text": "Các lễ hội truyền thống"
+        },
+        {
+          "id": "C",
+          "text": "Các vườn quốc gia"
+        },
+        {
+          "id": "D",
+          "text": "Văn hóa dân gian"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0124",
+      "question": "Trong các tài nguyên du lịch dưới đây, tài nguyên nào là tài nguyên du lịch thiên nhiên?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Các công trình kiến trúc"
+        },
+        {
+          "id": "B",
+          "text": "Các lễ hội truyền thống"
+        },
+        {
+          "id": "C",
+          "text": "Các vườn quốc gia"
+        },
+        {
+          "id": "D",
+          "text": "Văn hóa dân gian"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0150",
+    "question": "Các trung tâm kinh tế quan trọng ở Tây Nguyên là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0150",
+      "question": "Các trung tâm kinh tế quan trọng ở Tây Nguyên là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plây Ku, Buôn Ma Thuột, Đà Lạt"
+        },
+        {
+          "id": "B",
+          "text": "Gia Nghĩa, Bảo Lộc, Kon Tum"
+        },
+        {
+          "id": "C",
+          "text": "Đắk Tô, Đắk Min, Di Linh"
+        },
+        {
+          "id": "D",
+          "text": "Krông Buk, Krông Ana, Buôn Đôn"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0150",
+      "question": "Các trung tâm kinh tế quan trọng ở Tây Nguyên là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Plây Ku, Buôn Ma Thuột, Đà Lạt"
+        },
+        {
+          "id": "B",
+          "text": "Gia Nghĩa, Bảo Lộc, Kon Tum"
+        },
+        {
+          "id": "C",
+          "text": "Đắk Tô, Đắk Min, Di Linh"
+        },
+        {
+          "id": "D",
+          "text": "Krông Buk, Krông Ana, Buôn Đôn"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0161",
+    "question": "Tỉnh/thành nào dưới đây có nạn hạn hán kéo dài nhất ở khu vực Duyên hải nam Trung Bộ?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0161",
+      "question": "Tỉnh/thành nào dưới đây có nạn hạn hán kéo dài nhất ở khu vực Duyên hải nam Trung Bộ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ninh Thuận, Bình Thuận"
+        },
+        {
+          "id": "B",
+          "text": "Ninh Thuận, Phú Yên"
+        },
+        {
+          "id": "C",
+          "text": "Bình Thuận, Quảng Nam"
+        },
+        {
+          "id": "D",
+          "text": "Phú Yên, Quảng Nam"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0161",
+      "question": "Tỉnh/thành nào dưới đây có nạn hạn hán kéo dài nhất ở khu vực Duyên hải nam Trung Bộ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ninh Thuận, Bình Thuận"
+        },
+        {
+          "id": "B",
+          "text": "Ninh Thuận, Phú Yên"
+        },
+        {
+          "id": "C",
+          "text": "Bình Thuận, Quảng Nam"
+        },
+        {
+          "id": "D",
+          "text": "Phú Yên, Quảng Nam"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0167",
+    "question": "Các nhà máy điện nào sau đây nằm ở Trung du và miền núi Bắc Bộ?",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0167",
+      "question": "Các nhà máy điện nào sau đây nằm ở Trung du và miền núi Bắc Bộ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uông Bí, Cao Ngạn, Na Dương, Ninh Bình"
+        },
+        {
+          "id": "B",
+          "text": "Uông Bí, Cao Ngạn, Na Dương, Cà Mau"
+        },
+        {
+          "id": "C",
+          "text": "Uông Bí, Cao Ngạn, Thủ Đức, Trà Nóc"
+        },
+        {
+          "id": "D",
+          "text": "Uông Bí, Cao Ngạn, Na Dương, Cẩm Phả"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0167",
+      "question": "Các nhà máy điện nào sau đây nằm ở Trung du và miền núi Bắc Bộ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uông Bí, Cao Ngạn, Na Dương, Ninh Bình"
+        },
+        {
+          "id": "B",
+          "text": "Uông Bí, Cao Ngạn, Na Dương, Cà Mau"
+        },
+        {
+          "id": "C",
+          "text": "Uông Bí, Cao Ngạn, Thủ Đức, Trà Nóc"
+        },
+        {
+          "id": "D",
+          "text": "Uông Bí, Cao Ngạn, Na Dương, Cẩm Phả"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0168",
+    "question": "Hai trung tâm thương mại, dịch vụ lớn của nước ta là",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0168",
+      "question": "Hai trung tâm thương mại, dịch vụ lớn của nước ta là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cần Thơ, Đà Nẵng"
+        },
+        {
+          "id": "B",
+          "text": "Hà Nội, TP. Hồ Chí Minh"
+        },
+        {
+          "id": "C",
+          "text": "Hà Nội, Hải Phòng"
+        },
+        {
+          "id": "D",
+          "text": "TP. Hồ Chí Minh, Cần Thơ"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0168",
+      "question": "Hai trung tâm thương mại, dịch vụ lớn của nước ta là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cần Thơ, Đà Nẵng"
+        },
+        {
+          "id": "B",
+          "text": "Hà Nội, TP. Hồ Chí Minh"
+        },
+        {
+          "id": "C",
+          "text": "Hà Nội, Hải Phòng"
+        },
+        {
+          "id": "D",
+          "text": "TP. Hồ Chí Minh, Cần Thơ"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0191",
+    "question": "Loại cây công nghiệp được trồng nhiều nhất ở Đông Nam Bộ là:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0191",
+      "question": "Loại cây công nghiệp được trồng nhiều nhất ở Đông Nam Bộ là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cao su"
+        },
+        {
+          "id": "B",
+          "text": "Hồ tiêu"
+        },
+        {
+          "id": "C",
+          "text": "Cà phê"
+        },
+        {
+          "id": "D",
+          "text": "Điều"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0191",
+      "question": "Loại cây công nghiệp được trồng nhiều nhất ở Đông Nam Bộ là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cao su"
+        },
+        {
+          "id": "B",
+          "text": "Hồ tiêu"
+        },
+        {
+          "id": "C",
+          "text": "Cà phê"
+        },
+        {
+          "id": "D",
+          "text": "Điều"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0195",
+    "question": "Trung tâm du lịch lớn nhất của Đông Nam Bộ và cả nước là:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0195",
+      "question": "Trung tâm du lịch lớn nhất của Đông Nam Bộ và cả nước là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đà Lạt"
+        },
+        {
+          "id": "B",
+          "text": "TP Hồ Chí Minh"
+        },
+        {
+          "id": "C",
+          "text": "Vũng Tàu"
+        },
+        {
+          "id": "D",
+          "text": "Nha Trang"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0195",
+      "question": "Trung tâm du lịch lớn nhất của Đông Nam Bộ và cả nước là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đà Lạt"
+        },
+        {
+          "id": "B",
+          "text": "TP Hồ Chí Minh"
+        },
+        {
+          "id": "C",
+          "text": "Vũng Tàu"
+        },
+        {
+          "id": "D",
+          "text": "Nha Trang"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0198",
+    "question": "Các tỉnh nào sau đây ở Tây Nguyên nằm ở “ngã ba các nước Đông Dương”",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-L",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0198",
+      "question": "Các tỉnh nào sau đây ở Tây Nguyên nằm ở “ngã ba các nước Đông Dương”",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gia Lai"
+        },
+        {
+          "id": "B",
+          "text": "Đắk Lắk"
+        },
+        {
+          "id": "C",
+          "text": "Kon Tum"
+        },
+        {
+          "id": "D",
+          "text": "Đắk Nông"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0198",
+      "question": "Các tỉnh nào sau đây ở Tây Nguyên nằm ở “ngã ba các nước Đông Dương”",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gia Lai"
+        },
+        {
+          "id": "B",
+          "text": "Đắk Lắk"
+        },
+        {
+          "id": "C",
+          "text": "Kon Tum"
+        },
+        {
+          "id": "D",
+          "text": "Đắk Nông"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-L",
+      "final_label": "NAT-CS-L",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "23-0199",
+    "question": "Loại đất có giá trị nhất đối với phát triển cây công nghiệp ở Tây Nguyên là:",
+    "annotator_1": "Khang",
+    "label_1": "NAT-CS-E",
+    "annotator_2": "Nhu",
+    "label_2": "NAT-CS-H",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0199",
+      "question": "Loại đất có giá trị nhất đối với phát triển cây công nghiệp ở Tây Nguyên là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đất xám phù sa cổ"
+        },
+        {
+          "id": "B",
+          "text": "Đất phù sa"
+        },
+        {
+          "id": "C",
+          "text": "Đất badan"
+        },
+        {
+          "id": "D",
+          "text": "Đất feralit trên đá vôi"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Khang",
+      "rationale": "",
+      "timestamp": "2026-06-14T07:23:17.374Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "23-0199",
+      "question": "Loại đất có giá trị nhất đối với phát triển cây công nghiệp ở Tây Nguyên là:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đất xám phù sa cổ"
+        },
+        {
+          "id": "B",
+          "text": "Đất phù sa"
+        },
+        {
+          "id": "C",
+          "text": "Đất badan"
+        },
+        {
+          "id": "D",
+          "text": "Đất feralit trên đá vôi"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H",
+      "annotator": "Nhu",
+      "rationale": "",
+      "timestamp": "2026-06-15T06:23:31.989Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  }
+]
