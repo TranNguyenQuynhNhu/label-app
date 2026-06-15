@@ -1,0 +1,2522 @@
+[
+  {
+    "sample_id": "24-0041",
+    "question": "Theo quy định của pháp luật, hành vi cố ý tung tin xấu nhằm hạ uy tín của người khác là xâm phạm quyền được pháp luật bảo hộ về",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0041",
+      "question": "Theo quy định của pháp luật, hành vi cố ý tung tin xấu nhằm hạ uy tín của người khác là xâm phạm quyền được pháp luật bảo hộ về",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tính mạng, sức khỏe"
+        },
+        {
+          "id": "B",
+          "text": "Hồ sơ tư pháp"
+        },
+        {
+          "id": "C",
+          "text": "Danh dự, nhân phẩm"
+        },
+        {
+          "id": "D",
+          "text": "Bí mật thư tín"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.571Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0041",
+      "question": "Theo quy định của pháp luật, hành vi cố ý tung tin xấu nhằm hạ uy tín của người khác là xâm phạm quyền được pháp luật bảo hộ về",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tính mạng, sức khỏe"
+        },
+        {
+          "id": "B",
+          "text": "Hồ sơ tư pháp"
+        },
+        {
+          "id": "C",
+          "text": "Danh dự, nhân phẩm"
+        },
+        {
+          "id": "D",
+          "text": "Bí mật thư tín"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.571Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0057",
+    "question": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành và được bảo đảm thực hiện bằng",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0057",
+      "question": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành và được bảo đảm thực hiện bằng",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dư luận xã hội"
+        },
+        {
+          "id": "B",
+          "text": "Quyền lực nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Thói quen vùng miền"
+        },
+        {
+          "id": "D",
+          "text": "Ý thức tự nguyện"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.571Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0057",
+      "question": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành và được bảo đảm thực hiện bằng",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dư luận xã hội"
+        },
+        {
+          "id": "B",
+          "text": "Quyền lực nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Thói quen vùng miền"
+        },
+        {
+          "id": "D",
+          "text": "Ý thức tự nguyện"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.571Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0060",
+    "question": "Quy luật giá trị yêu cầu việc sản xuất và lưu thông hàng hóa phải dựa trên cơ sở",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0060",
+      "question": "Quy luật giá trị yêu cầu việc sản xuất và lưu thông hàng hóa phải dựa trên cơ sở",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giá trị sử dụng của hàng hóa"
+        },
+        {
+          "id": "B",
+          "text": "Thời gian lao động cá biệt tối thiểu"
+        },
+        {
+          "id": "C",
+          "text": "Thời gian lao động xã hội cần thiết"
+        },
+        {
+          "id": "D",
+          "text": "Giá trị thặng dư được tạo ra"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.571Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0060",
+      "question": "Quy luật giá trị yêu cầu việc sản xuất và lưu thông hàng hóa phải dựa trên cơ sở",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giá trị sử dụng của hàng hóa"
+        },
+        {
+          "id": "B",
+          "text": "Thời gian lao động cá biệt tối thiểu"
+        },
+        {
+          "id": "C",
+          "text": "Thời gian lao động xã hội cần thiết"
+        },
+        {
+          "id": "D",
+          "text": "Giá trị thặng dư được tạo ra"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.571Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0092",
+    "question": "Nội dung nào dưới đây là đặc trưng cơ bản của pháp luật?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0092",
+      "question": "Nội dung nào dưới đây là đặc trưng cơ bản của pháp luật?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tính quy phạm phổ biến"
+        },
+        {
+          "id": "B",
+          "text": "Tính quyền lực và phổ biến"
+        },
+        {
+          "id": "C",
+          "text": "Tính quy tắc bắt buộc"
+        },
+        {
+          "id": "D",
+          "text": "Tính quy định và ràng buộc"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0092",
+      "question": "Nội dung nào dưới đây là đặc trưng cơ bản của pháp luật?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tính quy phạm phổ biến"
+        },
+        {
+          "id": "B",
+          "text": "Tính quyền lực và phổ biến"
+        },
+        {
+          "id": "C",
+          "text": "Tính quy tắc bắt buộc"
+        },
+        {
+          "id": "D",
+          "text": "Tính quy định và ràng buộc"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0129",
+    "question": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành và bảo đảm thực hiện\nbằng quyền lực",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0129",
+      "question": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành và bảo đảm thực hiện\nbằng quyền lực",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cộng đồng"
+        },
+        {
+          "id": "B",
+          "text": "Nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Xã hội"
+        },
+        {
+          "id": "D",
+          "text": "Tập thể"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0129",
+      "question": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành và bảo đảm thực hiện\nbằng quyền lực",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cộng đồng"
+        },
+        {
+          "id": "B",
+          "text": "Nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Xã hội"
+        },
+        {
+          "id": "D",
+          "text": "Tập thể"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0140",
+    "question": "Trong sản xuất và lưu thông hàng hóa, khi cầu giảm, sản xuất và kinh doanh thu hẹp thì\nlượng cung hàng hóa",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0140",
+      "question": "Trong sản xuất và lưu thông hàng hóa, khi cầu giảm, sản xuất và kinh doanh thu hẹp thì\nlượng cung hàng hóa",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giảm xuống"
+        },
+        {
+          "id": "B",
+          "text": "Luôn bình ổn"
+        },
+        {
+          "id": "C",
+          "text": "Tăng lên"
+        },
+        {
+          "id": "D",
+          "text": "Được mở rộng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0140",
+      "question": "Trong sản xuất và lưu thông hàng hóa, khi cầu giảm, sản xuất và kinh doanh thu hẹp thì\nlượng cung hàng hóa",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giảm xuống"
+        },
+        {
+          "id": "B",
+          "text": "Luôn bình ổn"
+        },
+        {
+          "id": "C",
+          "text": "Tăng lên"
+        },
+        {
+          "id": "D",
+          "text": "Được mở rộng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0163",
+    "question": "Pháp luật về sự phát triển kinh tế quy định khi tiến hành hoạt động kinh doanh mọi công dân\nđều phải",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0163",
+      "question": "Pháp luật về sự phát triển kinh tế quy định khi tiến hành hoạt động kinh doanh mọi công dân\nđều phải",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhập khẩu nguyên liệu hữu cơ"
+        },
+        {
+          "id": "B",
+          "text": "Sử dụng trí tuệ nhân tạo"
+        },
+        {
+          "id": "C",
+          "text": "Quản lý nhân sự trực tuyến"
+        },
+        {
+          "id": "D",
+          "text": "Tuân thủ quy định về quốc phòng"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0163",
+      "question": "Pháp luật về sự phát triển kinh tế quy định khi tiến hành hoạt động kinh doanh mọi công dân\nđều phải",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhập khẩu nguyên liệu hữu cơ"
+        },
+        {
+          "id": "B",
+          "text": "Sử dụng trí tuệ nhân tạo"
+        },
+        {
+          "id": "C",
+          "text": "Quản lý nhân sự trực tuyến"
+        },
+        {
+          "id": "D",
+          "text": "Tuân thủ quy định về quốc phòng"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0184",
+    "question": "Đặc trưng nào của pháp luật làm nên giá trị công bằng, bình đẳng mà bất kì ai ở trong điều kiện,\nhoàn cảnh nhất định cũng phải xử sự theo khuôn mẫu được pháp luật quy định?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0184",
+      "question": "Đặc trưng nào của pháp luật làm nên giá trị công bằng, bình đẳng mà bất kì ai ở trong điều kiện,\nhoàn cảnh nhất định cũng phải xử sự theo khuôn mẫu được pháp luật quy định?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tính xác định chặt chẽ về hình thức"
+        },
+        {
+          "id": "B",
+          "text": "Tính xác định chặt chẽ về nội dung"
+        },
+        {
+          "id": "C",
+          "text": "Tính quy phạm phổ biến"
+        },
+        {
+          "id": "D",
+          "text": "Tính quyền lực, bắt buộc chung"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0184",
+      "question": "Đặc trưng nào của pháp luật làm nên giá trị công bằng, bình đẳng mà bất kì ai ở trong điều kiện,\nhoàn cảnh nhất định cũng phải xử sự theo khuôn mẫu được pháp luật quy định?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tính xác định chặt chẽ về hình thức"
+        },
+        {
+          "id": "B",
+          "text": "Tính xác định chặt chẽ về nội dung"
+        },
+        {
+          "id": "C",
+          "text": "Tính quy phạm phổ biến"
+        },
+        {
+          "id": "D",
+          "text": "Tính quyền lực, bắt buộc chung"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:37:18.572Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "24-0191",
+    "question": "Ông T là giám đốc, ông N là phó giám đốc, chị P và anh Q là nhân viên, anh M là bảo vệ cùng làm\nviệc tại doanh nghiệp Z. Trong một cuộc họp, chị P nêu ý kiến trái chiều nên đã bị ông T yêu cầu dừng phát\nbiểu. Mặc dù vậy, chị P vẫn kiên quyết trình bày quan điểm của mình. Thấy vậy, ông N ép chị P dừng lời và\nchỉ đạo anh M đuổi chị ra ngoài. Có mặt trong cuộc họp, anh Q đã dùng điện thoại quay lại toàn bộ sự việc\nvà chia sẻ với nhiều người. Những ai sau đây đã vi phạm quyền tự do ngôn luận của công dân?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0191",
+      "question": "Ông T là giám đốc, ông N là phó giám đốc, chị P và anh Q là nhân viên, anh M là bảo vệ cùng làm\nviệc tại doanh nghiệp Z. Trong một cuộc họp, chị P nêu ý kiến trái chiều nên đã bị ông T yêu cầu dừng phát\nbiểu. Mặc dù vậy, chị P vẫn kiên quyết trình bày quan điểm của mình. Thấy vậy, ông N ép chị P dừng lời và\nchỉ đạo anh M đuổi chị ra ngoài. Có mặt trong cuộc họp, anh Q đã dùng điện thoại quay lại toàn bộ sự việc\nvà chia sẻ với nhiều người. Những ai sau đây đã vi phạm quyền tự do ngôn luận của công dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ông T và ông N"
+        },
+        {
+          "id": "B",
+          "text": "Ông N, ông T và anh M"
+        },
+        {
+          "id": "C",
+          "text": "Ông N và anh M"
+        },
+        {
+          "id": "D",
+          "text": "Ông N, anh Q và anh M"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "24-0191",
+      "question": "Ông T là giám đốc, ông N là phó giám đốc, chị P và anh Q là nhân viên, anh M là bảo vệ cùng làm\nviệc tại doanh nghiệp Z. Trong một cuộc họp, chị P nêu ý kiến trái chiều nên đã bị ông T yêu cầu dừng phát\nbiểu. Mặc dù vậy, chị P vẫn kiên quyết trình bày quan điểm của mình. Thấy vậy, ông N ép chị P dừng lời và\nchỉ đạo anh M đuổi chị ra ngoài. Có mặt trong cuộc họp, anh Q đã dùng điện thoại quay lại toàn bộ sự việc\nvà chia sẻ với nhiều người. Những ai sau đây đã vi phạm quyền tự do ngôn luận của công dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ông T và ông N"
+        },
+        {
+          "id": "B",
+          "text": "Ông N, ông T và anh M"
+        },
+        {
+          "id": "C",
+          "text": "Ông N và anh M"
+        },
+        {
+          "id": "D",
+          "text": "Ông N, anh Q và anh M"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0025",
+    "question": "Trong giấy phép kinh doanh của bà H có 10 loại hàng nhưng khi ban quản lí kiểm tra thì thấy trong cửa hàng có 15 loại hàng. Theo em bà H vi phạm quy định kinh doanh gì trong các quy định sau?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0025",
+      "question": "Trong giấy phép kinh doanh của bà H có 10 loại hàng nhưng khi ban quản lí kiểm tra thì thấy trong cửa hàng có 15 loại hàng. Theo em bà H vi phạm quy định kinh doanh gì trong các quy định sau?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kê khai sai số vốn kinh doanh"
+        },
+        {
+          "id": "B",
+          "text": "Kinh doanh những mặt hàng nhà nước cấm"
+        },
+        {
+          "id": "C",
+          "text": "Kinh doanh không nộp thuế theo quy định"
+        },
+        {
+          "id": "D",
+          "text": "Kinh doanh không đúng mặt hàng ghi trong giấy phép"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0025",
+      "question": "Trong giấy phép kinh doanh của bà H có 10 loại hàng nhưng khi ban quản lí kiểm tra thì thấy trong cửa hàng có 15 loại hàng. Theo em bà H vi phạm quy định kinh doanh gì trong các quy định sau?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kê khai sai số vốn kinh doanh"
+        },
+        {
+          "id": "B",
+          "text": "Kinh doanh những mặt hàng nhà nước cấm"
+        },
+        {
+          "id": "C",
+          "text": "Kinh doanh không nộp thuế theo quy định"
+        },
+        {
+          "id": "D",
+          "text": "Kinh doanh không đúng mặt hàng ghi trong giấy phép"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0030",
+    "question": "Những quy định chung của một cộng đồng hoặc tổ chức xã hội yêu cầu mọi người phải tuân theo nhằm tạo ra sự thống nhất hành động để đạt chất lượng, hiệu quả trong công việc là nội dung khái niệm nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0030",
+      "question": "Những quy định chung của một cộng đồng hoặc tổ chức xã hội yêu cầu mọi người phải tuân theo nhằm tạo ra sự thống nhất hành động để đạt chất lượng, hiệu quả trong công việc là nội dung khái niệm nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tự lập"
+        },
+        {
+          "id": "B",
+          "text": "Liêm khiết"
+        },
+        {
+          "id": "C",
+          "text": "Dân chủ"
+        },
+        {
+          "id": "D",
+          "text": "Kỉ luật"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0030",
+      "question": "Những quy định chung của một cộng đồng hoặc tổ chức xã hội yêu cầu mọi người phải tuân theo nhằm tạo ra sự thống nhất hành động để đạt chất lượng, hiệu quả trong công việc là nội dung khái niệm nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tự lập"
+        },
+        {
+          "id": "B",
+          "text": "Liêm khiết"
+        },
+        {
+          "id": "C",
+          "text": "Dân chủ"
+        },
+        {
+          "id": "D",
+          "text": "Kỉ luật"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0033",
+    "question": "Cùng chung sức làm việc, giúp đỡ, hỗ trợ lẫn nhau trong công việc, lĩnh vực nào đó vì mục đích chung là nội dung khái niệm nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0033",
+      "question": "Cùng chung sức làm việc, giúp đỡ, hỗ trợ lẫn nhau trong công việc, lĩnh vực nào đó vì mục đích chung là nội dung khái niệm nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tự lập"
+        },
+        {
+          "id": "B",
+          "text": "Dân chủ"
+        },
+        {
+          "id": "C",
+          "text": "Hợp tác"
+        },
+        {
+          "id": "D",
+          "text": "Liêm khiết"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0033",
+      "question": "Cùng chung sức làm việc, giúp đỡ, hỗ trợ lẫn nhau trong công việc, lĩnh vực nào đó vì mục đích chung là nội dung khái niệm nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tự lập"
+        },
+        {
+          "id": "B",
+          "text": "Dân chủ"
+        },
+        {
+          "id": "C",
+          "text": "Hợp tác"
+        },
+        {
+          "id": "D",
+          "text": "Liêm khiết"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0034",
+    "question": "Truyền thống tốt đẹp của dân tộc là những giá trị tinh thần hình thành trong quá trình lịch sử lâu dài của dân tộc, được truyền từ",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0034",
+      "question": "Truyền thống tốt đẹp của dân tộc là những giá trị tinh thần hình thành trong quá trình lịch sử lâu dài của dân tộc, được truyền từ",
+      "options": [
+        {
+          "id": "A",
+          "text": "Địa phương này sang địa phương khác"
+        },
+        {
+          "id": "B",
+          "text": "Thế hệ này sang thế hệ khác"
+        },
+        {
+          "id": "C",
+          "text": "Đất nước này sang đất nước khác"
+        },
+        {
+          "id": "D",
+          "text": "Lãnh thổ này sang lãnh thổ khác"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0034",
+      "question": "Truyền thống tốt đẹp của dân tộc là những giá trị tinh thần hình thành trong quá trình lịch sử lâu dài của dân tộc, được truyền từ",
+      "options": [
+        {
+          "id": "A",
+          "text": "Địa phương này sang địa phương khác"
+        },
+        {
+          "id": "B",
+          "text": "Thế hệ này sang thế hệ khác"
+        },
+        {
+          "id": "C",
+          "text": "Đất nước này sang đất nước khác"
+        },
+        {
+          "id": "D",
+          "text": "Lãnh thổ này sang lãnh thổ khác"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0035",
+    "question": "Tích cực, chủ động, dám nghĩ, dám làm là thể hiện phẩm chất nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "TRA-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0035",
+      "question": "Tích cực, chủ động, dám nghĩ, dám làm là thể hiện phẩm chất nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Năng động"
+        },
+        {
+          "id": "B",
+          "text": "Dân chủ"
+        },
+        {
+          "id": "C",
+          "text": "Kỉ luật"
+        },
+        {
+          "id": "D",
+          "text": "Liêm khiết"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0035",
+      "question": "Tích cực, chủ động, dám nghĩ, dám làm là thể hiện phẩm chất nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Năng động"
+        },
+        {
+          "id": "B",
+          "text": "Dân chủ"
+        },
+        {
+          "id": "C",
+          "text": "Kỉ luật"
+        },
+        {
+          "id": "D",
+          "text": "Liêm khiết"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0036",
+    "question": "Người có phẩm chất chí công vô tư luôn công bằng, không thiên vị, xuất phát từ lợi ích chung, đặt lợi ích chung lên trên lợi ích cá nhân và",
+    "annotator_1": "Dong",
+    "label_1": "TRA-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CA",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0036",
+      "question": "Người có phẩm chất chí công vô tư luôn công bằng, không thiên vị, xuất phát từ lợi ích chung, đặt lợi ích chung lên trên lợi ích cá nhân và",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giải quyết công việc theo lẽ phải"
+        },
+        {
+          "id": "B",
+          "text": "Đề cao tất cả nhu cầu cá nhân"
+        },
+        {
+          "id": "C",
+          "text": "Đặt mọi quyền lợi của mình lên hàng đầu"
+        },
+        {
+          "id": "D",
+          "text": "Thường xuyên coi trọng tình cảm riêng tư"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0036",
+      "question": "Người có phẩm chất chí công vô tư luôn công bằng, không thiên vị, xuất phát từ lợi ích chung, đặt lợi ích chung lên trên lợi ích cá nhân và",
+      "options": [
+        {
+          "id": "A",
+          "text": "Giải quyết công việc theo lẽ phải"
+        },
+        {
+          "id": "B",
+          "text": "Đề cao tất cả nhu cầu cá nhân"
+        },
+        {
+          "id": "C",
+          "text": "Đặt mọi quyền lợi của mình lên hàng đầu"
+        },
+        {
+          "id": "D",
+          "text": "Thường xuyên coi trọng tình cảm riêng tư"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0037",
+    "question": "Công dân được lựa chọn hình thức tổ chức kinh doanh, ngành nghề, quy mô kinh doanh theo quy định của pháp luật là nội dung quyền",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0037",
+      "question": "Công dân được lựa chọn hình thức tổ chức kinh doanh, ngành nghề, quy mô kinh doanh theo quy định của pháp luật là nội dung quyền",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thanh lí hợp đồng"
+        },
+        {
+          "id": "B",
+          "text": "Tự do kinh doanh"
+        },
+        {
+          "id": "C",
+          "text": "Giao dịch dân sự"
+        },
+        {
+          "id": "D",
+          "text": "Chiếm hữu tài sản"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0037",
+      "question": "Công dân được lựa chọn hình thức tổ chức kinh doanh, ngành nghề, quy mô kinh doanh theo quy định của pháp luật là nội dung quyền",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thanh lí hợp đồng"
+        },
+        {
+          "id": "B",
+          "text": "Tự do kinh doanh"
+        },
+        {
+          "id": "C",
+          "text": "Giao dịch dân sự"
+        },
+        {
+          "id": "D",
+          "text": "Chiếm hữu tài sản"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0038",
+    "question": "Mọi người được làm chủ, được biết, được cùng tham gia bàn bạc, góp phần thực hiện, giám sát những công việc chung của tập thể và xã hội có liên quan đến mọi người, cộng đồng và đất nước là nội dung khái niệm nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0038",
+      "question": "Mọi người được làm chủ, được biết, được cùng tham gia bàn bạc, góp phần thực hiện, giám sát những công việc chung của tập thể và xã hội có liên quan đến mọi người, cộng đồng và đất nước là nội dung khái niệm nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kỷ cương"
+        },
+        {
+          "id": "B",
+          "text": "Tự chủ"
+        },
+        {
+          "id": "C",
+          "text": "Kỉ luật"
+        },
+        {
+          "id": "D",
+          "text": "Dân chủ"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0038",
+      "question": "Mọi người được làm chủ, được biết, được cùng tham gia bàn bạc, góp phần thực hiện, giám sát những công việc chung của tập thể và xã hội có liên quan đến mọi người, cộng đồng và đất nước là nội dung khái niệm nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kỷ cương"
+        },
+        {
+          "id": "B",
+          "text": "Tự chủ"
+        },
+        {
+          "id": "C",
+          "text": "Kỉ luật"
+        },
+        {
+          "id": "D",
+          "text": "Dân chủ"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0039",
+    "question": "Hành vi nguy hiểm cho xã hội, được quy định trong Bộ luật Hình sự, do người có năng lực trách nhiệm pháp lí thực hiện một cách vô ý hoặc cố ý xâm hại đến các quan hệ xã hội được pháp luật bảo vệ bị coi là",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0039",
+      "question": "Hành vi nguy hiểm cho xã hội, được quy định trong Bộ luật Hình sự, do người có năng lực trách nhiệm pháp lí thực hiện một cách vô ý hoặc cố ý xâm hại đến các quan hệ xã hội được pháp luật bảo vệ bị coi là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bị đơn"
+        },
+        {
+          "id": "B",
+          "text": "Tội phạm"
+        },
+        {
+          "id": "C",
+          "text": "Nhân chứng"
+        },
+        {
+          "id": "D",
+          "text": "Nguyên cáo"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0039",
+      "question": "Hành vi nguy hiểm cho xã hội, được quy định trong Bộ luật Hình sự, do người có năng lực trách nhiệm pháp lí thực hiện một cách vô ý hoặc cố ý xâm hại đến các quan hệ xã hội được pháp luật bảo vệ bị coi là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bị đơn"
+        },
+        {
+          "id": "B",
+          "text": "Tội phạm"
+        },
+        {
+          "id": "C",
+          "text": "Nhân chứng"
+        },
+        {
+          "id": "D",
+          "text": "Nguyên cáo"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0040",
+    "question": "Hành vi xâm phạm các nguyên tắc quản lí nhà nước do người có năng lực trách nhiệm pháp lí thực hiện mà không phải tội phạm là vi phạm pháp luật nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0040",
+      "question": "Hành vi xâm phạm các nguyên tắc quản lí nhà nước do người có năng lực trách nhiệm pháp lí thực hiện mà không phải tội phạm là vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hành chính"
+        },
+        {
+          "id": "B",
+          "text": "Hình sự"
+        },
+        {
+          "id": "C",
+          "text": "Dân sự"
+        },
+        {
+          "id": "D",
+          "text": "Tố tụng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0040",
+      "question": "Hành vi xâm phạm các nguyên tắc quản lí nhà nước do người có năng lực trách nhiệm pháp lí thực hiện mà không phải tội phạm là vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hành chính"
+        },
+        {
+          "id": "B",
+          "text": "Hình sự"
+        },
+        {
+          "id": "C",
+          "text": "Dân sự"
+        },
+        {
+          "id": "D",
+          "text": "Tố tụng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0041",
+    "question": "Công dân thực hiện quyền tham gia quản lí nhà nước, quản lí xã hội theo cách nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0041",
+      "question": "Công dân thực hiện quyền tham gia quản lí nhà nước, quản lí xã hội theo cách nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trung lập và đại diện"
+        },
+        {
+          "id": "B",
+          "text": "Ủy quyền và gián tiếp"
+        },
+        {
+          "id": "C",
+          "text": "Ủy quyền và đại diện"
+        },
+        {
+          "id": "D",
+          "text": "Trực tiếp và gián tiếp"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0041",
+      "question": "Công dân thực hiện quyền tham gia quản lí nhà nước, quản lí xã hội theo cách nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trung lập và đại diện"
+        },
+        {
+          "id": "B",
+          "text": "Ủy quyền và gián tiếp"
+        },
+        {
+          "id": "C",
+          "text": "Ủy quyền và đại diện"
+        },
+        {
+          "id": "D",
+          "text": "Trực tiếp và gián tiếp"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0044",
+    "question": "Quyền sở hữu tài sản của công dân không bao gồm quyền nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0044",
+      "question": "Quyền sở hữu tài sản của công dân không bao gồm quyền nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sử dụng"
+        },
+        {
+          "id": "B",
+          "text": "Chiếm hữu"
+        },
+        {
+          "id": "C",
+          "text": "Bảo mật"
+        },
+        {
+          "id": "D",
+          "text": "Định đoạt"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0044",
+      "question": "Quyền sở hữu tài sản của công dân không bao gồm quyền nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sử dụng"
+        },
+        {
+          "id": "B",
+          "text": "Chiếm hữu"
+        },
+        {
+          "id": "C",
+          "text": "Bảo mật"
+        },
+        {
+          "id": "D",
+          "text": "Định đoạt"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0046",
+    "question": "Công dân được tham gia bàn bạc, thảo luận, đóng góp ý kiến vào những vấn đề chung của đất nước, xã hội là nội dung quyền nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0046",
+      "question": "Công dân được tham gia bàn bạc, thảo luận, đóng góp ý kiến vào những vấn đề chung của đất nước, xã hội là nội dung quyền nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tố cáo"
+        },
+        {
+          "id": "B",
+          "text": "Tự do ngôn luận"
+        },
+        {
+          "id": "C",
+          "text": "Khiếu nại"
+        },
+        {
+          "id": "D",
+          "text": "Chủ động phán quyết"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0046",
+      "question": "Công dân được tham gia bàn bạc, thảo luận, đóng góp ý kiến vào những vấn đề chung của đất nước, xã hội là nội dung quyền nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tố cáo"
+        },
+        {
+          "id": "B",
+          "text": "Tự do ngôn luận"
+        },
+        {
+          "id": "C",
+          "text": "Khiếu nại"
+        },
+        {
+          "id": "D",
+          "text": "Chủ động phán quyết"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0047",
+    "question": "Công dân báo cho cơ quan, tổ chức, cá nhân có thẩm quyền biết về một vụ, việc vi phạm pháp luật của bất cứ cơ quan, tổ chức, cá nhân nào gây thiệt hại đến lợi ích của Nhà nước, lợi ích hợp pháp của công dân, cơ quan, tổ chức là nội dung quyền nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0047",
+      "question": "Công dân báo cho cơ quan, tổ chức, cá nhân có thẩm quyền biết về một vụ, việc vi phạm pháp luật của bất cứ cơ quan, tổ chức, cá nhân nào gây thiệt hại đến lợi ích của Nhà nước, lợi ích hợp pháp của công dân, cơ quan, tổ chức là nội dung quyền nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khiếu nại"
+        },
+        {
+          "id": "B",
+          "text": "Tố cáo"
+        },
+        {
+          "id": "C",
+          "text": "Định đoạt"
+        },
+        {
+          "id": "D",
+          "text": "Chiếm hữu"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0047",
+      "question": "Công dân báo cho cơ quan, tổ chức, cá nhân có thẩm quyền biết về một vụ, việc vi phạm pháp luật của bất cứ cơ quan, tổ chức, cá nhân nào gây thiệt hại đến lợi ích của Nhà nước, lợi ích hợp pháp của công dân, cơ quan, tổ chức là nội dung quyền nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Khiếu nại"
+        },
+        {
+          "id": "B",
+          "text": "Tố cáo"
+        },
+        {
+          "id": "C",
+          "text": "Định đoạt"
+        },
+        {
+          "id": "D",
+          "text": "Chiếm hữu"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0049",
+    "question": "Theo quy định của pháp luật, mọi công dân có quyền tự do sử dụng sức lao động của mình để",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0049",
+      "question": "Theo quy định của pháp luật, mọi công dân có quyền tự do sử dụng sức lao động của mình để",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phân chia lại thị trường thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Thay đổi đồng bộ cơ cấu nền kinh tế"
+        },
+        {
+          "id": "C",
+          "text": "Chiếm lĩnh nguồn ngân sách quốc gia"
+        },
+        {
+          "id": "D",
+          "text": "Lựa chọn nghề nghiệp có ích cho xã hội"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0049",
+      "question": "Theo quy định của pháp luật, mọi công dân có quyền tự do sử dụng sức lao động của mình để",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phân chia lại thị trường thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Thay đổi đồng bộ cơ cấu nền kinh tế"
+        },
+        {
+          "id": "C",
+          "text": "Chiếm lĩnh nguồn ngân sách quốc gia"
+        },
+        {
+          "id": "D",
+          "text": "Lựa chọn nghề nghiệp có ích cho xã hội"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0056",
+    "question": "Theo quy định của pháp luật, bất cứ người kinh doanh nào cũng phải thực hiện nghĩa vụ",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0056",
+      "question": "Theo quy định của pháp luật, bất cứ người kinh doanh nào cũng phải thực hiện nghĩa vụ",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kê khai đúng số vốn"
+        },
+        {
+          "id": "B",
+          "text": "Thu hút nguồn viện trợ"
+        },
+        {
+          "id": "C",
+          "text": "Thế chấp mọi tài sản"
+        },
+        {
+          "id": "D",
+          "text": "Tăng đầu cơ tích trữ"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0056",
+      "question": "Theo quy định của pháp luật, bất cứ người kinh doanh nào cũng phải thực hiện nghĩa vụ",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kê khai đúng số vốn"
+        },
+        {
+          "id": "B",
+          "text": "Thu hút nguồn viện trợ"
+        },
+        {
+          "id": "C",
+          "text": "Thế chấp mọi tài sản"
+        },
+        {
+          "id": "D",
+          "text": "Tăng đầu cơ tích trữ"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0057",
+    "question": "Bất kỳ công dân nào thanh toán tiền thuê nhà không đúng thỏa thuận trong hợp đồng là",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0057",
+      "question": "Bất kỳ công dân nào thanh toán tiền thuê nhà không đúng thỏa thuận trong hợp đồng là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vi phạm pháp luật dân sự"
+        },
+        {
+          "id": "B",
+          "text": "Tham gia quan hệ hành chính"
+        },
+        {
+          "id": "C",
+          "text": "Thực hiện quá trình tố tụng"
+        },
+        {
+          "id": "D",
+          "text": "Áp dụng hình thức kỉ luật"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0057",
+      "question": "Bất kỳ công dân nào thanh toán tiền thuê nhà không đúng thỏa thuận trong hợp đồng là",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vi phạm pháp luật dân sự"
+        },
+        {
+          "id": "B",
+          "text": "Tham gia quan hệ hành chính"
+        },
+        {
+          "id": "C",
+          "text": "Thực hiện quá trình tố tụng"
+        },
+        {
+          "id": "D",
+          "text": "Áp dụng hình thức kỉ luật"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0058",
+    "question": "Bất kỳ người nào đủ năng lực trách nhiệm pháp lí có hành vi tổ chức buôn bán, vận chuyển trái phép chất ma túy là vi phạm pháp luật nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0058",
+      "question": "Bất kỳ người nào đủ năng lực trách nhiệm pháp lí có hành vi tổ chức buôn bán, vận chuyển trái phép chất ma túy là vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hành chính"
+        },
+        {
+          "id": "B",
+          "text": "Dân sự"
+        },
+        {
+          "id": "C",
+          "text": "Hình sự"
+        },
+        {
+          "id": "D",
+          "text": "Kỉ luật"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0058",
+      "question": "Bất kỳ người nào đủ năng lực trách nhiệm pháp lí có hành vi tổ chức buôn bán, vận chuyển trái phép chất ma túy là vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hành chính"
+        },
+        {
+          "id": "B",
+          "text": "Dân sự"
+        },
+        {
+          "id": "C",
+          "text": "Hình sự"
+        },
+        {
+          "id": "D",
+          "text": "Kỉ luật"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0059",
+    "question": "Người đã được cấp giấy phép lái xe, điều khiển xe môtô chạy quá tốc độ quy định là vi phạm pháp luật nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0059",
+      "question": "Người đã được cấp giấy phép lái xe, điều khiển xe môtô chạy quá tốc độ quy định là vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hành chính"
+        },
+        {
+          "id": "B",
+          "text": "Dân sự"
+        },
+        {
+          "id": "C",
+          "text": "Hình sự"
+        },
+        {
+          "id": "D",
+          "text": "Tố tụng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0059",
+      "question": "Người đã được cấp giấy phép lái xe, điều khiển xe môtô chạy quá tốc độ quy định là vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hành chính"
+        },
+        {
+          "id": "B",
+          "text": "Dân sự"
+        },
+        {
+          "id": "C",
+          "text": "Hình sự"
+        },
+        {
+          "id": "D",
+          "text": "Tố tụng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0062",
+    "question": "Theo quy định của pháp luật, bất kì công dân nào đều có quyền sở hữu đối với",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0062",
+      "question": "Theo quy định của pháp luật, bất kì công dân nào đều có quyền sở hữu đối với",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tài nguyên đất nước"
+        },
+        {
+          "id": "B",
+          "text": "Phương tiện công cộng"
+        },
+        {
+          "id": "C",
+          "text": "Ngân sách quốc gia"
+        },
+        {
+          "id": "D",
+          "text": "Tài sản thừa kế"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0062",
+      "question": "Theo quy định của pháp luật, bất kì công dân nào đều có quyền sở hữu đối với",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tài nguyên đất nước"
+        },
+        {
+          "id": "B",
+          "text": "Phương tiện công cộng"
+        },
+        {
+          "id": "C",
+          "text": "Ngân sách quốc gia"
+        },
+        {
+          "id": "D",
+          "text": "Tài sản thừa kế"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0063",
+    "question": "Việc làm nào dưới đây thể hiện quyền tự do ngôn luận của công dân?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0063",
+      "question": "Việc làm nào dưới đây thể hiện quyền tự do ngôn luận của công dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kiến nghị với đại biểu Quốc hội"
+        },
+        {
+          "id": "B",
+          "text": "Tiết lộ bí mật đời tư người khác"
+        },
+        {
+          "id": "C",
+          "text": "Công khai thông tin nội bộ đơn vị"
+        },
+        {
+          "id": "D",
+          "text": "Tự ý chia sẻ bí mật làng nghề"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0063",
+      "question": "Việc làm nào dưới đây thể hiện quyền tự do ngôn luận của công dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kiến nghị với đại biểu Quốc hội"
+        },
+        {
+          "id": "B",
+          "text": "Tiết lộ bí mật đời tư người khác"
+        },
+        {
+          "id": "C",
+          "text": "Công khai thông tin nội bộ đơn vị"
+        },
+        {
+          "id": "D",
+          "text": "Tự ý chia sẻ bí mật làng nghề"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0065",
+    "question": "Anh T cảnh sát giao thông yêu cầu anh N sinh viên trường đại học X dừng xe để lập biên bản xử phạt vì lỗi vượt đèn đỏ. Sợ bị phát hiện năm trăm gram ma túy tổng hợp giấu trong cốp xe nên anh N phóng xe bỏ chạy. Hành vi của anh N đã vi phạm pháp luật nào dưới đây?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0065",
+      "question": "Anh T cảnh sát giao thông yêu cầu anh N sinh viên trường đại học X dừng xe để lập biên bản xử phạt vì lỗi vượt đèn đỏ. Sợ bị phát hiện năm trăm gram ma túy tổng hợp giấu trong cốp xe nên anh N phóng xe bỏ chạy. Hành vi của anh N đã vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hình sự và kỉ luật"
+        },
+        {
+          "id": "B",
+          "text": "Hành chính và dân sự"
+        },
+        {
+          "id": "C",
+          "text": "Dân sự và hình sự"
+        },
+        {
+          "id": "D",
+          "text": "Hành chính và hình sự"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0065",
+      "question": "Anh T cảnh sát giao thông yêu cầu anh N sinh viên trường đại học X dừng xe để lập biên bản xử phạt vì lỗi vượt đèn đỏ. Sợ bị phát hiện năm trăm gram ma túy tổng hợp giấu trong cốp xe nên anh N phóng xe bỏ chạy. Hành vi của anh N đã vi phạm pháp luật nào dưới đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hình sự và kỉ luật"
+        },
+        {
+          "id": "B",
+          "text": "Hành chính và dân sự"
+        },
+        {
+          "id": "C",
+          "text": "Dân sự và hình sự"
+        },
+        {
+          "id": "D",
+          "text": "Hành chính và hình sự"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0067",
+    "question": "Xác định nguyên nhân mình bị ngộ độc vì ăn bánh trung thu có sử dụng chất phụ gia trong danh mục cấm do bà T sản xuất và cung cấp, chị A kể chuyện này với anh M là chồng mình. Bức xúc, anh M đã viết bài đưa sự việc này lên mạng xã hội nên bị chồng bà T liên tục đe dọa đánh. Để bảo vệ quyền lợi của mình, vợ chồng chị A cần vận dụng quyền nào dưới đây của công dân?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0067",
+      "question": "Xác định nguyên nhân mình bị ngộ độc vì ăn bánh trung thu có sử dụng chất phụ gia trong danh mục cấm do bà T sản xuất và cung cấp, chị A kể chuyện này với anh M là chồng mình. Bức xúc, anh M đã viết bài đưa sự việc này lên mạng xã hội nên bị chồng bà T liên tục đe dọa đánh. Để bảo vệ quyền lợi của mình, vợ chồng chị A cần vận dụng quyền nào dưới đây của công dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tố cáo"
+        },
+        {
+          "id": "B",
+          "text": "Khiếu nại"
+        },
+        {
+          "id": "C",
+          "text": "Khiếu kiện"
+        },
+        {
+          "id": "D",
+          "text": "Tố tụng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0067",
+      "question": "Xác định nguyên nhân mình bị ngộ độc vì ăn bánh trung thu có sử dụng chất phụ gia trong danh mục cấm do bà T sản xuất và cung cấp, chị A kể chuyện này với anh M là chồng mình. Bức xúc, anh M đã viết bài đưa sự việc này lên mạng xã hội nên bị chồng bà T liên tục đe dọa đánh. Để bảo vệ quyền lợi của mình, vợ chồng chị A cần vận dụng quyền nào dưới đây của công dân?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tố cáo"
+        },
+        {
+          "id": "B",
+          "text": "Khiếu nại"
+        },
+        {
+          "id": "C",
+          "text": "Khiếu kiện"
+        },
+        {
+          "id": "D",
+          "text": "Tố tụng"
+        }
+      ],
+      "answer": "A",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0073",
+    "question": "Hành vi nào dưới đây của người lao động là vi phạm pháp luật?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0073",
+      "question": "Hành vi nào dưới đây của người lao động là vi phạm pháp luật?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đi làm đúng giờ mặc dù nhà xa"
+        },
+        {
+          "id": "B",
+          "text": "Tự ý nghỉ việc mà không báo trước"
+        },
+        {
+          "id": "C",
+          "text": "Yêu cầu được kí hợp đồng lao động"
+        },
+        {
+          "id": "D",
+          "text": "Nâng cao trình độ chuyên môn nghề nghiệp"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0073",
+      "question": "Hành vi nào dưới đây của người lao động là vi phạm pháp luật?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đi làm đúng giờ mặc dù nhà xa"
+        },
+        {
+          "id": "B",
+          "text": "Tự ý nghỉ việc mà không báo trước"
+        },
+        {
+          "id": "C",
+          "text": "Yêu cầu được kí hợp đồng lao động"
+        },
+        {
+          "id": "D",
+          "text": "Nâng cao trình độ chuyên môn nghề nghiệp"
+        }
+      ],
+      "answer": "B",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0074",
+    "question": "“M đang học lớp 9 thì bị mẹ bắt nghỉ học và ép gả cho một người nhà giàu, M không đồng ý thì bị mẹ mắng buộc M phải làm đám cưới”. Dựa vào kiến thức bài “Quyền và nghĩa vụ của công dân trong hôn nhân”, em hãy khuyên M cần làm gì trong trường hợp này?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0074",
+      "question": "“M đang học lớp 9 thì bị mẹ bắt nghỉ học và ép gả cho một người nhà giàu, M không đồng ý thì bị mẹ mắng buộc M phải làm đám cưới”. Dựa vào kiến thức bài “Quyền và nghĩa vụ của công dân trong hôn nhân”, em hãy khuyên M cần làm gì trong trường hợp này?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chấp nhận sự sắp đặt của bố mẹ"
+        },
+        {
+          "id": "B",
+          "text": "Bỏ nhà đi để trốn tránh cuộc hôn nhân đó"
+        },
+        {
+          "id": "C",
+          "text": "Đến thẳng gia đình nhà giàu kia để yêu cầu họ huỷ hôn"
+        },
+        {
+          "id": "D",
+          "text": "Giải thích cho bố mẹ hiểu làm như thế là vi phạm pháp luật"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0074",
+      "question": "“M đang học lớp 9 thì bị mẹ bắt nghỉ học và ép gả cho một người nhà giàu, M không đồng ý thì bị mẹ mắng buộc M phải làm đám cưới”. Dựa vào kiến thức bài “Quyền và nghĩa vụ của công dân trong hôn nhân”, em hãy khuyên M cần làm gì trong trường hợp này?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chấp nhận sự sắp đặt của bố mẹ"
+        },
+        {
+          "id": "B",
+          "text": "Bỏ nhà đi để trốn tránh cuộc hôn nhân đó"
+        },
+        {
+          "id": "C",
+          "text": "Đến thẳng gia đình nhà giàu kia để yêu cầu họ huỷ hôn"
+        },
+        {
+          "id": "D",
+          "text": "Giải thích cho bố mẹ hiểu làm như thế là vi phạm pháp luật"
+        }
+      ],
+      "answer": "D",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  },
+  {
+    "sample_id": "22-0075",
+    "question": "“Vợ chồng anh T và chị H có hai người con là Q và M (M là con nuôi). Chị H bắt M phải làm nhiều việc hơn so với Q, thấy M vất vả nên Q thường chia sẻ công việc với M. Biết chuyện anh T đã la mắng Q vì tội làm trái ý mẹ, Q buồn bã ngồi khóc rồi rủ M bỏ nhà đi mấy hôm. M không đồng ý và khuyên Q nên ở nhà”. Trường hợp này những ai đã không tôn trọng quyền bình đẳng trong hôn nhân, gia đình?",
+    "annotator_1": "Dong",
+    "label_1": "NAT-CA",
+    "annotator_2": "Vy",
+    "label_2": "NAT-CS-E",
+    "sample_1": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0075",
+      "question": "“Vợ chồng anh T và chị H có hai người con là Q và M (M là con nuôi). Chị H bắt M phải làm nhiều việc hơn so với Q, thấy M vất vả nên Q thường chia sẻ công việc với M. Biết chuyện anh T đã la mắng Q vì tội làm trái ý mẹ, Q buồn bã ngồi khóc rồi rủ M bỏ nhà đi mấy hôm. M không đồng ý và khuyên Q nên ở nhà”. Trường hợp này những ai đã không tôn trọng quyền bình đẳng trong hôn nhân, gia đình?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh T, chị H và Q"
+        },
+        {
+          "id": "B",
+          "text": "Anh T, chị H và M"
+        },
+        {
+          "id": "C",
+          "text": "Anh T và chị H"
+        },
+        {
+          "id": "D",
+          "text": "Anh T, Q và M"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CA",
+      "final_label": "NAT-CA",
+      "annotator": "Dong",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    },
+    "sample_2": {
+      "benchmark_name": "VMLU",
+      "sample_id": "22-0075",
+      "question": "“Vợ chồng anh T và chị H có hai người con là Q và M (M là con nuôi). Chị H bắt M phải làm nhiều việc hơn so với Q, thấy M vất vả nên Q thường chia sẻ công việc với M. Biết chuyện anh T đã la mắng Q vì tội làm trái ý mẹ, Q buồn bã ngồi khóc rồi rủ M bỏ nhà đi mấy hôm. M không đồng ý và khuyên Q nên ở nhà”. Trường hợp này những ai đã không tôn trọng quyền bình đẳng trong hôn nhân, gia đình?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh T, chị H và Q"
+        },
+        {
+          "id": "B",
+          "text": "Anh T, chị H và M"
+        },
+        {
+          "id": "C",
+          "text": "Anh T và chị H"
+        },
+        {
+          "id": "D",
+          "text": "Anh T, Q và M"
+        }
+      ],
+      "answer": "C",
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E",
+      "annotator": "Vy",
+      "rationale": "",
+      "timestamp": "2026-06-15T13:18:12.235Z",
+      "is_annotated": true,
+      "metadata": {}
+    }
+  }
+]
