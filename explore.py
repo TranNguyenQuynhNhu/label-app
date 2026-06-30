@@ -10,28 +10,49 @@ df = pd.concat(
     ignore_index=True
 )
 
-print("=== COLUMNS ===")
-print(df.columns.tolist())
+print(f"Rows: {len(df):,}")
+print(f"Columns: {len(df.columns)}")
+print(df.columns)
 
-print("\n=== LANGUAGE / SUBSET CHECK ===")
+# ======================================
+# source
+# ======================================
 
-keywords = [
-    "lang",
-    "language",
-    "locale",
-    "subset",
-    "config",
-    "country"
-]
+print("\nSOURCE DISTRIBUTION")
+print(df["source"].value_counts())
 
-found = False
+df["source"].value_counts().to_csv(
+    "source_distribution.csv",
+    encoding="utf-8-sig"
+)
 
-for col in df.columns:
-    if any(k in col.lower() for k in keywords):
-        found = True
-        print(f"\nColumn: {col}")
-        print(df[col].value_counts(dropna=False))
+# ======================================
+# number of turns
+# ======================================
 
-if not found:
-    print("Không tìm thấy cột nào liên quan đến ngôn ngữ hoặc subset.")
-    print("Dataset này nhiều khả năng chỉ chứa một subset duy nhất.")
+df["num_turns"] = df["conversations"].apply(len)
+
+print("\nTURN STATISTICS")
+print(df["num_turns"].describe())
+
+df["num_turns"].describe().to_csv(
+    "turn_statistics.csv",
+    encoding="utf-8-sig"
+)
+
+# ======================================
+# conversation length
+# ======================================
+
+def total_characters(conv):
+    return sum(len(x["content"]) for x in conv)
+
+df["num_characters"] = df["conversations"].apply(total_characters)
+
+print("\nCHARACTER STATISTICS")
+print(df["num_characters"].describe())
+
+df["num_characters"].describe().to_csv(
+    "character_statistics.csv",
+    encoding="utf-8-sig"
+)
