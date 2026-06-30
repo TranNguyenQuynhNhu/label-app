@@ -1,12 +1,5 @@
 from pathlib import Path
 import pandas as pd
-from huggingface_hub import snapshot_download
-
-snapshot_download(
-    repo_id="tuongvyle/SEA-Instruct-2602-fine-tuned",
-    repo_type="dataset",
-    local_dir="SEA-Instruct-2602-fine-tuned-new",
-)
 
 DATA_DIR = r"SEA-Instruct-2602-fine-tuned-new\data"
 
