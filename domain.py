@@ -1,19 +1,35 @@
-import pandas as pd
 from datasets import load_dataset
-from huggingface_hub import login
 
-# 1. Tải bộ dữ liệu SEA-Instruct-2602 từ Hugging Face
 print("Đang tải dữ liệu...")
-dataset = load_dataset("aisingapore/SEA-Instruct-2602", "Vietnamese", split="train")
+dataset = load_dataset(
+    "aisingapore/SEA-Instruct-2602",
+    "Vietnamese",
+    split="train"
+)
 
-# 2. Chuyển đổi dataset sang định dạng Pandas DataFrame để dễ thao tác
 df = dataset.to_pandas()
 
-# 3. Lọc lấy các giá trị duy nhất trong trường 'prompt_primary_domain'
-unique_domains = df['prompt_primary_domain'].dropna().unique()
+culture_domains = [
+    "Social_and_Cultural_Issues",
+    "Food_and_Cuisine",
+    "Arts_and_Literature",
+    "History_and_Heritage",
+    "Sports_and_Fitness",
+    "Daily_Life_and_Personal",
+    "Government_and_Politics",
+    "Parenting_and_Family",
+    "Legal_Rights_and_Access",
+    "Education",
+    "Media_and_Entertainment",
+    "Superstitions_Myth_and_Folklore",
+    "Travel_and_Tourism",
+    "Traditional_Medicine_and_Alternative_Healing",
+    "Internet_and_Digital_Culture",
+    "Agriculture_and_Fishing",
+    "Religion_and_Belief",
+    "Law_and_Justice",
+    "Migrant_Worker_Expat_and_Student_Life",
+]
 
-# 4. Lưu danh sách ra file CSV (có thể mở bằng Excel)
-df_domains = pd.DataFrame(unique_domains, columns=['Domain_Name'])
-df_domains.to_csv("danh_sach_43_domain.csv", index=False, encoding="utf-8-sig")
-
-print(f"Hoàn tất! Đã xuất danh sách {len(unique_domains)} domain ra file 'danh_sach_43_domain.csv'.")
+count = df["prompt_primary_domain"].isin(culture_domains).sum()
+print(f"Số record thuộc các domain Is_Culture = Y: {count}")
