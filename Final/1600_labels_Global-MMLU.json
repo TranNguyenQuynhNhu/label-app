@@ -30137,7 +30137,7 @@
     ],
     "answer": "D",
     "nat_tra_adp_label": "TRA",
-    "cs_ca_label": "TRA-CS-L",
+    "cs_ca_label": "CS-L",
     "final_label": "TRA-CS-L",
     "annotator": "",
     "rationale": "",
