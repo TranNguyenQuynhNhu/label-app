@@ -1,5 +1,116 @@
 [
   {
+    "benchmark_name": "SEA-EXAM",
+    "sample_id": "seaexam_267",
+    "question": "Cùng với việc sử dụng tiếng phổ thông, các dân tộc sinh sống trên lãnh thổ Việt Nam được Nhà nước cho phép sử dụng tiếng nói, chữ viết riêng của mình là bảo đảm quyền bình đẳng giữa các dân tộc ở phương diện nào sau đây?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chính trị."
+      },
+      {
+        "id": "B",
+        "text": "Văn hóa."
+      },
+      {
+        "id": "C",
+        "text": "Quốc phòng."
+      },
+      {
+        "id": "D",
+        "text": "An ninh."
+      }
+    ],
+    "answer": "B",
+    "nat_tra_adp_label": "NAT",
+    "cs_ca_label": "UNK",
+    "final_label": "NAT-UNK",
+    "annotator": "Ngoc",
+    "rationale": "",
+    "timestamp": "2026-05-19T10:14:35.570Z",
+    "is_annotated": true,
+    "metadata": {
+      "language": "vietnamese",
+      "level": "high",
+      "sub_subject": "civic",
+      "subject": "social-science"
+    }
+  },
+  {
+    "benchmark_name": "SEA-EXAM",
+    "sample_id": "seaexam_628",
+    "question": "Việc đa dạng hóa sản phẩm công nghiệp của nước ta chủ yếu nhằm",
+    "options": [
+      {
+        "id": "A",
+        "text": "tận dụng thế mạnh lao động."
+      },
+      {
+        "id": "B",
+        "text": "đáp ứng nhu cầu thị trường."
+      },
+      {
+        "id": "C",
+        "text": "góp phần phát triển xuất khẩu."
+      },
+      {
+        "id": "D",
+        "text": "khai thác thế mạnh về tự nhiên."
+      }
+    ],
+    "answer": "B",
+    "nat_tra_adp_label": "NAT",
+    "cs_ca_label": "UNK",
+    "final_label": "NAT-UNK",
+    "annotator": "Ngoc",
+    "rationale": "",
+    "timestamp": "2026-05-29T05:12:12.817Z",
+    "is_annotated": true,
+    "metadata": {
+      "language": "vietnamese",
+      "level": "high",
+      "sub_subject": "geography",
+      "subject": "social-science"
+    }
+  },
+  {
+    "benchmark_name": "SEA-EXAM",
+    "sample_id": "seaexam_839",
+    "question": "Để đẩy lùi nạn đói, biện pháp nào là quan trọng nhất",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lập hũ gạo tiết kiệm."
+      },
+      {
+        "id": "B",
+        "text": "Chia lại ruộng công cho nông dân theo nguyên tắc công bằng và dân chủ ."
+      },
+      {
+        "id": "C",
+        "text": "Đẩy mạnh tăng gia sản xuất ."
+      },
+      {
+        "id": "D",
+        "text": "Tổ chức ngày đồng tâm để có thêm gạo cứu đói."
+      }
+    ],
+    "answer": "C",
+    "nat_tra_adp_label": "NAT",
+    "cs_ca_label": "UNK",
+    "final_label": "NAT-UNK",
+    "annotator": "Khang",
+    "rationale": "",
+    "timestamp": "2026-05-29T14:29:16.080Z",
+    "is_annotated": true,
+    "metadata": {
+      "language": "vietnamese",
+      "level": "mid",
+      "sub_subject": "history",
+      "subject": "social-science"
+    }
+  },
+  {
     "benchmark_name": "Global-MMLU",
     "sample_id": "econometrics/test/7",
     "question": "Đặc điểm nào sau đây KHÔNG phải là đặc điểm của lợi nhuận kép liên tục (tức là lợi nhuận logarit)?",
@@ -25,7 +136,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.053Z",
     "is_annotated": true,
@@ -61,7 +172,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.053Z",
     "is_annotated": true,
@@ -97,7 +208,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.054Z",
     "is_annotated": true,
@@ -133,7 +244,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.054Z",
     "is_annotated": true,
@@ -169,7 +280,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.054Z",
     "is_annotated": true,
@@ -205,7 +316,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.054Z",
     "is_annotated": true,
@@ -241,7 +352,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.054Z",
     "is_annotated": true,
@@ -277,7 +388,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.054Z",
     "is_annotated": true,
@@ -313,7 +424,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.054Z",
     "is_annotated": true,
@@ -349,7 +460,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.055Z",
     "is_annotated": true,
@@ -385,7 +496,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.055Z",
     "is_annotated": true,
@@ -421,7 +532,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.055Z",
     "is_annotated": true,
@@ -457,7 +568,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.055Z",
     "is_annotated": true,
@@ -493,7 +604,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.055Z",
     "is_annotated": true,
@@ -529,7 +640,7 @@
     "nat_tra_adp_label": "TRA",
     "cs_ca_label": "UNK",
     "final_label": "TRA-UNK",
-    "annotator": "Trần Ánh Ngọc",
+    "annotator": "Ngoc",
     "rationale": "",
     "timestamp": "2026-05-03T07:52:47.055Z",
     "is_annotated": true,
@@ -933,117 +1044,6 @@
       "subject": "high_school_macroeconomics",
       "subject_category": "Social Sciences",
       "cultural_sensitivity_label": "-"
-    }
-  },
-  {
-    "benchmark_name": "SEA-EXAM",
-    "sample_id": "seaexam_267",
-    "question": "Cùng với việc sử dụng tiếng phổ thông, các dân tộc sinh sống trên lãnh thổ Việt Nam được Nhà nước cho phép sử dụng tiếng nói, chữ viết riêng của mình là bảo đảm quyền bình đẳng giữa các dân tộc ở phương diện nào sau đây?",
-    "options": [
-      {
-        "id": "A",
-        "text": "Chính trị."
-      },
-      {
-        "id": "B",
-        "text": "Văn hóa."
-      },
-      {
-        "id": "C",
-        "text": "Quốc phòng."
-      },
-      {
-        "id": "D",
-        "text": "An ninh."
-      }
-    ],
-    "answer": "B",
-    "nat_tra_adp_label": "NAT",
-    "cs_ca_label": "UNK",
-    "final_label": "NAT-UNK",
-    "annotator": "ánh ngọc",
-    "rationale": "",
-    "timestamp": "2026-05-19T10:14:35.570Z",
-    "is_annotated": true,
-    "metadata": {
-      "language": "vietnamese",
-      "level": "high",
-      "sub_subject": "civic",
-      "subject": "social-science"
-    }
-  },
-  {
-    "benchmark_name": "SEA-EXAM",
-    "sample_id": "seaexam_628",
-    "question": "Việc đa dạng hóa sản phẩm công nghiệp của nước ta chủ yếu nhằm",
-    "options": [
-      {
-        "id": "A",
-        "text": "tận dụng thế mạnh lao động."
-      },
-      {
-        "id": "B",
-        "text": "đáp ứng nhu cầu thị trường."
-      },
-      {
-        "id": "C",
-        "text": "góp phần phát triển xuất khẩu."
-      },
-      {
-        "id": "D",
-        "text": "khai thác thế mạnh về tự nhiên."
-      }
-    ],
-    "answer": "B",
-    "nat_tra_adp_label": "NAT",
-    "cs_ca_label": "UNK",
-    "final_label": "NAT-UNK",
-    "annotator": "ánh ngọc",
-    "rationale": "",
-    "timestamp": "2026-05-29T05:12:12.817Z",
-    "is_annotated": true,
-    "metadata": {
-      "language": "vietnamese",
-      "level": "high",
-      "sub_subject": "geography",
-      "subject": "social-science"
-    }
-  },
-  {
-    "benchmark_name": "SEA-EXAM",
-    "sample_id": "seaexam_839",
-    "question": "Để đẩy lùi nạn đói, biện pháp nào là quan trọng nhất",
-    "options": [
-      {
-        "id": "A",
-        "text": "Lập hũ gạo tiết kiệm."
-      },
-      {
-        "id": "B",
-        "text": "Chia lại ruộng công cho nông dân theo nguyên tắc công bằng và dân chủ ."
-      },
-      {
-        "id": "C",
-        "text": "Đẩy mạnh tăng gia sản xuất ."
-      },
-      {
-        "id": "D",
-        "text": "Tổ chức ngày đồng tâm để có thêm gạo cứu đói."
-      }
-    ],
-    "answer": "C",
-    "nat_tra_adp_label": "NAT",
-    "cs_ca_label": "UNK",
-    "final_label": "NAT-UNK",
-    "annotator": "Khang",
-    "rationale": "",
-    "timestamp": "2026-05-29T14:29:16.080Z",
-    "is_annotated": true,
-    "metadata": {
-      "language": "vietnamese",
-      "level": "mid",
-      "sub_subject": "history",
-      "subject": "social-science"
     }
   }
 ]
