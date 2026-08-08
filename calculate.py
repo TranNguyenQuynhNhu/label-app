@@ -3,7 +3,7 @@ import json
 # =========================
 # FILE JSON
 # =========================
-file_path = r"C:\Users\Nhu\my-label-app\Raw\Khang_857_seaexam.json"
+file_path = r"C:\Users\Nhu\my-label-app\Raw\Ngoc_1600_globalmmlu.json"
 
 
 # =========================
