@@ -4,9 +4,9 @@ import numpy as np
 
 # Đường dẫn tới 3 file Nounk của bạn
 file_paths = [
-    r'C:\Users\Nhu\my-label-app\Nounk\Khang_857_seaexam.json',
-    r'C:\Users\Nhu\my-label-app\Nounk\Ngoc_857_seaexam.json',
-    r'C:\Users\Nhu\my-label-app\Nounk\Nhu_857_seaexam.json'
+    r'C:\Users\Nhu\my-label-app\Nounk\Khang_1600_globalmmlu.json',
+    r'C:\Users\Nhu\my-label-app\Nounk\Ngoc_1600_globalmmlu.json',
+    r'C:\Users\Nhu\my-label-app\Nounk\Nhu_1600_globalmmlu.json'
 ]
 
 all_data = []
