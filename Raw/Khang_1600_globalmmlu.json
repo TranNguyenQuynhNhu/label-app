@@ -21601,42 +21601,6 @@
   },
   {
     "benchmark_name": "Global-MMLU",
-    "sample_id": "high_school_geography/test/194",
-    "question": "Nước xuất khẩu hàng nông sản lớn nhất thế giới là",
-    "options": [
-      {
-        "id": "A",
-        "text": "Trung Quốc."
-      },
-      {
-        "id": "B",
-        "text": "Mê-hi-cô."
-      },
-      {
-        "id": "C",
-        "text": "Chi-lê."
-      },
-      {
-        "id": "D",
-        "text": "Hoa Kỳ."
-      }
-    ],
-    "answer": "D",
-    "nat_tra_adp_label": "TRA",
-    "cs_ca_label": "CS-E",
-    "final_label": "TRA-CS-E",
-    "annotator": "Khang",
-    "rationale": "",
-    "timestamp": "2026-05-30T16:03:38.392Z",
-    "is_annotated": true,
-    "metadata": {
-      "subject": "high_school_geography",
-      "subject_category": "Social Sciences",
-      "cultural_sensitivity_label": "-"
-    }
-  },
-  {
-    "benchmark_name": "Global-MMLU",
     "sample_id": "high_school_geography/test/195",
     "question": "Câu nào sau đây KHÔNG phải là một phần trong lý thuyết về nguyên nhân tích lũy của Gunnar Myrdal?",
     "options": [
@@ -39597,6 +39561,48 @@
       "subject": "high_school_macroeconomics",
       "subject_category": "Social Sciences",
       "cultural_sensitivity_label": "-"
+    }
+  },
+  {
+    "benchmark_name": "Global-MMLU",
+    "sample_id": "high_school_macroeconomics/test/303",
+    "question": "Ước tính \"nhanh\" về GDP",
+    "options": [
+      {
+        "id": "A",
+        "text": "có thể được sửa đổi."
+      },
+      {
+        "id": "B",
+        "text": "không cần phải sửa đổi."
+      },
+      {
+        "id": "C",
+        "text": "có sẵn sau khoảng thời gian trễ là ba mươi ngày."
+      },
+      {
+        "id": "D",
+        "text": "cả (A) và (C)"
+      }
+    ],
+    "answer": "D",
+    "nat_tra_adp_label": "TRA",
+    "cs_ca_label": "CA",
+    "final_label": "TRA-CA",
+    "annotator": "Khang",
+    "rationale": "",
+    "timestamp": "2026-06-01T07:15:47.515Z",
+    "is_annotated": true,
+    "metadata": {
+      "language": "-",
+      "level": "-",
+      "sub_subject": "-",
+      "subject": "high_school_macroeconomics",
+      "subject_category": "Social Sciences",
+      "cultural_sensitivity_label": "-",
+      "category": "-",
+      "src": "-",
+      "question_id_src": "-"
     }
   },
   {
