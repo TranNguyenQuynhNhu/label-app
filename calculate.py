@@ -1,79 +1,123 @@
 import json
-import pandas as pd
-import numpy as np
+from collections import Counter
 
-# Đường dẫn tới 3 file Nounk của bạn
-file_paths = [
-    r'C:\Users\Nhu\my-label-app\Nounk\Dong_900_mmluprox.json',
-    r'C:\Users\Nhu\my-label-app\Nounk\Vy_900_mmluprox.json',
-    r'C:\Users\Nhu\my-label-app\Nounk\Nhu_900_mmluprox.json'
-]
+# =========================
+# CẤU HÌNH 3 FILE
+# =========================
+file1 = r"C:\Users\Nhu\my-label-app\Nounk\Dong_900_mmluprox.json"
+file2 = r"C:\Users\Nhu\my-label-app\Nounk\Vy_900_mmluprox.json"
+file3 = r"C:\Users\Nhu\my-label-app\Nounk\Nhu_900_mmluprox.json"
 
-all_data = []
-for path in file_paths:
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-        all_data.extend(data)
 
-df = pd.DataFrame(all_data)
+# =========================
+# ĐỌC JSON
+# =========================
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-# Gom nhóm theo sample_id
-grouped = df.groupby('sample_id').agg(
-    labels=('final_label', list),
-    annotators=('annotator', list)
-).reset_index()
 
-# Lọc các mẫu hợp lệ (đúng 3 annotator khác nhau và có đủ 3 nhãn)
-valid_samples = []
-for _, row in grouped.iterrows():
-    if len(set(row['annotators'])) == 3 and len(row['labels']) == 3:
-        valid_samples.append(row['labels'])
+data1 = load_json(file1)
+data2 = load_json(file2)
+data3 = load_json(file3)
 
-total_valid = len(valid_samples)
-print(f"Tổng số mẫu hợp lệ trong dataset: {total_valid}")
 
-# --- PHÂN CHIA THEO ĐÚNG Ý BẠN ---
-# Chọn mode để tính toán: 'first' hoặc 'last'
-mode = 'last' # Đổi thành 'first' nếu muốn tính cho phần đầu
+# =========================
+# TẠO DICT THEO sample_id
+# =========================
+dict1 = {item["sample_id"]: item for item in data1}
+dict2 = {item["sample_id"]: item for item in data2}
+dict3 = {item["sample_id"]: item for item in data3}
 
-if mode == 'first':
-    selected_samples = valid_samples[:500]
-    print("--- Đang tính cho 500 MẪU ĐẦU TIÊN ---")
+
+# =========================
+# KIỂM TRA
+# =========================
+all_sample_ids = set(dict1) | set(dict2) | set(dict3)
+
+different_cases = []
+missing_cases = []
+
+for sample_id in sorted(all_sample_ids):
+
+    # -------------------------
+    # Kiểm tra sample có đủ 3 file
+    # -------------------------
+    if sample_id not in dict1 or sample_id not in dict2 or sample_id not in dict3:
+        missing_cases.append({
+            "sample_id": sample_id,
+            "file1": sample_id in dict1,
+            "file2": sample_id in dict2,
+            "file3": sample_id in dict3
+        })
+        continue
+
+    # -------------------------
+    # Lấy final_label
+    # -------------------------
+    label1 = dict1[sample_id].get("final_label")
+    label2 = dict2[sample_id].get("final_label")
+    label3 = dict3[sample_id].get("final_label")
+
+    labels = [label1, label2, label3]
+
+    # -------------------------
+    # Cả 3 người khác nhau
+    # -------------------------
+    if len(set(labels)) == 3:
+        different_cases.append({
+            "sample_id": sample_id,
+            "file1": label1,
+            "file2": label2,
+            "file3": label3
+        })
+
+
+# =========================
+# IN KẾT QUẢ
+# =========================
+
+print("=" * 70)
+print("KẾT QUẢ KIỂM TRA CONSENSUS")
+print("=" * 70)
+
+print(f"Tổng sample unique: {len(all_sample_ids)}")
+print(f"Sample thiếu ở ít nhất 1 file: {len(missing_cases)}")
+print(f"Sample cả 3 người đều khác nhau: {len(different_cases)}")
+print()
+
+
+# =========================
+# CÁC CASE CẢ 3 KHÁC NHAU
+# =========================
+
+if len(different_cases) == 0:
+    print("OK: Không có sample nào mà cả 3 người đều khác nhau.")
+    print("=> Tất cả sample đều có ít nhất 2 người có cùng final_label.")
 else:
-    if total_valid >= 1000:
-        # Nếu tổng số mẫu >= 1000, lấy đúng 500 mẫu cuối từ dưới đếm lên
-        selected_samples = valid_samples[-500:]
-        print("--- Đang tính cho 500 MẪU CUỐI CÙNG (đếm ngược từ dưới lên) ---")
-    else:
-        # Nếu tổng số mẫu từ 501 đến 999, lấy tất cả phần còn lại sau 500 mẫu đầu
-        selected_samples = valid_samples[500:]
-        print(f"--- Dataset nhỏ hơn 1000 mẫu ({total_valid}), lấy toàn bộ {len(selected_samples)} mẫu còn lại sau mốc 500 ---")
+    print("WARNING: Có sample mà cả 3 người đều khác nhau:\n")
 
-N = len(selected_samples)
-n = 3
+    for case in different_cases:
+        print(f"sample_id: {case['sample_id']}")
+        print(f"  File 1: {case['file1']}")
+        print(f"  File 2: {case['file2']}")
+        print(f"  File 3: {case['file3']}")
+        print("-" * 50)
 
-if N == 0:
-    print("Không có mẫu nào để tính toán.")
-else:
-    # 1. Tính Percent Agreement
-    unanimous_count = sum(1 for labels in selected_samples if len(set(labels)) == 1)
-    percent_agreement = (unanimous_count / N) * 100
 
-    # 2. Tính Fleiss' Kappa
-    P_bar = unanimous_count / N
+# =========================
+# CÁC SAMPLE BỊ THIẾU
+# =========================
 
-    flat_labels = [label for labels in selected_samples for label in labels]
-    unique_labels, counts = np.unique(flat_labels, return_counts=True)
-    
-    total_assignments = N * n
-    p_j = counts / total_assignments
-    Pe_bar = sum(p ** 2 for p in p_j)
+if missing_cases:
+    print("\n" + "=" * 70)
+    print("CÁC SAMPLE KHÔNG CÓ ĐỦ TRONG 3 FILE")
+    print("=" * 70)
 
-    if Pe_bar == 1:
-        fleiss_kappa = 1.0
-    else:
-        fleiss_kappa = (P_bar - Pe_bar) / (1 - Pe_bar)
-
-    print(f"Items evaluated (N)         : {N}")
-    print(f"Percent Agreement (%)       : {percent_agreement:.2f}% ({unanimous_count}/{N} mẫu)")
-    print(f"Fleiss' Kappa               : {fleiss_kappa:.4f}")
+    for case in missing_cases:
+        print(
+            f"sample_id: {case['sample_id']} | "
+            f"File1: {case['file1']} | "
+            f"File2: {case['file2']} | "
+            f"File3: {case['file3']}"
+        )
