@@ -1,67 +1,79 @@
 import json
+import pandas as pd
+import numpy as np
 
-FILE_A = r"C:\Users\Nhu\my-label-app\Raw\Khang_1600_globalmmlu.json"
-FILE_B = r"C:\Users\Nhu\my-label-app\Raw\Nhu_1600_globalmmlu.json"
+# Đường dẫn tới 3 file Nounk của bạn
+file_paths = [
+    r'C:\Users\Nhu\my-label-app\Nounk\Dong_900_mmluprox.json',
+    r'C:\Users\Nhu\my-label-app\Nounk\Vy_900_mmluprox.json',
+    r'C:\Users\Nhu\my-label-app\Nounk\Nhu_900_mmluprox.json'
+]
 
+all_data = []
+for path in file_paths:
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        all_data.extend(data)
 
-def load_json(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+df = pd.DataFrame(all_data)
 
+# Gom nhóm theo sample_id
+grouped = df.groupby('sample_id').agg(
+    labels=('final_label', list),
+    annotators=('annotator', list)
+).reset_index()
 
-data_a = load_json(FILE_A)
-data_b = load_json(FILE_B)
+# Lọc các mẫu hợp lệ (đúng 3 annotator khác nhau và có đủ 3 nhãn)
+valid_samples = []
+for _, row in grouped.iterrows():
+    if len(set(row['annotators'])) == 3 and len(row['labels']) == 3:
+        valid_samples.append(row['labels'])
 
-# Lấy sample_id của mỗi file
-ids_a = {
-    sample["sample_id"]
-    for sample in data_a
-    if "sample_id" in sample
-}
+total_valid = len(valid_samples)
+print(f"Tổng số mẫu hợp lệ trong dataset: {total_valid}")
 
-ids_b = {
-    sample["sample_id"]
-    for sample in data_b
-    if "sample_id" in sample
-}
+# --- PHÂN CHIA THEO ĐÚNG Ý BẠN ---
+# Chọn mode để tính toán: 'first' hoặc 'last'
+mode = 'last' # Đổi thành 'first' nếu muốn tính cho phần đầu
 
-# Những sample có trong B nhưng không có trong A
-missing_in_a = ids_b - ids_a
-
-# Những sample có trong A nhưng không có trong B
-extra_in_a = ids_a - ids_b
-
-print("=" * 60)
-print(f"File A: {FILE_A}")
-print(f"File B: {FILE_B}")
-print("=" * 60)
-
-print(f"Số sample trong A        : {len(ids_a)}")
-print(f"Số sample trong B        : {len(ids_b)}")
-print(f"A thiếu so với B         : {len(missing_in_a)}")
-print(f"A có thêm so với B       : {len(extra_in_a)}")
-print("=" * 60)
-
-
-# -----------------------------
-# A thiếu những sample nào?
-# -----------------------------
-if missing_in_a:
-    print("\nCác sample A đang thiếu so với B:")
-
-    for sample_id in sorted(missing_in_a):
-        print(sample_id)
+if mode == 'first':
+    selected_samples = valid_samples[:500]
+    print("--- Đang tính cho 500 MẪU ĐẦU TIÊN ---")
 else:
-    print("\nA không thiếu sample nào so với B.")
+    if total_valid >= 1000:
+        # Nếu tổng số mẫu >= 1000, lấy đúng 500 mẫu cuối từ dưới đếm lên
+        selected_samples = valid_samples[-500:]
+        print("--- Đang tính cho 500 MẪU CUỐI CÙNG (đếm ngược từ dưới lên) ---")
+    else:
+        # Nếu tổng số mẫu từ 501 đến 999, lấy tất cả phần còn lại sau 500 mẫu đầu
+        selected_samples = valid_samples[500:]
+        print(f"--- Dataset nhỏ hơn 1000 mẫu ({total_valid}), lấy toàn bộ {len(selected_samples)} mẫu còn lại sau mốc 500 ---")
 
+N = len(selected_samples)
+n = 3
 
-# -----------------------------
-# A có thêm sample nào?
-# -----------------------------
-if extra_in_a:
-    print("\nCác sample A có nhưng B không có:")
-
-    for sample_id in sorted(extra_in_a):
-        print(sample_id)
+if N == 0:
+    print("Không có mẫu nào để tính toán.")
 else:
-    print("\nA không có sample dư so với B.")
+    # 1. Tính Percent Agreement
+    unanimous_count = sum(1 for labels in selected_samples if len(set(labels)) == 1)
+    percent_agreement = (unanimous_count / N) * 100
+
+    # 2. Tính Fleiss' Kappa
+    P_bar = unanimous_count / N
+
+    flat_labels = [label for labels in selected_samples for label in labels]
+    unique_labels, counts = np.unique(flat_labels, return_counts=True)
+    
+    total_assignments = N * n
+    p_j = counts / total_assignments
+    Pe_bar = sum(p ** 2 for p in p_j)
+
+    if Pe_bar == 1:
+        fleiss_kappa = 1.0
+    else:
+        fleiss_kappa = (P_bar - Pe_bar) / (1 - Pe_bar)
+
+    print(f"Items evaluated (N)         : {N}")
+    print(f"Percent Agreement (%)       : {percent_agreement:.2f}% ({unanimous_count}/{N} mẫu)")
+    print(f"Fleiss' Kappa               : {fleiss_kappa:.4f}")
