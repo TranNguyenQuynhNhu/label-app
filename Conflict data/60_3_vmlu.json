@@ -1,0 +1,422 @@
+[
+  {
+    "sample_id": "22-0025",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0030",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0033",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0034",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0035",
+    "Dong": "TRA-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "TRA-CA",
+    "conflict_type": "NAT-CS-E vs TRA-CA"
+  },
+  {
+    "sample_id": "22-0036",
+    "Dong": "TRA-CA",
+    "Vy": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs TRA-CA"
+  },
+  {
+    "sample_id": "22-0037",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0038",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0039",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0040",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0041",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0044",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0046",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0047",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0049",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0056",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0057",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0058",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0059",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0062",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0063",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0065",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0067",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0073",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0074",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "22-0075",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "23-0055",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0068",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0082",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0086",
+    "Dong": "NAT-CS-H",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0092",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0093",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0105",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0124",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "23-0150",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0161",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0167",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0168",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0191",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0195",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "23-0198",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-L",
+    "Nhu": "NAT-CS-L",
+    "conflict_type": "NAT-CS-E vs NAT-CS-L"
+  },
+  {
+    "sample_id": "23-0199",
+    "Dong": "NAT-CS-E",
+    "Vy": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "24-0041",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0057",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0060",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0092",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0129",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0140",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0163",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0184",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "24-0191",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "25-0062",
+    "Dong": "NAT-CS-H",
+    "Vy": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "25-0072",
+    "Dong": "NAT-CS-H",
+    "Vy": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "25-0108",
+    "Dong": "NAT-CS-H",
+    "Vy": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "25-0190",
+    "Dong": "NAT-CS-H",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "31-0138",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "31-0170",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-P",
+    "Nhu": "NAT-CS-P",
+    "conflict_type": "NAT-CA vs NAT-CS-P"
+  },
+  {
+    "sample_id": "31-0173",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-P",
+    "Nhu": "NAT-CS-P",
+    "conflict_type": "NAT-CA vs NAT-CS-P"
+  },
+  {
+    "sample_id": "31-0176",
+    "Dong": "NAT-CS-H",
+    "Vy": "NAT-CS-P",
+    "Nhu": "NAT-CS-P",
+    "conflict_type": "NAT-CS-H vs NAT-CS-P"
+  },
+  {
+    "sample_id": "31-0199",
+    "Dong": "NAT-CA",
+    "Vy": "NAT-CS-P",
+    "Nhu": "NAT-CS-P",
+    "conflict_type": "NAT-CA vs NAT-CS-P"
+  }
+]

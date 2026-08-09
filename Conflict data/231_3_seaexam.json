@@ -1,0 +1,1619 @@
+[
+  {
+    "sample_id": "seaexam_0",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_1",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_10",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_100",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_102",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_104",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_105",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_106",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_108",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_111",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_112",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_113",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_118",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_12",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_122",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_123",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CS-L",
+    "conflict_type": "NAT-CS-H vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_125",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_128",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_129",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_130",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_131",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_132",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_135",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_137",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_14",
+    "Khang": "NAT-CS-P",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs NAT-CS-P"
+  },
+  {
+    "sample_id": "seaexam_140",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_141",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_144",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_145",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_146",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_15",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_152",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_153",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_154",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_155",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_156",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_159",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_162",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_163",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_164",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "TRA-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs TRA-CA"
+  },
+  {
+    "sample_id": "seaexam_165",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_167",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_169",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_171",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_173",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_174",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_178",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_18",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_183",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_185",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_187",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs TRA-CS-E"
+  },
+  {
+    "sample_id": "seaexam_188",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_19",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_190",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_194",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_195",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_196",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CS-L",
+    "conflict_type": "NAT-CS-H vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_2",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_201",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_203",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_204",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_205",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_209",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_211",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_22",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_225",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_227",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_229",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_231",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_233",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_237",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_238",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_239",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_24",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_241",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_242",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_246",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_247",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_25",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_257",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_258",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_270",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_273",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_276",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_278",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-P",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-P"
+  },
+  {
+    "sample_id": "seaexam_279",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_282",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_286",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_289",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_29",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_292",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_295",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_296",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_298",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_3",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_307",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_31",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_316",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_321",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_322",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_326",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_328",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_334",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_34",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_340",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_341",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_342",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_349",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_351",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_362",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_366",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_367",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_37",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_371",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_373",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_376",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_39",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_4",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_400",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_401",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_403",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_406",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_407",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_417",
+    "Khang": "NAT-CS-L",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-L",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_418",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_423",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_426",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_43",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_434",
+    "Khang": "NAT-CS-L",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-L",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_435",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_439",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_445",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_446",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_45",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CA"
+  },
+  {
+    "sample_id": "seaexam_452",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_453",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_454",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_459",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_46",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_469",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_470",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_471",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_473",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CS-L",
+    "conflict_type": "NAT-CS-E vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_477",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_48",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_486",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_491",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_492",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-L",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_494",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_495",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_496",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_499",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_50",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_500",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_501",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_502",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_515",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_52",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_525",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_527",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_530",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_531",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_536",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_538",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_54",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_541",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_547",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_548",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_55",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_552",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_56",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_560",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_563",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_57",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_573",
+    "Khang": "NAT-CA",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_574",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CA"
+  },
+  {
+    "sample_id": "seaexam_580",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_585",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_587",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_589",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_59",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_591",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_596",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_601",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_605",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_612",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_63",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_653",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_68",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_682",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_69",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_691",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_7",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_70",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_703",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_706",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_71",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs TRA-CS-E"
+  },
+  {
+    "sample_id": "seaexam_715",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_72",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-H vs TRA-CS-H"
+  },
+  {
+    "sample_id": "seaexam_724",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_727",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_73",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_735",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_739",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_75",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_750",
+    "Khang": "NAT-CS-L",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-L"
+  },
+  {
+    "sample_id": "seaexam_760",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_77",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_776",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_794",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_8",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_80",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_802",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_809",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_81",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_82",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_828",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_835",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_838",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_84",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_840",
+    "Khang": "NAT-CA",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CA",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_844",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_850",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_851",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_852",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CS-E",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_87",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_91",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_92",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_94",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CA vs NAT-CS-E"
+  },
+  {
+    "sample_id": "seaexam_96",
+    "Khang": "NAT-CS-H",
+    "Ngoc": "NAT-CA",
+    "Nhu": "NAT-CS-H",
+    "conflict_type": "NAT-CA vs NAT-CS-H"
+  },
+  {
+    "sample_id": "seaexam_97",
+    "Khang": "NAT-CS-E",
+    "Ngoc": "NAT-CS-H",
+    "Nhu": "NAT-CS-E",
+    "conflict_type": "NAT-CS-E vs NAT-CS-H"
+  }
+]

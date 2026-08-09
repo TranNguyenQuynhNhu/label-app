@@ -1,0 +1,240 @@
+[
+  {
+    "sample_id": "high_school_geography/test/125",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/126",
+    "Khang": "TRA-CS-L",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-L",
+    "conflict_type": "TRA-CS-H vs TRA-CS-L"
+  },
+  {
+    "sample_id": "high_school_geography/test/134",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/151",
+    "Khang": "TRA-CS-L",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-L",
+    "conflict_type": "TRA-CS-H vs TRA-CS-L"
+  },
+  {
+    "sample_id": "high_school_geography/test/152",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/155",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/167",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/173",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/179",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/190",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/191",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_geography/test/192",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_geography/test/194",
+    "Khang": "TRA-CA",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/15",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/24",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/35",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/40",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/71",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/84",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/85",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CS-E vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/309",
+    "Khang": "TRA-CA",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/340",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/350",
+    "Khang": "TRA-CA",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/365",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/378",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/382",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/383",
+    "Khang": "TRA-CA",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_microeconomics/test/169",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_psychology/test/111",
+    "Khang": "TRA-CS-H",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_psychology/test/13",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CS-L",
+    "Nhu": "TRA-CS-L",
+    "conflict_type": "TRA-CS-E vs TRA-CS-L"
+  },
+  {
+    "sample_id": "high_school_psychology/test/163",
+    "Khang": "TRA-CA",
+    "Ngoc": "TRA-CS-E",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": "high_school_psychology/test/168",
+    "Khang": "TRA-CA",
+    "Ngoc": "TRA-CS-L",
+    "Nhu": "TRA-CS-L",
+    "conflict_type": "TRA-CA vs TRA-CS-L"
+  },
+  {
+    "sample_id": "high_school_psychology/test/9",
+    "Khang": "TRA-CA",
+    "Ngoc": "TRA-CS-H",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": "high_school_psychology/test/97",
+    "Khang": "TRA-CS-E",
+    "Ngoc": "TRA-CA",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  }
+]

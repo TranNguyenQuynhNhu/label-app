@@ -1,58 +1,64 @@
-from pathlib import Path
-import pandas as pd
+import json
+from collections import defaultdict, Counter
 
-DATA_DIR = r"SEA-Instruct-2602-fine-tuned-new\data"
 
-files = sorted(Path(DATA_DIR).glob("*.parquet"))
+# =========================
+# CONFIG
+# =========================
 
-df = pd.concat(
-    [pd.read_parquet(f) for f in files],
-    ignore_index=True
-)
+file_path = r"C:\Users\Nhu\my-label-app\temp.json"
 
-print(f"Rows: {len(df):,}")
-print(f"Columns: {len(df.columns)}")
-print(df.columns)
 
-# ======================================
-# source
-# ======================================
+# =========================
+# LOAD JSON
+# =========================
 
-print("\nSOURCE DISTRIBUTION")
-print(df["source"].value_counts())
+with open(file_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-df["source"].value_counts().to_csv(
-    "source_distribution.csv",
-    encoding="utf-8-sig"
-)
 
-# ======================================
-# number of turns
-# ======================================
+# =========================
+# THỐNG KÊ
+# final_label -> expected
+# =========================
 
-df["num_turns"] = df["conversations"].apply(len)
+stats = defaultdict(Counter)
 
-print("\nTURN STATISTICS")
-print(df["num_turns"].describe())
+for item in data:
 
-df["num_turns"].describe().to_csv(
-    "turn_statistics.csv",
-    encoding="utf-8-sig"
-)
+    final_label = item.get("final_label")
+    expected = item.get("expected")
 
-# ======================================
-# conversation length
-# ======================================
+    if final_label is not None and expected is not None:
+        stats[final_label][expected] += 1
 
-def total_characters(conv):
-    return sum(len(x["content"]) for x in conv)
 
-df["num_characters"] = df["conversations"].apply(total_characters)
+# =========================
+# IN KẾT QUẢ
+# =========================
 
-print("\nCHARACTER STATISTICS")
-print(df["num_characters"].describe())
+print("=" * 70)
+print("FINAL LABEL -> EXPECTED STATISTICS")
+print("=" * 70)
 
-df["num_characters"].describe().to_csv(
-    "character_statistics.csv",
-    encoding="utf-8-sig"
-)
+for final_label, expected_counts in sorted(stats.items()):
+
+    total = sum(expected_counts.values())
+
+    print()
+    print(f"Final label: {final_label}")
+    print(f"Total: {total}")
+    print("-" * 60)
+
+    for expected, count in expected_counts.most_common():
+
+        percentage = count / total * 100
+
+        print(
+            f"  {expected:<25} "
+            f"{count:>8} "
+            f"({percentage:>6.2f}%)"
+        )
+
+print()
+print("=" * 70)

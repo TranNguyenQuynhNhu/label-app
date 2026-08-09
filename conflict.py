@@ -1,41 +1,67 @@
 import json
+from collections import Counter
 
-# Đọc 2 file annotation
-with open("Dong_500_labels_VMLU.json", "r", encoding="utf-8") as f:
-    data1 = json.load(f)
 
-with open("Vy_500_labels.json", "r", encoding="utf-8") as f:
-    data2 = json.load(f)
+# =========================
+# CONFIG
+# =========================
 
-# Map sample_id -> sample
-map1 = {sample["sample_id"]: sample for sample in data1}
-map2 = {sample["sample_id"]: sample for sample in data2}
+file_paths = [
+    r"C:\Users\Nhu\my-label-app\Conflict data\34_3_globalmmlu",
+    r"C:\Users\Nhu\my-label-app\Conflict data\60_3_vmlu.json",
+    r"C:\Users\Nhu\my-label-app\Conflict data\106_3_mmluprox.json",
+    r"C:\Users\Nhu\my-label-app\Conflict data\231_3_seaexam.json"
+]
 
-conflicts = []
 
-# Tìm các sample có conflict
-for sample_id in map1:
-    if sample_id in map2:
-        label1 = map1[sample_id]["final_label"]
-        label2 = map2[sample_id]["final_label"]
+# =========================
+# LOAD VÀ ĐẾM
+# =========================
 
-        if label1 != label2:
-            conflicts.append({
-                "sample_id": sample_id,
-                "question": map1[sample_id]["question"],
+counter = Counter()
 
-                "annotator_1": map1[sample_id]["annotator"],
-                "label_1": label1,
+total_conflicts = 0
 
-                "annotator_2": map2[sample_id]["annotator"],
-                "label_2": label2,
+for file_path in file_paths:
 
-                "sample_1": map1[sample_id],
-                "sample_2": map2[sample_id]
-            })
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-# Lưu kết quả conflict
-with open("conflicts.json", "w", encoding="utf-8") as f:
-    json.dump(conflicts, f, ensure_ascii=False, indent=2)
+    for item in data:
+        conflict_type = item.get("conflict_type")
 
-print(f"Found {len(conflicts)} conflict samples.")
+        if conflict_type:
+            counter[conflict_type] += 1
+            total_conflicts += 1
+
+
+# =========================
+# IN THỐNG KÊ
+# =========================
+
+print("=" * 70)
+print("CONFLICT TYPE STATISTICS")
+print("=" * 70)
+
+print(f"Total conflicts: {total_conflicts}")
+print()
+
+print(f"{'Conflict Type':<45} {'Count':>8} {'Percentage':>12}")
+print("-" * 70)
+
+for conflict_type, count in counter.most_common():
+
+    percentage = count / total_conflicts * 100
+
+    print(
+        f"{conflict_type:<45} "
+        f"{count:>8} "
+        f"{percentage:>11.2f}%"
+    )
+
+print("-" * 70)
+print(
+    f"{'TOTAL':<45} "
+    f"{total_conflicts:>8} "
+    f"{100:>11.2f}%"
+)

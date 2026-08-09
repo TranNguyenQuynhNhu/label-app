@@ -1,0 +1,744 @@
+[ 
+  {
+    "sample_id": 863,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 877,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 878,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 879,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 880,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 881,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 885,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 891,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 899,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 907,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 908,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 921,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 926,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 937,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 949,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 951,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 953,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 954,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 955,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 965,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 981,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 982,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 986,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 989,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 992,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 995,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 997,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 998,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1001,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1010,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1013,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1015,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1016,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1019,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1020,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1021,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1022,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": 1023,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1024,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1033,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1036,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1038,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1043,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1044,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1046,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1057,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1058,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1066,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1072,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1079,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1082,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1083,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1084,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-H",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": 1085,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1086,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1091,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1093,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1094,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1098,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1107,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1108,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1109,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1112,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1115,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1116,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1120,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1129,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1130,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1132,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1134,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1135,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1148,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CA",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1151,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1158,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1159,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1161,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1164,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1167,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1170,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1180,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1185,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1188,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1197,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1198,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1199,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1202,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1203,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1206,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1214,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1217,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1222,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1226,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1227,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1228,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1229,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1231,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1232,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1233,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-H",
+    "Nhu": "TRA-CS-H",
+    "conflict_type": "TRA-CA vs TRA-CS-H"
+  },
+  {
+    "sample_id": 1235,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1242,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1244,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1245,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1250,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1251,
+    "Dong": "TRA-CS-E",
+    "Vy": "TRA-CA",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1588,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  },
+  {
+    "sample_id": 1728,
+    "Dong": "TRA-CA",
+    "Vy": "TRA-CS-E",
+    "Nhu": "TRA-CS-E",
+    "conflict_type": "TRA-CA vs TRA-CS-E"
+  }
+]

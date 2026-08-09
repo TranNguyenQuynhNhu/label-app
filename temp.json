@@ -1,0 +1,524 @@
+[
+  {
+    "sample_id": "seaexam_267",
+    "file1": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E"
+    },
+    "file2": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "UNK",
+      "final_label": "NAT-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-E",
+      "final_label": "NAT-CS-E"
+    }
+  },
+  {
+    "sample_id": "seaexam_628",
+    "file1": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H"
+    },
+    "file2": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "UNK",
+      "final_label": "NAT-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H"
+    }
+  },
+  {
+    "sample_id": "seaexam_839",
+    "file1": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "UNK",
+      "final_label": "NAT-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H"
+    },
+    "file3": {
+      "nat_tra_adp_label": "NAT",
+      "cs_ca_label": "CS-H",
+      "final_label": "NAT-CS-H"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/100",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/11",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/16",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/17",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/20",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/24",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/43",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/67",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/7",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "econometrics/test/8",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "formal_logic/test/10",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "formal_logic/test/44",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "formal_logic/test/67",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "formal_logic/test/71",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "formal_logic/test/72",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "high_school_european_history/test/45",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-H",
+      "final_label": "TRA-CS-H"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-H",
+      "final_label": "TRA-CS-H"
+    }
+  },
+  {
+    "sample_id": "high_school_european_history/test/61",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "high_school_geography/test/101",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-H",
+      "final_label": "TRA-CS-H"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-H",
+      "final_label": "TRA-CS-H"
+    }
+  },
+  {
+    "sample_id": "high_school_geography/test/109",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    }
+  },
+  {
+    "sample_id": "high_school_geography/test/166",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    }
+  },
+  {
+    "sample_id": "high_school_geography/test/68",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CA",
+      "final_label": "TRA-CA"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-H",
+      "final_label": "TRA-CS-H"
+    }
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/100",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    }
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/114",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    }
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/129",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-E",
+      "final_label": "TRA-CS-E"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    }
+  },
+  {
+    "sample_id": "high_school_government_and_politics/test/190",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-L",
+      "final_label": "TRA-CS-L"
+    }
+  },
+  {
+    "sample_id": "high_school_macroeconomics/test/90",
+    "file1": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "UNK",
+      "final_label": "TRA-UNK"
+    },
+    "file2": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-H",
+      "final_label": "TRA-CS-H"
+    },
+    "file3": {
+      "nat_tra_adp_label": "TRA",
+      "cs_ca_label": "CS-H",
+      "final_label": "TRA-CS-H"
+    }
+  }
+]

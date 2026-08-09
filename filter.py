@@ -2,15 +2,15 @@ import json
 
 
 INPUT_FILES = [
-    "C:\\Users\\Nhu\\my-label-app\\Raw\\Dong_900_mmluprox.json",
-    "C:\\Users\\Nhu\\my-label-app\\Raw\\Vy_900_mmluprox.json",
-    "C:\\Users\\Nhu\\my-label-app\\Raw\\Nhu_900_mmluprox.json"
+    "C:\\Users\\Nhu\\my-label-app\\Raw\\Khang_1600_globalmmlu.json",
+    "C:\\Users\\Nhu\\my-label-app\\Raw\\Ngoc_1600_globalmmlu.json",
+    "C:\\Users\\Nhu\\my-label-app\\Raw\\Nhu_1600_globalmmlu.json"
 ]
 
 OUTPUT_FILES = [
-    "C:\\Users\\Nhu\\my-label-app\\Nounk\\Dong_900_mmluprox.json",
-    "C:\\Users\\Nhu\\my-label-app\\Nounk\\Vy_900_mmluprox.json",
-    "C:\\Users\\Nhu\\my-label-app\\Nounk\\Nhu_900_mmluprox.json"
+    "C:\\Users\\Nhu\\my-label-app\\Nounk\\Khang_1600_globalmmlu.json",
+    "C:\\Users\\Nhu\\my-label-app\\Nounk\\Ngoc_1600_globalmmlu.json",
+    "C:\\Users\\Nhu\\my-label-app\\Nounk\\Nhu_1600_globalmmlu.json"
 ]
 
 # File chứa sample có UNK
