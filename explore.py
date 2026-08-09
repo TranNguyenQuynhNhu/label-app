@@ -1,64 +1,90 @@
 import json
-from collections import defaultdict, Counter
+
+# =========================
+# File input
+# =========================
+json_file = r"C:\Users\Nhu\my-label-app\Final\1000_labels_VMLU.json"
+jsonl_file = r"C:\Users\Nhu\my-label-app\test.jsonl"
+
+# File output
+output_file = r"C:\Users\Nhu\my-label-app\Final\1000_labels_VMLU.json"
 
 
 # =========================
-# CONFIG
+# 1. Đọc file JSON
 # =========================
-
-file_path = r"C:\Users\Nhu\my-label-app\temp.json"
-
-
-# =========================
-# LOAD JSON
-# =========================
-
-with open(file_path, "r", encoding="utf-8") as f:
+with open(json_file, "r", encoding="utf-8") as f:
     data = json.load(f)
 
-
-# =========================
-# THỐNG KÊ
-# final_label -> expected
-# =========================
-
-stats = defaultdict(Counter)
-
-for item in data:
-
-    final_label = item.get("final_label")
-    expected = item.get("expected")
-
-    if final_label is not None and expected is not None:
-        stats[final_label][expected] += 1
+print(f"Số sample trong JSON: {len(data)}")
 
 
 # =========================
-# IN KẾT QUẢ
+# 2. Đọc file JSONL
+#    Tạo dictionary: id -> category
 # =========================
+id_to_category = {}
 
-print("=" * 70)
-print("FINAL LABEL -> EXPECTED STATISTICS")
-print("=" * 70)
+with open(jsonl_file, "r", encoding="utf-8") as f:
+    for line in f:
+        line = line.strip()
 
-for final_label, expected_counts in sorted(stats.items()):
+        if not line:
+            continue
 
-    total = sum(expected_counts.values())
+        item = json.loads(line)
 
-    print()
-    print(f"Final label: {final_label}")
-    print(f"Total: {total}")
-    print("-" * 60)
+        sample_id = item["id"]
+        category = item["category"]
 
-    for expected, count in expected_counts.most_common():
+        id_to_category[sample_id] = category
 
-        percentage = count / total * 100
+print(f"Số sample trong JSONL: {len(id_to_category)}")
 
-        print(
-            f"  {expected:<25} "
-            f"{count:>8} "
-            f"({percentage:>6.2f}%)"
-        )
 
-print()
-print("=" * 70)
+# =========================
+# 3. Update category
+# =========================
+updated_count = 0
+not_found = []
+
+for sample in data:
+    sample_id = sample.get("sample_id")
+
+    if sample_id in id_to_category:
+        new_category = id_to_category[sample_id]
+
+        # Đảm bảo metadata tồn tại
+        if "metadata" not in sample:
+            sample["metadata"] = {}
+
+        # Update category
+        sample["metadata"]["category"] = new_category
+
+        updated_count += 1
+
+    else:
+        not_found.append(sample_id)
+
+
+# =========================
+# 4. Lưu file mới
+# =========================
+with open(output_file, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+# =========================
+# 5. Thống kê
+# =========================
+print("\n===== KẾT QUẢ =====")
+print(f"Tổng sample trong JSON:      {len(data)}")
+print(f"Đã update category:          {updated_count}")
+print(f"Không tìm thấy trong JSONL:  {len(not_found)}")
+
+if not_found:
+    print("\nCác sample không tìm thấy:")
+    for sample_id in not_found:
+        print(sample_id)
+
+print(f"\nĐã lưu file: {output_file}")
