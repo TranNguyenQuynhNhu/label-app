@@ -10,29 +10,32 @@ from collections import defaultdict
 # ============================================================
 
 # File hiện tại đã có:
-# SeaExam     = 857 × 3   = 2571
-# Global-MMLU = 1600 × 3  = 4800
-# --------------------------------
-# TOTAL                     = 7371
 #
-# KHÔNG chạy lại Global-MMLU.
+# SeaExam       = 2571
+# Global-MMLU   = 4800
+# MMLU-ProX     = 2700
+# ---------------------
+# TOTAL         = 10071
+#
+# KHÔNG chạy lại 3 dataset trên.
+# Chỉ append VMLU.
 
-INPUT_CSV = "annotations_raw_with_global_mmlu.csv"
 
-# File output sau khi thêm MMLU-ProX
-OUTPUT_CSV = "annotations_raw_final.csv"
+INPUT_CSV = "annotations_raw_final.csv"
+
+OUTPUT_CSV = "annotations_raw_final_with_vmlu.csv"
 
 
 # ============================================================
-# 3 FILE MMLU-ProX
+# 3 FILE VMLU
 #
 # CHỈ CẦN THAY TÊN FILE Ở ĐÂY
 # ============================================================
 
-MMLU_PROX_FILES = [
-    "C:\\Users\\Nhu\\my-label-app\\Raw\\Dong_900_mmluprox.json",
-    "C:\\Users\\Nhu\\my-label-app\\Raw\\Vy_900_mmluprox.json",
-    "C:\\Users\\Nhu\\my-label-app\\Raw\\Nhu_900_mmluprox.json",
+VMLU_FILES = [
+    "C:\\Users\\Nhu\\my-label-app\\Raw\\Dong_1000_vmlu.json",
+    "C:\\Users\\Nhu\\my-label-app\\Raw\\Vy_1000_vmlu.json",
+    "C:\\Users\\Nhu\\my-label-app\\Raw\\Nhu_1000_vmlu.json",
 ]
 
 
@@ -63,8 +66,9 @@ def load_json(path):
     path = Path(path)
 
     if not path.exists():
+
         raise FileNotFoundError(
-            f"Không tìm thấy file:\n{path}"
+            f"\nKhông tìm thấy file:\n{path}"
         )
 
     with open(
@@ -75,11 +79,14 @@ def load_json(path):
 
         data = json.load(f)
 
+
     # JSON dạng list
     if isinstance(data, list):
+
         return data
 
-    # JSON dạng dict chứa list
+
+    # JSON dạng dictionary chứa list
     if isinstance(data, dict):
 
         possible_keys = [
@@ -95,10 +102,12 @@ def load_json(path):
                 key in data
                 and isinstance(data[key], list)
             ):
+
                 return data[key]
 
+
     raise ValueError(
-        f"Không nhận diện được format JSON: {path}"
+        f"Không nhận diện được format JSON:\n{path}"
     )
 
 
@@ -109,43 +118,53 @@ def load_json(path):
 def normalize_timestamp(timestamp):
 
     if timestamp is None:
+
         return ""
+
 
     timestamp = str(timestamp).strip()
 
+
     if timestamp == "":
+
         return ""
+
 
     try:
 
         # Ví dụ:
-        # 2026-05-02T21:46:09.482Z
+        # 2026-06-14T07:23:17.372Z
 
         timestamp_for_parse = timestamp.replace(
             "Z",
             "+00:00"
         )
 
+
         dt = datetime.fromisoformat(
             timestamp_for_parse
         )
 
-        # Nếu không có timezone
+
+        # Nếu timestamp không có timezone
         if dt.tzinfo is None:
 
             dt = dt.replace(
                 tzinfo=timezone.utc
             )
 
+
         # Đưa về UTC
         dt = dt.astimezone(
             timezone.utc
         )
 
-        # ISO 8601 milliseconds
+
+        # ISO 8601 với milliseconds
         normalized = dt.isoformat(
             timespec="milliseconds"
         )
+
 
         # +00:00 -> Z
         normalized = normalized.replace(
@@ -153,7 +172,9 @@ def normalize_timestamp(timestamp):
             "Z"
         )
 
+
         return normalized
+
 
     except Exception as e:
 
@@ -177,6 +198,7 @@ print("\n" + "=" * 70)
 print("1. READ EXISTING CSV")
 print("=" * 70)
 
+
 if not Path(INPUT_CSV).exists():
 
     raise FileNotFoundError(
@@ -194,6 +216,7 @@ with open(
     reader = csv.DictReader(f)
 
     existing_columns = reader.fieldnames
+
     existing_rows = list(reader)
 
 
@@ -211,8 +234,8 @@ print("CHECK EXISTING DATA")
 print("=" * 70)
 
 
-# File hiện tại phải là 7371 dòng
-if len(existing_rows) != 7371:
+# File hiện tại phải có 10071 rows
+if len(existing_rows) != 10071:
 
     print(
         f"[WARNING] File hiện tại có "
@@ -220,37 +243,42 @@ if len(existing_rows) != 7371:
     )
 
     print(
-        "Expected: 7371 rows "
-        "(SeaExam + Global-MMLU)"
+        "Expected: 10071 rows "
+        "(SeaExam + Global-MMLU + MMLU-ProX)"
     )
 
 else:
 
     print(
-        "OK - Existing CSV có 7371 rows."
+        "OK - Existing CSV có 10071 rows."
     )
 
 
 # ============================================================
-# 6. LOAD ONLY MMLU-ProX
+# 6. LOAD ONLY VMLU
 # ============================================================
 
 print("\n" + "=" * 70)
-print("2. LOAD MMLU-ProX")
+print("2. LOAD VMLU")
 print("=" * 70)
 
 
-mmlu_prox_data_by_file = {}
+vmlu_data_by_file = {}
 
 
-for file_path in MMLU_PROX_FILES:
+for file_path in VMLU_FILES:
 
     data = load_json(file_path)
 
-    mmlu_prox_samples = []
+    vmlu_samples = []
 
-    # KHÔNG SORT
-    # Giữ nguyên thứ tự xuất hiện trong file
+
+    # ========================================================
+    # QUAN TRỌNG:
+    #
+    # Không sort.
+    # Giữ nguyên thứ tự sample trong JSON.
+    # ========================================================
 
     for sample in data:
 
@@ -261,58 +289,65 @@ for file_path in MMLU_PROX_FILES:
             )
         ).strip().lower()
 
+
         if benchmark_name in [
-            "mmlu-prox",
-            "mmlu_prox",
-            "mmlupro-x",
-            "mmlupro_x",
-            "mmlupro",
+            "vmlu",
+            "vmlu-v1",
+            "vmlu_v1",
         ]:
 
-            mmlu_prox_samples.append(
+            vmlu_samples.append(
                 sample
             )
 
-    mmlu_prox_data_by_file[file_path] = (
-        mmlu_prox_samples
+
+    vmlu_data_by_file[file_path] = (
+        vmlu_samples
     )
+
 
     print(
         f"{file_path}: "
-        f"{len(mmlu_prox_samples)} samples"
+        f"{len(vmlu_samples)} samples"
     )
 
 
 # ============================================================
-# 7. CHECK 900 SAMPLES / FILE
+# 7. CHECK 1000 SAMPLES / FILE
 # ============================================================
 
 print("\n" + "=" * 70)
-print("CHECK MMLU-ProX COUNT")
+print("CHECK VMLU COUNT")
 print("=" * 70)
 
 
 for file_path, samples in (
-    mmlu_prox_data_by_file.items()
+    vmlu_data_by_file.items()
 ):
 
-    if len(samples) != 900:
+    if len(samples) != 1000:
 
         print(
             f"[WARNING] {file_path}: "
             f"{len(samples)} samples "
-            f"(expected 900)"
+            f"(expected 1000)"
         )
 
     else:
 
         print(
-            f"OK - {file_path}: 900 samples"
+            f"OK - {file_path}: 1000 samples"
         )
 
 
 # ============================================================
-# 8. CHECK TIMESTAMP TRÙNG GIỮA 3 ANNOTATOR
+# 8. CHECK TIMESTAMP DUPLICATION
+#
+# Chỉ kiểm tra timestamp giống nhau
+# GIỮA CÁC ANNOTATOR.
+#
+# Không coi timestamp giống nhau
+# trong cùng một file là lỗi.
 # ============================================================
 
 print("\n" + "=" * 70)
@@ -326,7 +361,7 @@ timestamp_map = defaultdict(
 
 
 for file_path, samples in (
-    mmlu_prox_data_by_file.items()
+    vmlu_data_by_file.items()
 ):
 
     for sample in samples:
@@ -336,28 +371,35 @@ for file_path, samples in (
             ""
         )
 
+
         annotator = sample.get(
             "annotator",
             ""
         )
+
 
         raw_timestamp = sample.get(
             "timestamp",
             ""
         )
 
+
         if not sample_id:
             continue
+
 
         if not annotator:
             continue
 
+
         if not raw_timestamp:
             continue
+
 
         timestamp = normalize_timestamp(
             raw_timestamp
         )
+
 
         timestamp_map[
             sample_id
@@ -383,7 +425,9 @@ for sample_id, timestamp_groups in (
             annotators
         )
 
-        # Timestamp giống nhau giữa >= 2 annotator
+
+        # Timestamp giống nhau
+        # giữa >= 2 annotator
         if len(unique_annotators) >= 2:
 
             duplicate_timestamps.append({
@@ -407,6 +451,7 @@ if duplicate_timestamps:
         f"giữa các annotator."
     )
 
+
     for item in duplicate_timestamps:
 
         print(
@@ -424,6 +469,7 @@ if duplicate_timestamps:
             f"{item['annotators']}"
         )
 
+
 else:
 
     print(
@@ -433,9 +479,18 @@ else:
 
 
 # ============================================================
-# 9. CREATE MMLU-ProX ROWS
+# 9. CREATE VMLU ROWS
 #
-# QUAN TRỌNG:
+# Sample 1-500:
+#   interval_id = 1
+#   ontology_version = v2
+#
+# Sample 501-1000:
+#   interval_id = 2
+#   ontology_version = v3
+#
+#
+# ORDER:
 #
 # Sample 1:
 #   Khang
@@ -448,41 +503,34 @@ else:
 #   Nhu
 #
 # ...
-#
-# Sample 400:
-#   interval 1 / v2
-#
-# Sample 401:
-#   interval 2 / v3
-#
-# ...
-#
-# Sample 900:
-#   interval 2 / v3
 # ============================================================
 
 print("\n" + "=" * 70)
-print("3. CREATE MMLU-ProX ROWS")
+print("3. CREATE VMLU ROWS")
 print("=" * 70)
 
 
-mmlu_prox_rows = []
+vmlu_rows = []
 
 
-for position in range(1, 901):
+for position in range(1, 1001):
+
 
     # --------------------------------------------------------
-    # INTERVAL + ONTOLOGY
+    # INTERVAL + ONTOLOGY VERSION
     # --------------------------------------------------------
 
-    if position <= 400:
+    if position <= 500:
 
         interval_id = "1"
+
         ontology_version = "v2"
+
 
     else:
 
         interval_id = "2"
+
         ontology_version = "v3"
 
 
@@ -490,11 +538,12 @@ for position in range(1, 901):
     # LẤY 3 ANNOTATOR Ở CÙNG POSITION
     # --------------------------------------------------------
 
-    for file_path in MMLU_PROX_FILES:
+    for file_path in VMLU_FILES:
 
-        samples = mmlu_prox_data_by_file[
+        samples = vmlu_data_by_file[
             file_path
         ]
+
 
         if position > len(samples):
 
@@ -528,7 +577,7 @@ for position in range(1, 901):
         # CREATE ROW
         # ----------------------------------------------------
 
-        mmlu_prox_rows.append({
+        vmlu_rows.append({
 
             "item_id": sample.get(
                 "sample_id",
@@ -568,34 +617,35 @@ for position in range(1, 901):
 
 
 # ============================================================
-# 10. CHECK MMLU-ProX TOTAL
+# 10. CHECK VMLU TOTAL
 # ============================================================
 
 print("\n" + "=" * 70)
-print("CHECK MMLU-ProX TOTAL")
+print("CHECK VMLU TOTAL")
 print("=" * 70)
 
 
 print(
-    f"MMLU-ProX rows created: "
-    f"{len(mmlu_prox_rows)}"
+    f"VMLU rows created: "
+    f"{len(vmlu_rows)}"
 )
+
 
 print(
-    "Expected: 900 × 3 = 2700"
+    "Expected: 1000 × 3 = 3000"
 )
 
 
-if len(mmlu_prox_rows) == 2700:
+if len(vmlu_rows) == 3000:
 
     print(
-        "OK - Có đúng 2700 rows."
+        "OK - Có đúng 3000 rows."
     )
 
 else:
 
     print(
-        "[WARNING] Expected 2700 rows."
+        "[WARNING] Expected 3000 rows."
     )
 
 
@@ -604,14 +654,14 @@ else:
 # ============================================================
 
 print("\n" + "=" * 70)
-print("MMLU-ProX INTERVAL SUMMARY")
+print("VMLU INTERVAL SUMMARY")
 print("=" * 70)
 
 
 interval_counts = defaultdict(int)
 
 
-for row in mmlu_prox_rows:
+for row in vmlu_rows:
 
     key = (
         row["interval_id"],
@@ -634,46 +684,47 @@ for key, count in sorted(
     )
 
 
+print("\nExpected:")
+
 print(
-    "\nExpected:"
+    "Interval 1 | v2 | 500 × 3 = 1500 rows"
 )
 
 print(
-    "Interval 1 | v2 | 400 × 3 = 1200"
-)
-
-print(
-    "Interval 2 | v3 | 500 × 3 = 1500"
+    "Interval 2 | v3 | 500 × 3 = 1500 rows"
 )
 
 
 # ============================================================
-# 12. CHECK DUPLICATE
+# 12. CHECK DUPLICATE TRONG VMLU
 #
 # Duplicate = item_id + annotator_id
 # ============================================================
 
 print("\n" + "=" * 70)
-print("CHECK MMLU-ProX DUPLICATES")
+print("CHECK VMLU DUPLICATES")
 print("=" * 70)
 
 
 seen = set()
+
 duplicates = []
 
 
-for row in mmlu_prox_rows:
+for row in vmlu_rows:
 
     key = (
         row["item_id"],
         row["annotator_id"]
     )
 
+
     if key in seen:
 
         duplicates.append(
             key
         )
+
 
     seen.add(
         key
@@ -687,6 +738,7 @@ if duplicates:
         f"{len(duplicates)} duplicate records."
     )
 
+
     for item_id, annotator in (
         duplicates[:20]
     ):
@@ -694,6 +746,7 @@ if duplicates:
         print(
             f"{item_id} | {annotator}"
         )
+
 
 else:
 
@@ -703,7 +756,7 @@ else:
 
 
 # ============================================================
-# 13. CHECK MMLU-ProX ĐÃ CÓ TRONG CSV CHƯA
+# 13. CHECK VMLU ĐÃ CÓ TRONG CSV CHƯA
 # ============================================================
 
 print("\n" + "=" * 70)
@@ -732,16 +785,18 @@ for row in existing_rows:
     )
 
 
-new_mmlu_prox_rows = []
+new_vmlu_rows = []
+
 already_exists = []
 
 
-for row in mmlu_prox_rows:
+for row in vmlu_rows:
 
     key = (
         row["item_id"],
         row["annotator_id"]
     )
+
 
     if key in existing_keys:
 
@@ -751,7 +806,7 @@ for row in mmlu_prox_rows:
 
     else:
 
-        new_mmlu_prox_rows.append(
+        new_vmlu_rows.append(
             row
         )
 
@@ -760,47 +815,52 @@ if already_exists:
 
     print(
         f"[WARNING] Có "
-        f"{len(already_exists)} MMLU-ProX "
+        f"{len(already_exists)} VMLU "
         f"records đã tồn tại trong CSV."
     )
 
 else:
 
     print(
-        "OK - MMLU-ProX chưa tồn tại "
+        "OK - VMLU chưa tồn tại "
         "trong CSV."
     )
 
 
 # ============================================================
-# 14. APPEND MMLU-ProX
+# 14. APPEND VMLU
 #
-# KHÔNG ĐỤNG VÀO GLOBAL-MMLU
+# KHÔNG ĐỤNG VÀO:
+#   SeaExam
+#   Global-MMLU
+#   MMLU-ProX
 # ============================================================
 
 print("\n" + "=" * 70)
-print("APPEND MMLU-ProX")
+print("APPEND VMLU")
 print("=" * 70)
 
 
 final_rows = (
     existing_rows
-    + new_mmlu_prox_rows
+    + new_vmlu_rows
 )
 
 
 print(
-    f"Existing rows       : "
+    f"Existing rows : "
     f"{len(existing_rows)}"
 )
 
-print(
-    f"New MMLU-ProX rows  : "
-    f"{len(new_mmlu_prox_rows)}"
-)
 
 print(
-    f"Final rows          : "
+    f"New VMLU rows : "
+    f"{len(new_vmlu_rows)}"
+)
+
+
+print(
+    f"Final rows    : "
     f"{len(final_rows)}"
 )
 
@@ -834,6 +894,7 @@ try:
             final_rows
         )
 
+
 except PermissionError:
 
     print(
@@ -849,8 +910,9 @@ except PermissionError:
 
 
 print(
-    f"SUCCESS!"
+    "SUCCESS!"
 )
+
 
 print(
     f"Output file: {OUTPUT_CSV}"
@@ -867,7 +929,7 @@ print("=" * 70)
 
 
 print(
-    "Existing:"
+    "Existing datasets:"
 )
 
 print(
@@ -879,31 +941,44 @@ print(
 )
 
 print(
-    "  Existing total = 7371 rows"
+    "  MMLU-ProX     = 2700 rows"
 )
+
+print(
+    "  -----------------------"
+)
+
+print(
+    "  Existing total = 10071 rows"
+)
+
 
 print(
     "\nAdded:"
 )
 
 print(
-    "  MMLU-ProX     = 2700 rows"
+    "  VMLU          = 3000 rows"
 )
+
 
 print(
     "\nExpected final:"
 )
 
 print(
-    "  7371 + 2700 = 10071 rows"
+    "  10071 + 3000 = 13071 rows"
 )
 
 
-if len(final_rows) == 10071:
+expected_total = 13071
+
+
+if len(final_rows) == expected_total:
 
     print(
-        "\nOK - Final CSV có đúng "
-        "10071 rows."
+        f"\nOK - Final CSV có đúng "
+        f"{expected_total} rows."
     )
 
 else:
@@ -914,7 +989,7 @@ else:
     )
 
     print(
-        "Expected: 10071"
+        f"Expected: {expected_total}"
     )
 
 
